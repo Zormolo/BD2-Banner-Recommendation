@@ -16,7 +16,7 @@
         [ "1", "-1 SP" ],
         [ "4", "longer Buff Duration" ]
       ],
-      "description": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
     },
         {
       "charName": "Darian",
@@ -31,7 +31,7 @@
         [ "1", "-1 SP" ],
         [ "4", "longer Buff Duration" ]
       ],
-      "description": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
     },
     {
       "charName": "Loen",
@@ -49,7 +49,7 @@
         [ "4", "more more more DMG" ],
         [ "5", "maximum Explosion!!1!" ]
       ],
-      "description": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
     },
 
     {
@@ -65,7 +65,7 @@
         [ "1", "-1 SP" ],
         [ "4", "longer Buff Duration" ]
       ],
-      "description": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
     },
     {
       "charName": "Levia",
@@ -79,7 +79,7 @@
       "breakpoints": [
         [ "1", "-1 SP" ]
       ],
-      "description": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
     },
         {
       "charName": "Zenith",
@@ -93,7 +93,7 @@
       "breakpoints": [
         [ "3", "-1 SP and with SP Pod ==> 0 SP Skill" ]
       ],
-      "description": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
     },
     {
       "charName": "Gray",
@@ -108,7 +108,7 @@
         [ "1", "-1 SP" ],
         [ "4", "longer Buff Duration" ]
       ],
-      "description": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
     }
   ]
 }

@@ -1,82 +1,42 @@
-function addBannerRecommendation( jsonData ) {
-  const sectionArray = [];
+function getBannerCards( jsonData ) {
+  const cardArray = [];
+
+  /** @type { HTMLTemplateElement } */
+  const template = document.getElementById( 'charBannerCard' );
 
   for( const bannerChar of jsonData[ "banner" ] ) {
-    const section = document.createElement( "section" );
-    section.classList.add( 'row' );
-    section.classList.add( 'pt-2' );
-    let content = `
-        <div class="col-11 mx-auto bg-body-secondary rounded">
-          <div class="row h-100 py-2">
-            <div class="col-2 pe-2 border-end border-2">
-              <div class="w-100 d-flex justify-content-center">
-                <img class="costumeSize" src="./public/images/costumes/${ bannerChar.imgName }.png" title="${ bannerChar.costumeName }" alt="${ bannerChar.costumeName }">
-              </div>
-            </div>
+    const bannerCard = template.content.cloneNode( true );
 
-            <div class="col d-flex flex-column">
-              <div class="row border-bottom mx-1 pb-2 border-2">
-                <div class="col d-flex justify-content-center">
-                  <h1>${ bannerChar.costumeName } ${ bannerChar.charName }</h1>
-                </div>
-              </div>
+    /** @type { HTMLImageElement } */
+    const costumeImg = bannerCard.querySelector(".costumeImg");
+    costumeImg.src = `./public/images/costumes/${ bannerChar.imgName }.png`;
+    costumeImg.alt = bannerChar.imgName;
+    costumeImg.title = bannerChar.costumeName;
 
-              <div class="row flex-grow-1 pt-2">
-                <div class="col-3 d-flex align-items-center">
-                  <div class="w-100">
-                    <ul class="list-unstyled">
-                      <li><span><b>Role - </b>${ bannerChar.role }</span></li>
-                      <li><span><b>Property - </b><img src="./public/images/${ bannerChar.element }.png" title="${ bannerChar.element }" alt="${ bannerChar.element }" width="32px" height="32px"></span></li>
-                      <li><span><b>Damage Type - </b>${ bannerChar.dmgType }</span></li>
-                      <br>
-                      ${ getBannerDateString( bannerChar.startDate, bannerChar.endDate ) }
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-4 d-flex align-items-center">
-                  <div class="container-fluid">
-                    <div class="row pb-3">
-                      <div class="col">
-                        <h2>Breakpoints:</h2>
-                      </div>
-                    </div>
-                    <div class="row w-100">
-                      <div class="col">
-                        <ul class="list-group list-group-flush p-2 border border-3 rounded">
-                          ${ getBreakpoints( bannerChar.breakpoints ) }
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-        
-                </div>
-                <div class="col d-flex align-items-center">
-                  <div class="container-fluid">
-                    <div class="row pb-3">
-                      <div class="col">
-                        <h2>Should you pull on this banner?</h2>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <p>
-                          ${ bannerChar.description }
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    const cardTitle = bannerCard.querySelector(".bannerName");
+    const title = document.createElement( 'h1' );
+    title.textContent = `${ bannerChar.costumeName } ${ bannerChar.charName }`;
+    cardTitle.appendChild( title );
 
-            </div>
-          </div>
-          
-        </div>
-    `;
-    section.innerHTML = content;
-    sectionArray.push( section );
+    bannerCard.querySelector(".role").innerHTML += bannerChar.role;
+
+    const propertyImg = bannerCard.querySelector(".property");
+    propertyImg.src = `./public/images/${ bannerChar.element }.png`;
+    propertyImg.alt = bannerChar.element;
+    propertyImg.title = bannerChar.element;
+
+    bannerCard.querySelector(".dmgType").innerHTML += bannerChar.dmgType;
+
+    bannerCard.querySelector(".date").innerHTML += getBannerDateString( bannerChar.startDate, bannerChar.endDate );
+
+    bannerCard.querySelector( ".breakpoints" ).innerHTML = getBreakpoints( bannerChar.breakpoints );
+
+    bannerCard.querySelector( ".pullReason" ).textContent = bannerChar.pullReason;
+
+    cardArray.push( bannerCard );
   }
-  return sectionArray;
+
+  return cardArray;
 }
 
 function getBannerDateString( start, end ) {
@@ -118,8 +78,8 @@ async function init() {
 
   /** @type { HTMLDivElement } */
   const container = document.getElementById( "main-container" );
-  for( const section of addBannerRecommendation( data ) ) {
-    container.appendChild( section );
+  for( const bannerCard of getBannerCards( data ) ) {
+    container.appendChild( bannerCard );
   }
   console.log(data)
 }

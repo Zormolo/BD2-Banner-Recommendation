@@ -1,7 +1,6 @@
 .costumeSize {
-  min-height: 200px;
   max-height: 400px;
-  object-fit: cover;
+  max-width: 100%;
 }
 
 #main-container:last-child {
