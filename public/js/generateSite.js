@@ -31,7 +31,7 @@ function getBannerCards( jsonData ) {
 
     bannerCard.querySelector( ".breakpoints" ).innerHTML = getBreakpoints( bannerChar.breakpoints );
 
-    bannerCard.querySelector( ".pullReason" ).textContent = bannerChar.pullReason;
+    bannerCard.querySelector( ".pullReason" ).innerHTML = bannerChar.pullReason;
 
     cardArray.push( bannerCard );
   }

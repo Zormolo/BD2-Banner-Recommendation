@@ -13,10 +13,10 @@
       "startDate": "2025-12-31",
       "endDate": "2026-01-14T23:50:00",
       "breakpoints": [
-        [ "1", "-1 SP" ],
-        [ "4", "longer Buff Duration" ]
+        [ "2", "Big Damage Increase<br>[1160% &xrarr; 1400%, 8 SP consumed]" ],
+        [ "4", "Big Damage Increase<br>[1450% &xrarr; 1690%, 8 SP consumed]" ]
       ],
-      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "<b>Depends.</b> She is good if you have Starlight Guardian Tyr, otherwise her usage is very limited. Consider pulling low dupe count in order to save for onsen banners."
     },
         {
       "charName": "Darian",
@@ -29,9 +29,9 @@
       "endDate": "2026-01-14T23:50:00",
       "breakpoints": [
         [ "1", "-1 SP" ],
-        [ "4", "longer Buff Duration" ]
+        [ "2", "-2 CD" ]
       ],
-      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "<b>Yes</b>, although her priority is lower than, for example, Celia and Loen. Her conditional skill greatly limits her usage."
     },
     {
       "charName": "Loen",
@@ -43,13 +43,9 @@
       "startDate": "2025-12-31",
       "endDate": "2026-01-14T23:50:00",
       "breakpoints": [
-        [ "1", "-1 SP" ],
-        [ "2", "more DMG" ],
-        [ "3", "more more DMG" ],
-        [ "4", "more more more DMG" ],
-        [ "5", "maximum Explosion!!1!" ]
+        [ "1", "-1 SP" ]
       ],
-      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "<b>Yes</b>. She is undeniably one of the strongest DPS for a general content, has good scaling versus a lot of enemies and is limited."
     },
 
     {
@@ -60,12 +56,12 @@
       "costumeName": "Masquerade Bunny",
       "imgName": "masquerade_bunny",
       "startDate": "2025-12-31",
-      "endDate": "2026-01-14T23:50:00",
+      "endDate": "2026-01-07T23:59:59",
       "breakpoints": [
         [ "1", "-1 SP" ],
-        [ "4", "longer Buff Duration" ]
+        [ "4", "Buff Duration +2 turns" ]
       ],
-      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "<u><b>Absolutely.</b></u> She is important <u><b>limited</b></u> support-chainer, used in almost every Fiend Hunter and Guild Raid season. Essential for her rest costumes to perform well."
     },
     {
       "charName": "Levia",
@@ -75,15 +71,15 @@
       "costumeName": "Overheat",
       "imgName": "overheat",
       "startDate": "2025-12-31",
-      "endDate": "2026-01-14T23:50:00",
+      "endDate": "2026-01-07T23:59:59",
       "breakpoints": [
         [ "1", "-1 SP" ]
       ],
-      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "<b>Optional</b>. She was buffed recently but that does not make her more important compared to Tyr or other banners."
     },
         {
       "charName": "Zenith",
-      "role": "Chainer + DMG Amp",
+      "role": "Chainer, Amplifier",
       "dmgType": "Physical",
       "element": "wind",
       "costumeName": "Robin Hood",
@@ -91,9 +87,9 @@
       "startDate": "2025-12-31",
       "endDate": "2026-01-14T23:50:00",
       "breakpoints": [
-        [ "3", "-1 SP and with SP Pod ==> 0 SP Skill" ]
+        [ "3", "-1 SP" ]
       ],
-      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "<b>Yes</b>, She is important support for Fiend Hunter / Guild Raid. Her +3 dupe gives 0 SP skill activation each turn."
     },
     {
       "charName": "Gray",
@@ -105,10 +101,9 @@
       "startDate": "2025-12-31",
       "endDate": "2026-01-14T23:50:00",
       "breakpoints": [
-        [ "1", "-1 SP" ],
-        [ "4", "longer Buff Duration" ]
+        [ "3", "-1 SP" ]
       ],
-      "pullReason": "Because Meta Chainer!!!1! Get her! You fool?!"
+      "pullReason": "<b>No</b>, unless you are at the end game. He is niche DoT DPS who scales based on enemy Magic ATK, making him very niche."
     }
   ]
 }
