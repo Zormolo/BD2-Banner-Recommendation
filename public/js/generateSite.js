@@ -40,7 +40,7 @@ function createTldr( dataArray ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-async function createBannerCards( bannerData, characterData ) {
+async function createBannerCards( bannerData, damageAttributes ) {
   /** @type { HTMLDivElement } */
   const container = document.getElementById( 'main-container' );
 
@@ -77,11 +77,11 @@ async function createBannerCards( bannerData, characterData ) {
     costumeImg.title = bannerChar.costumeName;
     costumeImg.classList.remove( 'costumeImg' );
 
-    const charInfo = characterData[ bannerChar.char ];
+    const dmgAtt = damageAttributes[ bannerChar.dmgAtt ];
 
     const cardTitle = bannerCard.querySelector( '.bannerName' );
     const title = document.createElement( 'h1' );
-    title.textContent = `${ bannerChar.costumeName } ${ charInfo.name }`;
+    title.textContent = `${ bannerChar.costumeName } ${ bannerChar.charName }`;
     cardTitle.appendChild( title );
     cardTitle.classList.remove( 'bannerName' );
 
@@ -91,13 +91,13 @@ async function createBannerCards( bannerData, characterData ) {
     roleLine.classList.remove( 'role' );
 
     const propertyImg = bannerCard.querySelector( '.property' );
-    propertyImg.src = `./public/images/${ charInfo.element }.png`;
-    propertyImg.alt = charInfo.element;
+    propertyImg.src = `./public/images/${ dmgAtt.element }.png`;
+    propertyImg.alt = dmgAtt.element;
     propertyImg.title = propertyImg.alt;
     propertyImg.classList.remove( 'property' );
 
     const dmgTypeLine = bannerCard.querySelector( '.dmgType' );
-    const dmgTypeText = document.createTextNode( charInfo.dmgType );
+    const dmgTypeText = document.createTextNode( dmgAtt.dmgType );
     dmgTypeLine.appendChild( dmgTypeText );
     dmgTypeLine.classList.remove( 'dmgType' );
 
@@ -237,6 +237,19 @@ function addListElements( list, dataArray ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+function initTimeLeftInterval() {
+  const now = new Date();
+  const msUntilNextMin = ( 60 - now.getSeconds() ) * 1000 - now.getMilliseconds();
+
+  setTimeout( () => {
+    updateBannerTimeLeft();
+    timeLeftUpdateInterval = setInterval( updateBannerTimeLeft, 60000 );
+  }, msUntilNextMin );
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 function updateBannerTimeLeft() {
   for( const [ endDate, span ] of timeLeftArray ) {
     const timeLeft = calcTimeLeftOnBanner( endDate );
@@ -253,13 +266,8 @@ async function init() {
 
   createTldr( jsonData[ 'tldr' ] );
 
-  await createBannerCards( jsonData[ 'banner' ], jsonData[ 'characterData' ] );
+  await createBannerCards( jsonData[ 'banner' ], jsonData[ 'damageAttributes' ] );
 
-  const now = new Date();
-  const msUntilNextMin = ( 60 - now.getSeconds() ) * 1000 - now.getMilliseconds();
-  setTimeout( () => {
-    updateBannerTimeLeft();
-    timeLeftUpdateInterval = setInterval( updateBannerTimeLeft, 60000 );
-  }, msUntilNextMin );
+  initTimeLeftInterval();
 }
 init();
