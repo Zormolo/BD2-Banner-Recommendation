@@ -12,17 +12,26 @@ function createTldr( dataArray ) {
     container.append( costumeName, ' [' );
 
     for( let f = 0; f < dupesArray.length; f++ ) {
+      const picture = document.createElement( 'picture' );
+      picture.classList.add( 'px-1' );
+
       const dupe = Number( dupesArray[ f ] );
+
+      const source = document.createElement( 'source' );
+      source.srcset = `./public/images/avif/${ dupe }.avif`;
+      source.type = 'image/avif';
+
       const dupeImg = document.createElement( 'img' );
       dupeImg.src = `./public/images/${ dupe }.png`;
-      dupeImg.classList.add( 'px-1' );
       const dupeAmount = dupe + 1;
       dupeImg.alt = `${ dupeAmount }_dupes.png`;
       dupeImg.title = `Needed Copies: ${ dupeAmount }`;
       dupeImg.loading = 'lazy';
       dupeImg.width = 33;
-      dupeImg.height = 22;
-      container.append( dupeImg );
+      dupeImg.height = 25;
+
+      picture.append( source, dupeImg );
+      container.appendChild( picture );
 
       if ( dupesArray.length > 1 && f < dupesArray.length - 1  ) {
         container.append( '|' );
@@ -71,6 +80,9 @@ async function createBannerCards( bannerData, damageAttributes ) {
     modeTabContent.id = `mode_${ bannerChar.imgName }`;
 
     //Basic Info
+    const costumeImgAvif = bannerCard.querySelector( '[ data-costume-image-avif ]' );
+    costumeImgAvif.srcset = `./public/images/avif/costumes/${ bannerChar.imgName }.avif`;
+    costumeImgAvif.removeAttribute( 'data-costume-image-avif' );
     /** @type { HTMLImageElement } */
     const costumeImg = bannerCard.querySelector( '[ data-costume-image ]' );
     costumeImg.src = `./public/images/costumes/${ bannerChar.imgName }.png`;
@@ -80,57 +92,57 @@ async function createBannerCards( bannerData, damageAttributes ) {
 
     const dmgAtt = damageAttributes[ bannerChar.dmgAtt ];
 
-    const cardTitle = bannerCard.querySelector( '.bannerName' );
+    const cardTitle = bannerCard.querySelector( '[ data-banner-name ]' );
     const title = document.createElement( 'h1' );
     title.textContent = `${ bannerChar.costumeName } ${ bannerChar.charName }`;
     cardTitle.appendChild( title );
-    cardTitle.classList.remove( 'bannerName' );
+    cardTitle.classList.remove( 'data-banner-name' );
 
-    const roleLine = bannerCard.querySelector( '.role' )
+    const roleLine = bannerCard.querySelector( '[ data-role ]' )
     const roleText = document.createTextNode( bannerChar.role );
     roleLine.appendChild( roleText );
-    roleLine.classList.remove( 'role' );
+    roleLine.classList.remove( 'data-role' );
 
-    const propertyImg = bannerCard.querySelector( '.property' );
+    const propertyImg = bannerCard.querySelector( '[ data-property ]' );
     propertyImg.src = `./public/images/${ dmgAtt.element }.png`;
     propertyImg.alt = dmgAtt.element;
     propertyImg.title = propertyImg.alt;
-    propertyImg.classList.remove( 'property' );
+    propertyImg.classList.remove( 'data-property' );
 
-    const dmgTypeLine = bannerCard.querySelector( '.dmgType' );
+    const dmgTypeLine = bannerCard.querySelector( '[ data-dmg-type ]' );
     const dmgTypeText = document.createTextNode( dmgAtt.dmgType );
     dmgTypeLine.appendChild( dmgTypeText );
-    dmgTypeLine.classList.remove( 'dmgType' );
+    dmgTypeLine.classList.remove( 'data-dmg-type' );
 
     const startDate = new Date( Date.parse( bannerChar.startDate ) );
     const endDate = new Date( Date.parse( bannerChar.endDate ) );
-    const periodeLine = bannerCard.querySelector( '.bannerPeriode' );
+    const periodeLine = bannerCard.querySelector( '[ data-banner-periode ]' );
     const periodeText = document.createTextNode( getBannerPeriodeLocalTimeString( startDate, endDate ) );
     periodeLine.appendChild( periodeText );
-    periodeLine.classList.remove( 'bannerPeriode' );
+    periodeLine.classList.remove( 'data-banner-periode' );
 
-    const timeLeftLine = bannerCard.querySelector( '.bannerTimeLeft' );
+    const timeLeftLine = bannerCard.querySelector( '[ data-banner-time-left ]' );
     const timeLeftContainer = getTimeLeftSpan( endDate );
     timeLeftLine.append( 'Banner ends in ', timeLeftContainer, ' !' );
-    timeLeftLine.classList.remove( 'bannerTimeLeft' );
     timeLeftArray.push( [ endDate, timeLeftContainer ] );
+    timeLeftLine.classList.remove( 'data-banner-time-left' );
 
-    const breakpointsContainer = bannerCard.querySelector( '.breakpoints' );
+    const breakpointsContainer = bannerCard.querySelector( '[ data-breakpoints ]' );
     createBreakpoints( breakpointsContainer, bannerChar.breakpoints );
-    breakpointsContainer.classList.remove( 'breakpoints' );
+    breakpointsContainer.classList.remove( 'data-breakpoints' );
 
-    const pullReason = bannerCard.querySelector( '.pullReason' );
+    const pullReason = bannerCard.querySelector( '[ data-pull-reason ]' );
     pullReason.innerHTML = bannerChar.pullReason;
-    pullReason.classList.remove( 'pullReason' );
+    pullReason.classList.remove( 'data-pull-reason' );
 
     //Pros and Cons
-    const pros = bannerCard.querySelector( '.pros' );
+    const pros = bannerCard.querySelector( '[ data-pros ]' );
     addListElements( pros, bannerChar.pros );
-    pros.classList.remove( 'pros' );
+    pros.classList.remove( 'data-pros' );
 
-    const cons = bannerCard.querySelector( '.cons' );
+    const cons = bannerCard.querySelector( '[ data-cons ]' );
     addListElements( cons, bannerChar.cons );
-    cons.classList.remove( 'cons' );
+    cons.classList.remove( 'data-cons' );
 
     container.appendChild( bannerCard );
   }
@@ -196,21 +208,32 @@ function createTimeLeftString( [ days, hours, minutes ] ) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function createBreakpoints( container, breakpoints ) {
-  for( const [dupe, comment] of breakpoints ) {
+  for( const [ dupe, comment ] of breakpoints ) {
     const listElement = document.createElement( 'li' );
     listElement.classList.add( 'list-group-item' );
+
+    const picture = document.createElement( 'picture' );
+    picture.classList.add( 'pe-2' );
+
+    const source = document.createElement( 'source' );
+    source.srcset = `./public/images/avif/${ dupe }.avif`;
+    source.type = 'image/avif';
+
     const dupeImg = document.createElement( 'img' );
     dupeImg.src = `./public/images/${ dupe }.png`;
     const dupeAmount = Number( dupe ) + 1;
     dupeImg.alt = `${ dupeAmount }_dupes.png`;
     dupeImg.title = `Needed Copies: ${ dupeAmount }`;
-    dupeImg.classList.add( 'pe-2' );
     dupeImg.loading = 'lazy';
-    dupeImg.width = 48;
+    dupeImg.width = 40;
     dupeImg.height = 32;
+
+    picture.append( source, dupeImg );
+
     const breakpointComment = document.createElement( 'span' );
     breakpointComment.innerHTML = comment;
-    listElement.append( dupeImg, breakpointComment );
+    listElement.append( picture, breakpointComment );
+
     container.appendChild( listElement );
   }
 }
@@ -267,7 +290,7 @@ async function init() {
 
   createTldr( jsonData[ 'tldr' ] );
 
-  await createBannerCards( jsonData[ 'banner' ], jsonData[ 'damageAttributes' ] );
+  createBannerCards( jsonData[ 'banner' ], jsonData[ 'damageAttributes' ] );
 
   initTimeLeftInterval();
 }

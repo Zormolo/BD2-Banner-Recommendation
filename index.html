@@ -7,12 +7,14 @@
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow">
 
-  <link rel="preload" href="./public/json/data.json" as="fetch">
-  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" as="style">
-  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" as="script">
+  <link rel="preload" href="./public/json/data.json" crossorigin="anonymous" as="fetch">
+  <link rel="preload" href="./public/js/generateSite.js" crossorigin="anonymous" as="script">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" as="style">
+  <link rel="preload" href="./public/css/custom.css" crossorigin="anonymous" as="style">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" as="script">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="./public/css/custom.css">
+  <link rel="stylesheet" href="./public/css/custom.css" crossorigin="anonymous">
   <title>Brown Dust 2 - Banner Recommendation</title>
 </head>
 <body class="container-fluid">
@@ -53,13 +55,16 @@
 
               <div class="col-12 col-md-4 col-xl-2 pe-2 borderless border-end">
                 <div class="w-100 h-100 d-flex justify-content-center">
-                  <img data-costume-image class="costumeSize my-auto" loading="lazy">
+                  <picture class="my-auto">
+                    <source data-costume-image-avif class="costumeSize" type="image/avif" />
+                    <img data-costume-image class="costumeSize" loading="lazy">
+                  </picture>
                 </div>
               </div>
 
               <div class="col d-flex flex-column">
                 <div class="row border-bottom mx-1 pb-2 pt-4 pt-md-0  border-2">
-                  <div class="col d-flex justify-content-center bannerName">
+                  <div data-banner-name class="col d-flex justify-content-center">
                   </div>
                 </div>
 
@@ -87,13 +92,13 @@
 
                       <div class="col-12 col-xl-4 col-xxl-4 pe-0 pt-3 pb-2 py-xl-0 d-flex align-items-center">
                         <div class="w-100">
-                          <ul class="list-unstyled date">
-                            <li><span class="role"><b>Role - </b></span></li>
-                            <li><span><b>Element - </b><img class="property" loading="lazy" width="32px" height="32px"></span></li>
-                            <li><span class="dmgType"><b>Damage Type - </b></span></li>
+                          <ul class="list-unstyled">
+                            <li><span data-role><b>Role - </b></span></li>
+                            <li><span><b>Element - </b><img data-property loading="lazy" width="32px" height="32px"></span></li>
+                            <li><span data-dmg-type><b>Damage Type - </b></span></li>
                             <br>
-                            <li class="bannerPeriode"></li>
-                            <li class="bannerTimeLeft"></li>
+                            <li data-banner-periode></li>
+                            <li data-banner-time-left></li>
                           </ul>
                         </div>
                       </div>
@@ -107,8 +112,7 @@
                           </div>
                           <div class="row w-100">
                             <div class="col">
-                              <ul class="list-group list-group-flush p-2 border border-3 rounded breakpoints">
-                              </ul>
+                              <ul data-breakpoints class="list-group list-group-flush p-2 border border-3 rounded"></ul>
                             </div>
                           </div>
                         </div>
@@ -124,8 +128,7 @@
                           </div>
                           <div class="row">
                             <div class="col">
-                              <p class="pullReason">
-                              </p>
+                              <p data-pull-reason></p>
                             </div>
                           </div>
                         </div>
@@ -143,8 +146,7 @@
                         </div>
                         <div class="row flex-grow-1">
                           <div class="col">
-                            <ul class="list-group pros">
-                            </ul>
+                            <ul data-pros class="list-group"></ul>
                           </div>
                         </div>
                       </div>
@@ -155,8 +157,7 @@
                         </div>
                         <div class="row flex-grow-1">
                           <div class="col">
-                            <ul class="list-group cons">
-                            </ul>
+                            <ul data-cons class="list-group"></ul>
                           </div>
                         </div>
 
@@ -197,7 +198,7 @@
     </div>
   </footer>
 
-  <script src="./public/js/generateSite.js"></script>
+  <script src="./public/js/generateSite.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
