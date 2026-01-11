@@ -27,7 +27,7 @@ function createTldr( dataArray ) {
       dupeImg.alt = `${ dupeAmount }_dupes.png`;
       dupeImg.title = `Needed Copies: ${ dupeAmount }`;
       dupeImg.loading = 'lazy';
-      dupeImg.width = 33;
+      dupeImg.width = 30;
       dupeImg.height = 25;
 
       picture.append( source, dupeImg );
@@ -56,6 +56,8 @@ async function createBannerCards( bannerData, damageAttributes ) {
 
   /** @type { HTMLTemplateElement } */
   const template = document.getElementById( 'charBannerCard' );
+
+  const modesArray = [ 'gr', 'fh', 'ln', 'tos', 'mw', 'gc', 'gen' ];
 
   for( const bannerChar of bannerData ) {
     const bannerCard = template.content.cloneNode( true );
@@ -122,7 +124,11 @@ async function createBannerCards( bannerData, damageAttributes ) {
     periodeLine.classList.remove( 'data-banner-periode' );
 
     const timeLeftLine = bannerCard.querySelector( '[ data-banner-time-left ]' );
-    const timeLeftContainer = getTimeLeftSpan( endDate );
+    const [ days, hours, minutes ] = calcTimeLeftOnBanner( endDate );
+    if ( days < 0 || hours < 0 || minutes < 0 ) {
+      continue;
+    }
+    const timeLeftContainer = getTimeLeftSpan( [ days, hours, minutes ] );
     timeLeftLine.append( 'Banner ends in ', timeLeftContainer, ' !' );
     timeLeftArray.push( [ endDate, timeLeftContainer ] );
     timeLeftLine.classList.remove( 'data-banner-time-left' );
@@ -144,6 +150,19 @@ async function createBannerCards( bannerData, damageAttributes ) {
     addListElements( cons, bannerChar.cons );
     cons.classList.remove( 'data-cons' );
 
+    //Modes
+    const bannerCharModeSuggestions = bannerChar.modes;
+    for( const mode of modesArray ) {
+      const modeContainer = bannerCard.querySelector( `[ data-${ mode } ]` );
+      modeContainer.removeAttribute( `data-${ mode }` );
+      const suggestion = bannerCharModeSuggestions?.[ mode ];
+      if ( suggestion || typeof suggestion === 'string'  ) {
+        modeContainer.textContent = suggestion;
+        continue;
+      }
+      modeContainer.textContent = String.fromCharCode( 8212 );
+    }
+
     container.appendChild( bannerCard );
   }
 
@@ -161,17 +180,15 @@ function getBannerPeriodeLocalTimeString( start, end ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function getTimeLeftSpan( end ) {
-  const timeLeft = calcTimeLeftOnBanner( end );
-
+function getTimeLeftSpan( [ days, hours, minutes ] ) {
   let textColor = 'text-warning';
-  if ( timeLeft[0] < 4 ) {
+  if ( days < 4 ) {
     textColor = 'text-danger'
   }
 
   const timeLeftContainer = document.createElement( 'span' );
   timeLeftContainer.classList.add( textColor );
-  timeLeftContainer.textContent = createTimeLeftString( timeLeft );
+  timeLeftContainer.textContent = createTimeLeftString( [ days, hours, minutes ] );
 
   return timeLeftContainer;
 }
@@ -225,8 +242,8 @@ function createBreakpoints( container, breakpoints ) {
     dupeImg.alt = `${ dupeAmount }_dupes.png`;
     dupeImg.title = `Needed Copies: ${ dupeAmount }`;
     dupeImg.loading = 'lazy';
-    dupeImg.width = 40;
-    dupeImg.height = 32;
+    dupeImg.width = 42;
+    dupeImg.height = 35;
 
     picture.append( source, dupeImg );
 

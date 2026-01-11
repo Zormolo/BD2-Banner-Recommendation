@@ -23,7 +23,16 @@
         [ "2", "Big Damage Increase<br>[1160% &xrarr; 1400%, 8 SP consumed]" ],
         [ "4", "Big Damage Increase<br>[1450% &xrarr; 1690%, 8 SP consumed]" ]
       ],
-      "pullReason": "<b>Depends.</b> She is good if you have Starlight Guardian Tyr, otherwise her usage is very limited. Consider pulling low dupe count in order to save for onsen banners."
+      "pullReason": "<b>Depends.</b> She is good if you have Starlight Guardian Tyr, otherwise her usage is very limited. Consider pulling low dupe count in order to save for onsen banners.",
+      "modes": {
+        "gr": "maybe usefull",
+        "fh": "not as good as nebris",
+        "ln": "new pov lathel",
+        "tos": "hahaha...no",
+        "mw": "think again about that choice",
+        "gc": "kills blade abuser",
+        "gen": "Big AOE BONK"
+      }
     },
     {
       "charName": "Darian",
@@ -37,7 +46,10 @@
         [ "1", "-1 SP" ],
         [ "2", "-2 CD" ]
       ],
-      "pullReason": "<b>Yes</b>, although her priority is lower than, for example, Celia and Loen. Her conditional skill greatly limits her usage."
+      "pullReason": "<b>Yes</b>, although her priority is lower than, for example, Celia and Loen. Her conditional skill greatly limits her usage.",
+      "modes": {
+        "fh": "if she hit enough tiles then she is pretty good"
+      }
     },
     {
       "charName": "Loen",
