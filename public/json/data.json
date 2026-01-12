@@ -3,16 +3,21 @@
     [ "Queen of Gluttis Granadair", [ 5 ] ],
     [ "Celebrity Bunny Loen", [ 1 ] ],
     [ "Bittersweet Bunny Darian", [ 2 ] ],
-    [ "Celebrity Bunny Loen", [ 5 ] ]
+    [ "Celebrity Bunny Loen", [ 5 ] ],
+    [ "Robin Hood Zenith", [ 3 ] ],
+    [ "Innocent Bunny Tyr", [ 0 ] ],
+    [ "Bittersweet Bunny Darian", [ 5 ] ],
+    [ "Innocent Bunny Tyr", [ 2, 4 ] ],
+    [ "Robin Hood Zenith", [ 5 ] ]
   ],
   "banner": [
     {
-      "charName": "Grandair",
+      "charName": "Granadair",
       "dmgAtt": "lm",
       "costumeName": "Queen of Gluttis",
       "role": "Buffer",
       "imgName": "queen_of_gluttis",
-      "startDate": "2026-01-15T00:00:00.000Z",
+      "startDate": "2026-01-15T04:30:00.000Z",
       "endDate": "2026-02-11T23:59:59.000Z",
       "breakpoints": [
           [ "1", "-1 SP" ]
@@ -115,19 +120,6 @@
         [ "3", "-1 SP" ]
       ],
       "pullReason": "<b>Yes</b>, She is important support for Fiend Hunter / Guild Raid. Her +3 dupe gives 0 SP skill activation each turn."
-    },
-    {
-      "charName": "Gray",
-      "dmgAtt": "wip",
-      "costumeName": "Vanguard",
-      "role": "DPS",
-      "imgName": "vanguard",
-      "startDate": "2025-12-31",
-      "endDate": "2026-01-14T23:50:00Z",
-      "breakpoints": [
-        [ "3", "-1 SP" ]
-      ],
-      "pullReason": "<b>No</b>, unless you are at the end game. He is niche DoT DPS who scales based on enemy Magic ATK, making him very niche."
     }
   ],
   "damageAttributes": {
