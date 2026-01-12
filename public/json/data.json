@@ -1,26 +1,54 @@
 {
   "tldr": [
-    [ "Masquerade Bunny Celia", [ 4 ] ],
+    [ "Queen of Gluttis Granadair", [ 5 ] ],
     [ "Celebrity Bunny Loen", [ 1 ] ],
     [ "Bittersweet Bunny Darian", [ 2 ] ],
-    [ "Celebrity Bunny Loen", [ 5 ] ],
-    [ "Robin Hood Zenith", [ 3 ] ],
-    [ "Innocent Bunny Tyr", [ 0 ] ],
-    [ "Bittersweet Bunny Darian", [ 5 ] ],
-    [ "Innocent Bunny Tyr", [ 2, 4 ] ],
-    [ "Robin Hood Zenith", [ 5 ] ]
+    [ "Celebrity Bunny Loen", [ 5 ] ]
   ],
   "banner": [
+    {
+      "charName": "Grandair",
+      "dmgAtt": "lm",
+      "costumeName": "Queen of Gluttis",
+      "role": "Buffer",
+      "imgName": "queen_of_gluttis",
+      "startDate": "2026-01-15T00:00:00.000Z",
+      "endDate": "2026-02-11T23:59:59.000Z",
+      "breakpoints": [
+          [ "1", "-1 SP" ]
+      ],
+      "pullReason": "<b>Absolutely</b>. She's an important Magic type buffer which is similar to Homunculus Lathel. She is new addition to general magic teams and thus should be pulled as much as possible."        
+    },
     {
       "charName": "Ventana",
       "dmgAtt": "lp",
       "costumeName": "Snow White",
-      "role": "",
+      "role": "DPS",
       "imgName": "snow_white",
       "startDate": "2026-01-08T00:00:00.000Z",
       "endDate": "2026-01-21T23:59:59.000Z",
-      "breakpoints": [],
-      "pullReason": ""
+      "breakpoints": [
+        [ "3", "-1 SP" ]
+      ],
+      "pullReason": "<b>Not quite</b>, unless you have a lot of spare pulls. This costume has great damage capabilities for a nuker like Ventana, but high breakpoint (+3) and other banners priorities shift focus from this one.",
+      "pros": [
+        "Good Physical Nuker",
+        "Highest multiplier amongst Ventana costumes",
+        "Wider AOE compared to rest Ventana costumes"
+      ],
+      "cons": [
+        "Hardly suitable for general content",
+        "Less important in comparison to rest banners"
+      ],
+      "modes": {
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Decent, loses to rest DPS",
+        "tos": "Niche / Decent",
+        "mw": "Bad",
+        "gc": "Mid / Bad",
+        "gen": "Niche / Decent"
+      }        
     },
     {
       "charName": "Tyr",
@@ -74,44 +102,6 @@
         [ "1", "-1 SP" ]
       ],
       "pullReason": "<b>Yes</b>. She is undeniably one of the strongest DPS for a general content, has good scaling versus a lot of enemies and is limited."
-    },
-    {
-      "charName": "Celia",
-      "dmgAtt": "dm",
-      "costumeName": "Masquerade Bunny",
-      "role": "Chainer",
-      "imgName": "masquerade_bunny",
-      "startDate": "2025-12-31",
-      "endDate": "2026-01-07T23:59:59Z",
-      "breakpoints": [
-        [ "1", "-1 SP" ],
-        [ "4", "Buff Duration +2 turns" ]
-      ],
-      "pullReason": "<u><b>Absolutely.</b></u> She is important <u><b>limited</b></u> support-chainer, used in almost every Fiend Hunter and Guild Raid season. Essential for her rest costumes to perform well.",
-      "pros": [
-        "Dark Magic",
-        "meta chainer",
-        "test dfghsfghjnsghjsjfhnsf",
-        "sfsdjkfsjkfsjkfsjhfsjkn dsgvsjhgvshjs"
-      ],
-      "cons": [
-        "limited",
-        "no dmg",
-        "other costumes have high sp costs"
-      ]
-    },
-    {
-      "charName": "Levia",
-      "dmgAtt": "fm",
-      "costumeName": "Overheat",
-      "role": "DPS",
-      "imgName": "overheat",
-      "startDate": "2025-12-31",
-      "endDate": "2026-01-07T23:59:59Z",
-      "breakpoints": [
-        [ "1", "-1 SP" ]
-      ],
-      "pullReason": "<b>Optional</b>. She was buffed recently but that does not make her more important compared to Tyr or other banners."
     },
     {
       "charName": "Zenith",
