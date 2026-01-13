@@ -1,38 +1,19 @@
 {
   "tldr": [
     [ "Celebrity Bunny Loen", [ 1 ] ],
-    [ "Bittersweet Bunny Darian", [ 2 ] ],
-    [ "Queen of Gluttis Granadair", [ 5 ] ],
     [ "Celebrity Bunny Loen", [ 5 ] ],
-    [ "Robin Hood Zenith", [ 3 ] ],
-    [ "Innocent Bunny Tyr", [ 0 ] ],
-    [ "Bittersweet Bunny Darian", [ 5 ] ],
-    [ "Innocent Bunny Tyr", [ 2, 4 ] ],
-    [ "Robin Hood Zenith", [ 5 ] ]
+    [ "Queen of Gluttis Granadair", [ 1 ] ],
+    [ "Onsen Manager Liberta", [ 1 ] ],
+    [ "Shrine Maiden of Purification Granadair", [ 1 ] ],
+    [ "Queen of Gluttis Granadair", [ 5 ] ],
+    [ "Onsen Manager Liberta", [ 5 ] ],
+    [ "Shrine Maiden of Purification Granadair", [ 5 ] ],
+    [ "Onsen Practitioner Ventana", [ 1 ] ],
+    [ "Snow White Ventana", [ 3 ] ],
+    [ "Onsen Practitioner Ventana", [ 3 ] ],
+    [ "Snow White Ventana", [ 5 ] ]
   ],
   "banner": [
-    {
-      "charName": "Ventana",
-      "dmgAtt": "lp",
-      "costumeName": "Onsen Practitioner",
-      "role": "",
-      "imgName": "onsen_practitioner",
-      "startDate": "2026-01-22T00:00:00.000Z",
-      "endDate": "2026-02-04T23:59:59.000Z",
-      "breakpoints": [],
-      "pullReason": ""
-    },
-    {
-      "charName": "Olstein",
-      "dmgAtt": "wim",
-      "costumeName": "The Fiend Scholar",
-      "role": "",
-      "imgName": "the_fiend_scholar",
-      "startDate": "2026-01-15T04:30:00.000Z",
-      "endDate": "2026-01-21T23:59:59.000Z",
-      "breakpoints": [],
-      "pullReason": ""
-    },
     {
       "charName": "Granadair",
       "dmgAtt": "wam",
@@ -44,23 +25,24 @@
       "breakpoints": [
           [ "1", "-1 SP" ]
       ],
-      "pullReason": "<b>Yes</b>. This is rotational costume for Granadair, which is more niche compared to Queen of Gluttis, but still good. NEED KIT INFO BRRRR",
+      "pullReason": "<b>Absolutely (MUST)</b>. This costume is quite hard to utilize at its maximum, but sheer damage boost even without conditional increase worth a lot to not skip her. She offers same value of buff as Onsen Manager Liberta, without chain requirenment, making her very powerful magic buffer in almost every mode.",
       "pros": [
         "Buffer / Support",
-        "Unique support mechanics"
+        "Unique support mechanics",
+        "First full debuff cleanse costume"
       ],
       "cons": [
-        "More niche compared to another Granadair costume"
+        "Hard to fully utilize"
       ],
       "modes": {
-        "gr": "Good / Niche",
-        "fh": "Good / Niche",
-        "ln": "Bad",
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Meta",
         "tos": "Mid",
-        "mw": "?",
-        "gc": "?",
-        "gen": "Niche"
-      }   
+        "mw": "Mid / Niche, need testing ",
+        "gc": "Good?",
+        "gen": "Good / Niche"
+      }
     },
     {
       "charName": "Granadair",
@@ -73,10 +55,10 @@
       "breakpoints": [
           [ "1", "-1 SP" ]
       ],
-      "pullReason": "<b>Absolutely</b>. She's an important Magic type buffer which is similar to Homunculus Lathel. She is new addition to general magic teams and thus should be pulled as much as possible.",
+      "pullReason": "<b>Absolutely (MUST)</b>. She's an important Magic type buffer which is similar to Homunculus Lathel. She is new addition to general magic teams and thus should be pulled as much as possible.<br><br><i>Make sure to recruit her from <b>pub</b>, before getting +3 / +4</i>",
       "pros": [
         "Buffer / Support",
-        "SP Battery",
+        "Unique SP Battery",
         "Suitable for General content (newbie-friendly)"
       ],
       "cons": [
@@ -84,14 +66,13 @@
       "modes": {
         "gr": "Meta",
         "fh": "Meta",
-        "ln": "Decent (need more testing)",
+        "ln": "Decent, although not used in top teams",
         "tos": "Good / Meta for magic teams",
-        "mw": "?",
-        "gc": "?",
+        "mw": "Good?",
+        "gc": "Good?",
         "gen": "Meta"
-      }        
+      }
     },
-      
     {
       "charName": "Liberta",
       "dmgAtt": "fp",
@@ -100,8 +81,26 @@
       "imgName": "onsen_manager",
       "startDate": "2026-01-15T04:30:00.000Z",
       "endDate": "2026-02-11T23:49:59.000Z",
-      "breakpoints": [],
-      "pullReason": ""
+      "breakpoints": [
+          [ "1", "-1 SP" ]
+      ],
+      "pullReason": "<b>Absolutely (MUST)</b>. This costume is rotational costume to Dark Saintess Liberta, providing bonus for high-chain teams. Necessary for Guild Raid, Fiend Hunter, Last Night.",
+      "pros": [
+        "Buffer",
+        "Essential for high-chain teams"
+      ],
+      "cons": [
+        "Not suitable for general content"
+      ],
+      "modes": {
+        "gr": "Meta",
+        "fh": "Meta",
+        "ln": "Meta",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Niche / Bad"
+      }
     },
     {
       "charName": "Ventana",
@@ -114,7 +113,7 @@
       "breakpoints": [
         [ "3", "-1 SP" ]
       ],
-      "pullReason": "<b>Not quite</b>, unless you have a lot of spare pulls. This costume has great damage capabilities for a nuker like Ventana, but high breakpoint (+3) and other banners priorities shift focus from this one.",
+      "pullReason": "<b>Not quite (Optional / Skip)</b>, unless you have a lot of spare pulls. This costume has great damage capabilities for a nuker like Ventana, but high breakpoint (+3) and other banners priorities shift focus from this one.",
       "pros": [
         "Good Physical Nuker",
         "Highest multiplier amongst Ventana costumes",
@@ -122,7 +121,8 @@
       ],
       "cons": [
         "Hardly suitable for general content",
-        "Less important in comparison to rest banners"
+        "Less important in comparison to rest banners",
+        "High breakpoint"
       ],
       "modes": {
         "gr": "Good",
@@ -132,6 +132,65 @@
         "mw": "Bad",
         "gc": "Mid / Bad",
         "gen": "Niche / Decent"
+      }
+    },
+    {
+      "charName": "Ventana",
+      "dmgAtt": "lp",
+      "costumeName": "Onsen Practitioner",
+      "role": "DPS",
+      "imgName": "onsen_practitioner",
+      "startDate": "2026-01-22T00:00:00.000Z",
+      "endDate": "2026-02-04T23:59:59.000Z",
+      "breakpoints": [
+          [ "1", "-1 SP"],
+          [ "3", "Huge Light Vulnerability increase (100 &rarr; 200%)"]
+      ],
+      "pullReason": "<b>Not quite (Optional / Skip)</b>. This costume is the weakest amongst all 3 Ventana costumes, offering self-buff. Similar to Snow White, requires somewhat high dupe for last breakpoint. Loses in priority to rest banners. Mostly used as rotation for Fiend Hunter and Guild Raid.",
+      "pros": [
+        "Rotational costume for Ventana",
+        "Damage self-amplfier"
+      ],
+      "cons": [
+        "Weakest damage of all 3 Ventana costumes",
+        "Less important in comparison to rest banners",
+        "High breakpoint"
+      ],
+      "modes": {
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Bad",
+        "tos": "Niche / Bad",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Bad"
+      }
+    },
+    {
+      "charName": "Olstein",
+      "dmgAtt": "wim",
+      "costumeName": "The Fiend Scholar",
+      "role": "Support / SP Battery",
+      "imgName": "the_fiend_scholar",
+      "startDate": "2026-01-15T04:30:00.000Z",
+      "endDate": "2026-01-21T23:59:59.000Z",
+      "breakpoints": [
+          [ "3", "-1 SP"]
+      ],
+      "pullReason": "<b>Not really. (Optional / Skip)</b>. He is somewhat niche support, providing SP regen and silencing enemies. Unfortunately for him, Silence works on limited pool of enemies, and his SP battery has somewhat long cooldown.<br><br><i>Make sure to recruit him from <b>pub</b> for free 10 Draw Tickets.</i>",
+      "pros": [
+        "Support"
+      ],
+      "cons": [
+        "Niche",
+        "Less important in comparison to rest banners"
+      ],
+      "modes": {
+        "gr": "Bad",
+        "fh": "Bad",
+        "ln": "Bad",
+        "tos": "Decent",
+        "gen": "Good for towers, mid / niche for rest"
       }
     },
     {
