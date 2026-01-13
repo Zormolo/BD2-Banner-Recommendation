@@ -12,8 +12,30 @@
   ],
   "banner": [
     {
+      "charName": "Ventana",
+      "dmgAtt": "lp",
+      "costumeName": "Onsen Practitioner",
+      "role": "",
+      "imgName": "onsen_practitioner",
+      "startDate": "2026-01-22T00:00:00.000Z",
+      "endDate": "2026-02-04T23:59:59.000Z",
+      "breakpoints": [],
+      "pullReason": ""
+    },
+    {
+      "charName": "Olstein",
+      "dmgAtt": "wim",
+      "costumeName": "The Fiend Scholar",
+      "role": "",
+      "imgName": "the_fiend_scholar",
+      "startDate": "2026-01-15T04:30:00.000Z",
+      "endDate": "2026-01-21T23:59:59.000Z",
+      "breakpoints": [],
+      "pullReason": ""
+    },
+    {
       "charName": "Granadair",
-      "dmgAtt": "lm",
+      "dmgAtt": "wam",
       "costumeName": "Shrine Maiden of Purification",
       "role": "Buffer",
       "imgName": "shrine_maiden_of_purification",
@@ -26,7 +48,7 @@
     },
     {
       "charName": "Granadair",
-      "dmgAtt": "lm",
+      "dmgAtt": "wam",
       "costumeName": "Queen of Gluttis",
       "role": "Buffer",
       "imgName": "queen_of_gluttis",
@@ -36,6 +58,17 @@
           [ "1", "-1 SP" ]
       ],
       "pullReason": "<b>Absolutely</b>. She's an important Magic type buffer which is similar to Homunculus Lathel. She is new addition to general magic teams and thus should be pulled as much as possible."
+    },
+    {
+      "charName": "Liberta",
+      "dmgAtt": "fp",
+      "costumeName": "Onsen Manager",
+      "role": "",
+      "imgName": "onsen_manager",
+      "startDate": "2026-01-15T04:30:00.000Z",
+      "endDate": "2026-02-11T23:49:59.000Z",
+      "breakpoints": [],
+      "pullReason": ""
     },
     {
       "charName": "Ventana",
