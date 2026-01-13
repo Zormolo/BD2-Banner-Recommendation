@@ -176,7 +176,7 @@
       "endDate": "2026-01-21T23:59:59.000Z",
       "breakpoints": [
           [ "3", "-1 SP"]
-      ],
+      ], 
       "pullReason": "<b>Not really. (Optional / Skip)</b>. He is somewhat niche support, providing SP regen and silencing enemies. Unfortunately for him, Silence works on limited pool of enemies, and his SP battery has somewhat long cooldown.<br><br><i>Make sure to recruit him from <b>pub</b> for free 10 Draw Tickets.</i>",
       "pros": [
         "Support"
