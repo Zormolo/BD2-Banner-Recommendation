@@ -23,14 +23,14 @@
       "breakpoints": [
           [ "1", "-1 SP" ]
       ],
-      "pullReason": "<b>Absolutely (MUST)</b>. This costume is quite hard to utilize at its maximum, but sheer damage boost even without conditional increase worth a lot to not skip her. She offers same value of buff as Onsen Manager Liberta, without chain requirenment, making her very powerful magic buffer in almost every mode.",
+      "pullReason": "<b>Absolutely (MUST)</b>. This costume is quite hard to utilize at its maximum, but sheer damage boost even without conditional increase worth a lot to not skip her. She offers same value of buff as Onsen Manager Liberta, but without chain requirenment, making her very powerful magic buffer in almost every mode. Aside of that, she can be used as a slightly weaker Beachside Angel Teresse, in case you don't have her.",
       "pros": [
         "Buffer / Support",
         "Unique support mechanics",
         "First full debuff cleanse costume"
       ],
       "cons": [
-        "Hard to fully utilize"
+        "Hard to trigger additional bonus DMG boost"
       ],
       "modes": {
         "gr": "Good",
