@@ -7,9 +7,10 @@
     [ "Onsen Manager Liberta", [ 5 ] ],
     [ "Shrine Maiden of Purification Granadair", [ 5 ] ],
     [ "Onsen Practitioner Ventana", [ 1 ] ],
-    [ "Snow White Ventana", [ 3 ] ],
+    [ "Onsen Swordfighter Blade", [ 1 ] ],
     [ "Onsen Practitioner Ventana", [ 3 ] ],
-    [ "Snow White Ventana", [ 5 ] ]
+    [ "Onsen Swordfighter Blade", [ 3 ] ],
+    [ "Onsen Swordfighter Blade", [ 5 ] ]
   ],
   "banner": [
     {
@@ -75,7 +76,7 @@
       "charName": "Liberta",
       "dmgAtt": "fp",
       "costumeName": "Onsen Manager",
-      "role": "",
+      "role": "Buffer / Support",
       "imgName": "onsen_manager",
       "startDate": "2026-01-15T04:30:00.000Z",
       "endDate": "2026-02-11T23:49:59.000Z",
@@ -100,36 +101,38 @@
         "gen": "Niche / Bad"
       }
     },
-    {
-      "charName": "Ventana",
-      "dmgAtt": "lp",
-      "costumeName": "Snow White",
+        {
+      "charName": "Blade",
+      "dmgAtt": "dp",
+      "costumeName": "Onsen Swordfighter",
       "role": "DPS",
-      "imgName": "snow_white",
-      "startDate": "2026-01-08T00:00:00.000Z",
-      "endDate": "2026-01-21T23:59:59.000Z",
+      "imgName": "onsen_swordfighter",
+      "startDate": "2026-01-29T03:30:00.000Z",
+      "endDate": "2026-02-11T23:49:59.000Z",
       "breakpoints": [
-        [ "3", "-1 SP" ]
+          [ "1", "-1 SP" ],
+          [ "3", "Conditional skill DMG increase (70% &rarr; 90%)"],
+          [ "5", "Conditional skill DMG increase (90% &rarr; 110%)"]     
       ],
-      "pullReason": "<b>Not quite (Optional / Skip)</b>, unless you have a lot of spare pulls. This costume has great damage capabilities for a nuker like Ventana, but high breakpoint (+3) and other banners priorities shift focus from this one.",
+      "pullReason": "<b>Depends (Optional / Skip)</b>. This costume is pure DPS with slight synergy with Young Lady Costume, but requires way more than that to be good.",
       "pros": [
-        "Good Physical Nuker",
-        "Highest multiplier amongst Ventana costumes",
-        "Wider AOE compared to rest Ventana costumes"
+        "Fills / Finishes Blade rotation",
+        "Decent DMG output in proper teams",
+        "Synergy with Young Lady Blade"
       ],
       "cons": [
-        "Hardly suitable for general content",
-        "Less important in comparison to rest banners",
-        "High breakpoint"
+        "Hard to utilize Conditional DMG to full extend",
+        "Loses priority due to supports in other banners",
+        "Weaker AoE compared to Young Lady Costume"
       ],
       "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Decent, loses to rest DPS",
-        "tos": "Niche / Decent",
-        "mw": "Bad",
-        "gc": "Mid / Bad",
-        "gen": "Niche / Decent"
+        "gr": "Decent / Good",
+        "fh": "Decent / Good",
+        "ln": "Mid / Bad",
+        "tos": "Niche / Bad",
+        "mw": "Bad / Niche ?",
+        "gc": "Mid / Niche ?",
+        "gen": "Mid / Niche"
       }
     },
     {
@@ -164,31 +167,34 @@
         "gen": "Bad"
       }
     },
-    {
-      "charName": "Olstein",
-      "dmgAtt": "wim",
-      "costumeName": "The Fiend Scholar",
-      "role": "Support / SP Battery",
-      "imgName": "the_fiend_scholar",
-      "startDate": "2026-01-15T04:30:00.000Z",
-      "endDate": "2026-01-21T23:59:59.000Z",
+        {
+      "charName": "Alec",
+      "dmgAtt": "fp",
+      "costumeName": "Sword Breaker",
+      "role": "DPS",
+      "imgName": "sword_breaker",
+      "startDate": "2026-01-29T03:30:00.000Z",
+      "endDate": "2026-02-04T23:59:59.000Z",
       "breakpoints": [
           [ "3", "-1 SP"]
-      ], 
-      "pullReason": "<b>Not really. (Optional / Skip)</b>. He is somewhat niche support, providing SP regen and silencing enemies. Unfortunately for him, Silence works on limited pool of enemies, and his SP battery has somewhat long cooldown.<br><br><i>Make sure to recruit him from <b>pub</b> for free 10 Draw Tickets.</i>",
+      ],
+      "pullReason": "<b>No (Skip)</b>. This costume, and Alec overall, is niche PvP unit, meaning you should not go for him at all.",
       "pros": [
-        "Support"
+        "Decent high Fixed Damage"
       ],
       "cons": [
-        "Niche",
-        "Less important in comparison to rest banners"
+        "Fixed Damage is very hard to utilize in PvE",
+        "Outclassed in most PvP comps",
+        "Bad AoE"
       ],
       "modes": {
-        "gr": "Bad",
-        "fh": "Bad",
-        "ln": "Bad",
-        "tos": "Decent",
-        "gen": "Good for towers, mid / niche for rest"
+        "gr": "Terrible",
+        "fh": "Terrible",
+        "ln": "Terrible / Bad",
+        "tos": "Terrible / Bad",
+        "mw": "Decent / Niche",
+        "gc": "Bad",
+        "gen": "Terrible"
       }
     }
   ],
