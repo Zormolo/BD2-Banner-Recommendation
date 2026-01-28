@@ -128,9 +128,13 @@ async function createBannerCards( bannerData, damageAttributes ) {
     if ( days < 0 || hours < 0 || minutes < 0 ) {
       continue;
     }
-    const timeLeftContainer = getTimeLeftSpan( [ days, hours, minutes ] );
-    timeLeftLine.append( 'Banner ends in ', timeLeftContainer, ' !' );
-    timeLeftArray.push( [ endDate, timeLeftContainer ] );
+    if ( checkBannerStarted( startDate ) ) {
+      timeLeftLine.append( `Banner didn${ String.fromCharCode( 39 ) }t start yet!` ); //39 -> '
+    } else {
+      const timeLeftContainer = getTimeLeftSpan( [ days, hours, minutes ] );
+      timeLeftLine.append( 'Banner ends in ', timeLeftContainer, ' !' );
+      timeLeftArray.push( [ endDate, timeLeftContainer ] );
+    }
     timeLeftLine.classList.remove( 'data-banner-time-left' );
 
     const breakpointsContainer = bannerCard.querySelector( '[ data-breakpoints ]' );
@@ -179,6 +183,10 @@ function getBannerPeriodeLocalTimeString( start, end ) {
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function checkBannerStarted( start ) {
+  return ( start.getTime() - new Date().getTime() ) > 0;
+}
 
 function getTimeLeftSpan( [ days, hours, minutes ] ) {
   let textColor = 'text-warning';

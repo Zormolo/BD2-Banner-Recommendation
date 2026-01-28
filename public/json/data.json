@@ -102,6 +102,38 @@
       }
     },
     {
+      "charName": "Ventana",
+      "dmgAtt": "lp",
+      "costumeName": "Onsen Practitioner",
+      "role": "DPS",
+      "imgName": "onsen_practitioner",
+      "startDate": "2026-01-22T00:00:00.000Z",
+      "endDate": "2026-02-04T23:59:59.000Z",
+      "breakpoints": [
+          [ "1", "-1 SP"],
+          [ "3", "Huge Light Vulnerability increase (100 &rarr; 200%)"]
+      ],
+      "pullReason": "<b>Not quite (Optional / Skip)</b>. This costume is the weakest amongst all 3 Ventana costumes, offering self-buff. Similar to Snow White, requires somewhat high dupe for last breakpoint. Loses in priority to rest banners. Mostly used as rotation for Fiend Hunter and Guild Raid.",
+      "pros": [
+        "Rotational costume for Ventana",
+        "Damage self-amplfier"
+      ],
+      "cons": [
+        "Weakest damage of all 3 Ventana costumes",
+        "Less important in comparison to rest banners",
+        "High breakpoint"
+      ],
+      "modes": {
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Bad",
+        "tos": "Niche / Bad",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Bad"
+      }
+    },
+    {
       "charName": "Blade",
       "dmgAtt": "dp",
       "costumeName": "Onsen Swordfighter",
@@ -136,38 +168,6 @@
       }
     },
     {
-      "charName": "Ventana",
-      "dmgAtt": "lp",
-      "costumeName": "Onsen Practitioner",
-      "role": "DPS",
-      "imgName": "onsen_practitioner",
-      "startDate": "2026-01-22T00:00:00.000Z",
-      "endDate": "2026-02-04T23:59:59.000Z",
-      "breakpoints": [
-          [ "1", "-1 SP"],
-          [ "3", "Huge Light Vulnerability increase (100 &rarr; 200%)"]
-      ],
-      "pullReason": "<b>Not quite (Optional / Skip)</b>. This costume is the weakest amongst all 3 Ventana costumes, offering self-buff. Similar to Snow White, requires somewhat high dupe for last breakpoint. Loses in priority to rest banners. Mostly used as rotation for Fiend Hunter and Guild Raid.",
-      "pros": [
-        "Rotational costume for Ventana",
-        "Damage self-amplfier"
-      ],
-      "cons": [
-        "Weakest damage of all 3 Ventana costumes",
-        "Less important in comparison to rest banners",
-        "High breakpoint"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Bad",
-        "tos": "Niche / Bad",
-        "mw": "Bad",
-        "gc": "Bad",
-        "gen": "Bad"
-      }
-    },
-    {
       "charName": "Alec",
       "dmgAtt": "fp",
       "costumeName": "Sword Breaker",
@@ -196,6 +196,17 @@
         "gc": "Bad",
         "gen": "Terrible"
       }
+    },
+    {
+      "charName": "Blade",
+      "dmgAtt": "dp",
+      "costumeName": "Apostle",
+      "role": "DPS / Counter",
+      "imgName": "apostle",
+      "startDate": "2026-02-05T00:00:00.000Z",
+      "endDate": "2026-02-18T23:59:59.000Z",
+      "breakpoints": [],
+      "pullReason": ""
     }
   ],
   "damageAttributes": {
