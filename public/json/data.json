@@ -8,7 +8,9 @@
     [ "Shrine Maiden of Purification Granadair", [ 5 ] ],
     [ "Onsen Practitioner Ventana", [ 1 ] ],
     [ "Onsen Swordfighter Blade", [ 1 ] ],
+    [ "Apostle Blade", [ 2 ] ],
     [ "Onsen Practitioner Ventana", [ 3 ] ],
+    [ "Apostle Blade", [ 5 ] ],
     [ "Onsen Swordfighter Blade", [ 3 ] ],
     [ "Onsen Swordfighter Blade", [ 5 ] ]
   ],
@@ -205,8 +207,25 @@
       "imgName": "apostle",
       "startDate": "2026-02-05T00:00:00.000Z",
       "endDate": "2026-02-18T23:59:59.000Z",
-      "breakpoints": [],
-      "pullReason": ""
+      "breakpoints": [ 
+        ["2", "Increased hits amount for counter (8 &rarr; 10)"]
+      ],
+      "pullReason": "<b>Depends (Optional)</b>. This is main Blade DPS costume and it has high ceiling, but is niche in PvE due to counter mechanic. This banner additionally loses priority due to buffers still being available during first week.<br><br><i>Make sure to recruit her from <b>pub</b> to get 10 tickets. </i>",
+      "pros": [
+        "Main Blade DPS Costume"
+      ],
+      "cons": [
+        "Niche usage of Counter mechanic",
+        "Requires external investment due to her being a glass cannon unit"
+      ],
+      "modes": {
+        "gr": "Excellent / Good",
+        "fh": "Excellent / Good",
+        "ln": "Mid",
+        "tos": "Niche / Mid",
+        "gc": "Meta",
+        "gen": "Meta for Tower of Wrath, Niche / Mid for rest"
+      }
     }
   ],
   "damageAttributes": {
