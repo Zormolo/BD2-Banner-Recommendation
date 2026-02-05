@@ -72,7 +72,10 @@ function filterNewspages( newspages ) {
       break;
     }
 
-    filteredNews.push( currentNewsAtt.NewContent || currentNewsAtt.content );
+    filteredNews.push( {
+      content: currentNewsAtt.NewContent || currentNewsAtt.content,
+      publishDate: new Date( currentNewsAtt.publishedAt ) 
+    } );
   }
 
   return filteredNews;
@@ -106,15 +109,22 @@ function checkRelevanceOfNews( newsPublishDateString ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function extractBannerString( newsArray ) {
+function extractBannerInfo( newsArray ) {
   const filter = /[a-z]+[\w\s]*costume\s*:[\w\s,:]*(\(utc\))?\s*[-~]+[\w\s,:]+(\(utc\))?/gi; //v2
-  const bannerArray = [];
+  const bannerInfoArray = [];
 
   for( const maitenanceNews of newsArray ) {
-    const sections = maitenanceNews.split( '<br>' );
-    bannerArray.push( ...filterSections( sections, filter ) );
+    const sections = maitenanceNews.content.split( '<br>' );
+    const filteredSections = filterSections( sections, filter );
+    const filteredSectionsWithPublishDate = filteredSections.map( section => {
+      return {
+        bannerString: section,
+        publishDate: maitenanceNews.publishDate
+      }
+    } );
+    bannerInfoArray.push( ...filteredSectionsWithPublishDate );
   }
-  return bannerArray;
+  return bannerInfoArray;
 }
 
 
@@ -139,31 +149,31 @@ function filterSections( sectionArray, regexFilter ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function cleanBannerStrings( bannerStringArray ) {
+function cleanBannerStrings( bannerInfoArray ) {
   const removeList = [ 'Costume', 'costume', 'After', 'after', 'Maintenance', 'maintenance', 'Before', 'before', '(UTC)' ];
 
-  for( let i = 0; i < bannerStringArray.length; i++ ) {
-    let bannerString = bannerStringArray[ i ];
+  for( let i = 0; i < bannerInfoArray.length; i++ ) {
+    let bannerString = bannerInfoArray[ i ].bannerString;
     bannerString = bannerString.replace( ':', '@' );
     bannerString = bannerString.replace( '~', '-' );
 
     for( const removeString of removeList ) {
       bannerString = bannerString.replaceAll( removeString, '' );
     }
-    bannerStringArray[ i ] = bannerString.trim();
+    bannerInfoArray[ i ].bannerString = bannerString.trim();
   }
 }
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function buildBannerObjects( bannerStringArray ) {
+function buildBannerObjects( bannerInfoArray ) {
   const bannerArray = [];
 
-  for( const bannerString of bannerStringArray ) {
-    const [ costumeString, dateString ] = bannerString.split( '@' ).map( s => s.trim() );
+  for( const bannerInfo of bannerInfoArray ) {
+    const [ costumeString, dateString ] = bannerInfo.bannerString.split( '@' ).map( s => s.trim() );
 
-    const [ startDate, endDate ] = parseDateString( dateString );
+    const [ startDate, endDate ] = parseDateString( dateString, bannerInfo.publishDate );
 
     if ( new Date( endDate ).getTime() - new Date().getTime() < 0 ) {
       continue;
@@ -223,7 +233,7 @@ function checkForDulicateCostumeNames( imgName, charName ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function parseDateString( dateString ) {
+function parseDateString( dateString, publishDate ) {
   const cleanedString = removeOrdinals( dateString );
   let [ start, end ] = cleanedString.split( '-' );
 
@@ -249,17 +259,10 @@ function parseDateString( dateString ) {
     end = end.replace( '23:59', '11:59:59' );
   }
 
-  let startYear = checkDateStringForYear( start );
-  let endYear = checkDateStringForYear( end );
-
-  let startDate = new Date( `${ start.trim() } ${ startYear } UTC` );
-  let endDate = new Date( `${ end.trim() } ${ endYear } UTC` );
-  if ( startDate.getMonth() === 11 && endDate.getMonth() === 0 ) {
-    startDate = new Date( `${ start.trim() } ${ endYear - 1 } UTC` );
-  } else if (  ( startDate.getMonth() === 11 && endDate.getMonth() === 11 ) && isToFarInFuture( endDate ) ) {
-    startDate = new Date( `${ start.trim() } ${ startYear - 1 } UTC` );
-    endDate = new Date( `${ end.trim() } ${ endYear - 1 } UTC` );
-  }
+  let startDate = new Date( `${ start.trim() } UTC` );
+  let endDate = new Date( `${ end.trim() } UTC` );
+  startDate = checkYear( startDate, start, publishDate );
+  endDate = checkYear( endDate, end, publishDate );
 
   return [ startDate.toISOString(), endDate.toISOString() ];
 }
@@ -274,21 +277,25 @@ function removeOrdinals( dateString ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function checkDateStringForYear( dateString ) {
-  let year = new Date().getFullYear();
-  if ( ( dateString.match( /,/g ) || [] ).length === 2 ) {
-    const dateStringYear = dateString.match( /,[\s\d]*,/g )[ 0 ];
-    year = Number( dateStringYear.replaceAll( ',', '' ).trim() );
+function checkYear( date, dateString,  publishDate ) {
+  let year = 0
+  const dateMonth = date.getMonth();
+  const dateYear = date.getFullYear();
+  const publishMonth = publishDate.getMonth();
+  const publishYear = publishDate.getFullYear();
+  //banner starts in jan but no year was included in the dateString
+  //so fixing default behaivour from just inserting publishYear
+  if( dateMonth === 0 & publishMonth === 11 && dateYear - 1 !== publishYear ) {
+    year = publishYear + 1;
+  //if no year was in the dateString the default year in those string will be then 2001
+  //check if thats the case and correct to publishYear
+  //April 7, 12:00 AM --> 2001-04-07.....
+  } else if ( dateYear < publishYear - 5 ) {
+    year = publishYear;
+  } else {
+    return date;
   }
-  return year;
-}
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-function isToFarInFuture( endDate ) {
-  const now = new Date().getTime();
-  return now - endDate.getTime() < 0;
+  return new Date( `${ dateString.trim() } ${ year } UTC` );
 }
 
 
@@ -308,6 +315,8 @@ function checkForMissingImgFiles( bannerArray ) {
   }
 }
 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function addBannersToDataFile( bannerArray ) {
   const dataJSON = JSON.parse( fs.readFileSync( path.join( 'public', 'json', 'data.json' ) ) );
@@ -359,9 +368,9 @@ async function init() {
 
   const maitenanceNews = filterNewspages( newspages );
 
-  const bannerStringArray = extractBannerString( maitenanceNews );
-  cleanBannerStrings( bannerStringArray );
-  const bannerArray = buildBannerObjects( bannerStringArray );
+  const bannerInfoArray = extractBannerInfo( maitenanceNews );
+  cleanBannerStrings( bannerInfoArray );
+  const bannerArray = buildBannerObjects( bannerInfoArray );
 
   console.log( makeStrColored( 'All Done!', COLORS.GREEN ) );
 
