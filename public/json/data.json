@@ -1,18 +1,83 @@
 {
   "tldr": [
-    [ "Queen of Gluttis Granadair", [ 1 ] ],
-    [ "Onsen Manager Liberta", [ 1 ] ],
-    [ "Shrine Maiden of Purification Granadair", [ 1 ] ],
-    [ "Queen of Gluttis Granadair", [ 5 ] ],
-    [ "Onsen Manager Liberta", [ 5 ] ],
-    [ "Shrine Maiden of Purification Granadair", [ 5 ] ],
-    [ "Onsen Practitioner Ventana", [ 1 ] ],
-    [ "Onsen Swordfighter Blade", [ 1 ] ],
-    [ "Apostle Blade", [ 2 ] ],
-    [ "Onsen Practitioner Ventana", [ 3 ] ],
-    [ "Apostle Blade", [ 5 ] ],
-    [ "Onsen Swordfighter Blade", [ 3 ] ],
-    [ "Onsen Swordfighter Blade", [ 5 ] ]
+    [
+      "Queen of Gluttis Granadair",
+      [
+        1
+      ]
+    ],
+    [
+      "Onsen Manager Liberta",
+      [
+        1
+      ]
+    ],
+    [
+      "Shrine Maiden of Purification Granadair",
+      [
+        1
+      ]
+    ],
+    [
+      "Queen of Gluttis Granadair",
+      [
+        5
+      ]
+    ],
+    [
+      "Onsen Manager Liberta",
+      [
+        5
+      ]
+    ],
+    [
+      "Shrine Maiden of Purification Granadair",
+      [
+        5
+      ]
+    ],
+    [
+      "Onsen Practitioner Ventana",
+      [
+        1
+      ]
+    ],
+    [
+      "Onsen Swordfighter Blade",
+      [
+        1
+      ]
+    ],
+    [
+      "Apostle Blade",
+      [
+        2
+      ]
+    ],
+    [
+      "Onsen Practitioner Ventana",
+      [
+        3
+      ]
+    ],
+    [
+      "Apostle Blade",
+      [
+        5
+      ]
+    ],
+    [
+      "Onsen Swordfighter Blade",
+      [
+        3
+      ]
+    ],
+    [
+      "Onsen Swordfighter Blade",
+      [
+        5
+      ]
+    ]
   ],
   "banner": [
     {
@@ -24,7 +89,10 @@
       "startDate": "2026-01-15T04:30:00.000Z",
       "endDate": "2026-02-11T23:59:59.000Z",
       "breakpoints": [
-          [ "1", "-1 SP" ]
+        [
+          "1",
+          "-1 SP"
+        ]
       ],
       "pullReason": "<b>Absolutely (MUST)</b>. This costume is quite hard to utilize at its maximum, but sheer damage boost even without conditional increase worth a lot to not skip her. She offers same value of buff as Onsen Manager Liberta, but without chain requirenment, making her very powerful magic buffer in almost every mode. Aside of that, she can be used as a slightly weaker Beachside Angel Teresse, in case you don't have her.",
       "pros": [
@@ -54,7 +122,10 @@
       "startDate": "2026-01-15T04:30:00.000Z",
       "endDate": "2026-02-11T23:59:59.000Z",
       "breakpoints": [
-          [ "1", "-1 SP" ]
+        [
+          "1",
+          "-1 SP"
+        ]
       ],
       "pullReason": "<b>Absolutely (MUST)</b>. She's an important Magic type buffer which is similar to Homunculus Lathel. She is new addition to general magic teams and thus should be pulled as much as possible.<br><br><i>Make sure to recruit her from <b>pub</b>, before getting +3 / +4</i>",
       "pros": [
@@ -62,8 +133,7 @@
         "Unique SP Battery",
         "Suitable for General content (newbie-friendly)"
       ],
-      "cons": [
-      ],
+      "cons": [],
       "modes": {
         "gr": "Meta",
         "fh": "Meta",
@@ -83,7 +153,10 @@
       "startDate": "2026-01-15T04:30:00.000Z",
       "endDate": "2026-02-11T23:49:59.000Z",
       "breakpoints": [
-          [ "1", "-1 SP" ]
+        [
+          "1",
+          "-1 SP"
+        ]
       ],
       "pullReason": "<b>Absolutely (MUST)</b>. This costume is rotational costume to Dark Saintess Liberta, providing bonus for high-chain teams. Necessary for Guild Raid, Fiend Hunter, Last Night.",
       "pros": [
@@ -104,38 +177,6 @@
       }
     },
     {
-      "charName": "Ventana",
-      "dmgAtt": "lp",
-      "costumeName": "Onsen Practitioner",
-      "role": "DPS",
-      "imgName": "onsen_practitioner",
-      "startDate": "2026-01-22T00:00:00.000Z",
-      "endDate": "2026-02-04T23:59:59.000Z",
-      "breakpoints": [
-          [ "1", "-1 SP"],
-          [ "3", "Huge Light Vulnerability increase (100 &rarr; 200%)"]
-      ],
-      "pullReason": "<b>Not quite (Optional / Skip)</b>. This costume is the weakest amongst all 3 Ventana costumes, offering self-buff. Similar to Snow White, requires somewhat high dupe for last breakpoint. Loses in priority to rest banners. Mostly used as rotation for Fiend Hunter and Guild Raid.",
-      "pros": [
-        "Rotational costume for Ventana",
-        "Damage self-amplfier"
-      ],
-      "cons": [
-        "Weakest damage of all 3 Ventana costumes",
-        "Less important in comparison to rest banners",
-        "High breakpoint"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Bad",
-        "tos": "Niche / Bad",
-        "mw": "Bad",
-        "gc": "Bad",
-        "gen": "Bad"
-      }
-    },
-    {
       "charName": "Blade",
       "dmgAtt": "dp",
       "costumeName": "Onsen Swordfighter",
@@ -144,9 +185,18 @@
       "startDate": "2026-01-29T03:30:00.000Z",
       "endDate": "2026-02-11T23:49:59.000Z",
       "breakpoints": [
-          [ "1", "-1 SP" ],
-          [ "3", "Conditional skill DMG increase (70% &rarr; 90%)"],
-          [ "5", "Conditional skill DMG increase (90% &rarr; 110%)"]     
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "3",
+          "Conditional skill DMG increase (70% &rarr; 90%)"
+        ],
+        [
+          "5",
+          "Conditional skill DMG increase (90% &rarr; 110%)"
+        ]
       ],
       "pullReason": "<b>Depends (Optional / Skip)</b>. This costume is pure DPS with slight synergy with Young Lady Costume, but requires way more than that to be good.",
       "pros": [
@@ -170,45 +220,18 @@
       }
     },
     {
-      "charName": "Alec",
-      "dmgAtt": "fp",
-      "costumeName": "Sword Breaker",
-      "role": "DPS",
-      "imgName": "sword_breaker",
-      "startDate": "2026-01-29T03:30:00.000Z",
-      "endDate": "2026-02-04T23:59:59.000Z",
-      "breakpoints": [
-          [ "3", "-1 SP"]
-      ],
-      "pullReason": "<b>No (Skip)</b>. This costume, and Alec overall, is niche PvP unit, meaning you should not go for him at all.",
-      "pros": [
-        "Decent high Fixed Damage"
-      ],
-      "cons": [
-        "Fixed Damage is very hard to utilize in PvE",
-        "Outclassed in most PvP comps",
-        "Bad AoE"
-      ],
-      "modes": {
-        "gr": "Terrible",
-        "fh": "Terrible",
-        "ln": "Terrible / Bad",
-        "tos": "Terrible / Bad",
-        "mw": "Decent / Niche",
-        "gc": "Bad",
-        "gen": "Terrible"
-      }
-    },
-    {
       "charName": "Blade",
       "dmgAtt": "dp",
       "costumeName": "Apostle",
       "role": "DPS / Counter",
-      "imgName": "apostle",
+      "imgName": "apostle_blade",
       "startDate": "2026-02-05T00:00:00.000Z",
       "endDate": "2026-02-18T23:59:59.000Z",
-      "breakpoints": [ 
-        ["2", "Increased hits amount for counter (8 &rarr; 10)"]
+      "breakpoints": [
+        [
+          "2",
+          "Increased hits amount for counter (8 &rarr; 10)"
+        ]
       ],
       "pullReason": "<b>Depends (Optional)</b>. This is main Blade DPS costume and it has high ceiling, but is niche in PvE due to counter mechanic. This banner additionally loses priority due to buffers still being available during first week.<br><br><i>Make sure to recruit her from <b>pub</b> to get 10 tickets. </i>",
       "pros": [
@@ -225,6 +248,54 @@
         "tos": "Niche / Mid",
         "gc": "Meta",
         "gen": "Meta for Tower of Wrath, Niche / Mid for rest"
+      }
+    },
+    {
+      "charName": "Diana",
+      "dmgAtt": "wim",
+      "costumeName": "Magical Innovator",
+      "role": "",
+      "imgName": "magical_innovator",
+      "startDate": "2026-02-11T04:30:00.000Z",
+      "endDate": "2026-02-25T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Liatris",
+      "dmgAtt": "fp",
+      "costumeName": "Maid Name R",
+      "role": "",
+      "imgName": "maid_name_r",
+      "startDate": "2026-02-19T00:00:00.000Z",
+      "endDate": "2026-03-04T23:59:59.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ],

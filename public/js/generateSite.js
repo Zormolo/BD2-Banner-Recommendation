@@ -106,9 +106,11 @@ async function createBannerCards( bannerData, damageAttributes ) {
     roleLine.classList.remove( 'data-role' );
 
     const propertyImg = bannerCard.querySelector( '[ data-property ]' );
-    propertyImg.src = `./public/images/${ dmgAtt.element }.png`;
-    propertyImg.alt = dmgAtt.element;
-    propertyImg.title = propertyImg.alt;
+    if ( dmgAtt.element ) {
+      propertyImg.src = `./public/images/${ dmgAtt.element }.png`;
+      propertyImg.alt = dmgAtt.element;
+      propertyImg.title = propertyImg.alt;
+    }
     propertyImg.classList.remove( 'data-property' );
 
     const dmgTypeLine = bannerCard.querySelector( '[ data-dmg-type ]' );
@@ -138,7 +140,9 @@ async function createBannerCards( bannerData, damageAttributes ) {
     timeLeftLine.classList.remove( 'data-banner-time-left' );
 
     const breakpointsContainer = bannerCard.querySelector( '[ data-breakpoints ]' );
-    createBreakpoints( breakpointsContainer, bannerChar.breakpoints );
+    if ( bannerChar.breakpoints[ 0 ].length > 0 ) {
+      createBreakpoints( breakpointsContainer, bannerChar.breakpoints );
+    }
     breakpointsContainer.classList.remove( 'data-breakpoints' );
 
     const pullReason = bannerCard.querySelector( '[ data-pull-reason ]' );
