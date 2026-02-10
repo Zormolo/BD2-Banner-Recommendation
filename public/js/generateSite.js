@@ -8,37 +8,29 @@ function createTldr( dataArray ) {
   const container = document.querySelector( '[ data-tldr ]' );
   const arrow = String.fromCharCode( '10230' );
 
-  for( const [ i , [ costumeName, dupesArray ] ] of dataArray.entries() ) {
-    container.append( costumeName, ' [' );
+  for( let i = 0; i < dataArray.length; ++i ) {
+    const step = dataArray[ i ];
+    container.append( step.displayName );
+    const picture = document.createElement( 'picture' );
+    picture.classList.add( 'px-1' );
 
-    for( let f = 0; f < dupesArray.length; f++ ) {
-      const picture = document.createElement( 'picture' );
-      picture.classList.add( 'px-1' );
+    const dupe = step.costumeUpgrade;
 
-      const dupe = Number( dupesArray[ f ] );
+    const source = document.createElement( 'source' );
+    source.srcset = `./public/images/avif/${ dupe }.avif`;
+    source.type = 'image/avif';
 
-      const source = document.createElement( 'source' );
-      source.srcset = `./public/images/avif/${ dupe }.avif`;
-      source.type = 'image/avif';
+    const dupeImg = document.createElement( 'img' );
+    dupeImg.src = `./public/images/${ dupe }.png`;
+    const dupeAmount = dupe + 1;
+    dupeImg.alt = `${ dupeAmount }_dupes.png`;
+    dupeImg.title = `Needed Copies: ${ dupeAmount }`;
+    dupeImg.loading = 'lazy';
+    dupeImg.width = 30;
+    dupeImg.height = 25;
 
-      const dupeImg = document.createElement( 'img' );
-      dupeImg.src = `./public/images/${ dupe }.png`;
-      const dupeAmount = dupe + 1;
-      dupeImg.alt = `${ dupeAmount }_dupes.png`;
-      dupeImg.title = `Needed Copies: ${ dupeAmount }`;
-      dupeImg.loading = 'lazy';
-      dupeImg.width = 30;
-      dupeImg.height = 25;
-
-      picture.append( source, dupeImg );
-      container.appendChild( picture );
-
-      if ( dupesArray.length > 1 && f < dupesArray.length - 1  ) {
-        container.append( '|' );
-      }
-    }
-
-    container.append( '] ' );
+    picture.append( source, dupeImg );
+    container.appendChild( picture );
 
     if ( i < dataArray.length - 1 ) {
       container.append( arrow, ' ' );

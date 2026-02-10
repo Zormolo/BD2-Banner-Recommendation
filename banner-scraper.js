@@ -338,6 +338,7 @@ function addBannersToDataFile( bannerArray ) {
     const isDated = new Date( dataBanner.endDate ).getTime() - new Date().getTime() < 0;
     if ( isDated ) {
       console.log( makeStrColored( `Removing ${ dataBanner.costumeName } ${ dataBanner.charName } - Banner from data.json! Reason: Banner Ended`, COLORS.YELLOW ) );
+      dataJSON.tldr = dataJSON.tldr.filter( step => step.id !== dataBanner.imgName );
     }
     return !isDated;
   } )

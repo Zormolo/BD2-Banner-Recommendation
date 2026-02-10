@@ -1,83 +1,65 @@
 {
   "tldr": [
-    [
-      "Queen of Gluttis Granadair",
-      [
-        1
-      ]
-    ],
-    [
-      "Onsen Manager Liberta",
-      [
-        1
-      ]
-    ],
-    [
-      "Shrine Maiden of Purification Granadair",
-      [
-        1
-      ]
-    ],
-    [
-      "Queen of Gluttis Granadair",
-      [
-        5
-      ]
-    ],
-    [
-      "Onsen Manager Liberta",
-      [
-        5
-      ]
-    ],
-    [
-      "Shrine Maiden of Purification Granadair",
-      [
-        5
-      ]
-    ],
-    [
-      "Onsen Practitioner Ventana",
-      [
-        1
-      ]
-    ],
-    [
-      "Onsen Swordfighter Blade",
-      [
-        1
-      ]
-    ],
-    [
-      "Apostle Blade",
-      [
-        2
-      ]
-    ],
-    [
-      "Onsen Practitioner Ventana",
-      [
-        3
-      ]
-    ],
-    [
-      "Apostle Blade",
-      [
-        5
-      ]
-    ],
-    [
-      "Onsen Swordfighter Blade",
-      [
-        3
-      ]
-    ],
-    [
-      "Onsen Swordfighter Blade",
-      [
-        5
-      ]
-    ]
+    {
+      "id": "queen_of_gluttis",
+      "displayName": "Queen of Gluttis Granadair",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "onsen_manager",
+      "displayName": "Onsen Manager Liberta",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "shrine_maiden_of_purification",
+      "displayName": "Shrine Maiden of Purification Granadair",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "queen_of_gluttis",
+      "displayName": "Queen of Gluttis Granadair",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "onsen_manager",
+      "displayName": "Onsen Manager Liberta",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "shrine_maiden_of_purification",
+      "displayName": "Shrine Maiden of Purification Granadair",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "onsen_swordfighter",
+      "displayName": "Onsen Swordfighter Blade",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "apostle_blade",
+      "displayName": "Apostle Blade",
+      "costumeUpgrade": 2
+    },
+    {
+      "id": "onsen_swordfighter",
+      "displayName": "Onsen Swordfighter Blade",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "apostle_blade",
+      "displayName": "Apostle Blade",
+      "costumeUpgrade": 2
+    },
+    {
+      "id": "onsen_swordfighter",
+      "displayName": "Onsen Swordfighter Blade",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "onsen_swordfighter",
+      "displayName": "Onsen Swordfighter Blade",
+      "costumeUpgrade": 5
+    }
   ],
   "banner": [
     {
