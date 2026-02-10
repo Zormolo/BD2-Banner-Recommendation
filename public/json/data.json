@@ -16,6 +16,11 @@
       "costumeUpgrade": 1
     },
     {
+      "id": "magical_innovator",
+      "displayName": "Magical Innovator Diana",
+      "costumeUpgrade": 0
+    },    
+    {
       "id": "queen_of_gluttis",
       "displayName": "Queen of Gluttis Granadair",
       "costumeUpgrade": 5
@@ -31,6 +36,11 @@
       "costumeUpgrade": 5
     },
     {
+      "id": "maid_name_r",
+      "displayName": "Maid Name R Liatris",
+      "costumeUpgrade": 0
+    }, 
+    {
       "id": "onsen_swordfighter",
       "displayName": "Onsen Swordfighter Blade",
       "costumeUpgrade": 1
@@ -41,6 +51,11 @@
       "costumeUpgrade": 2
     },
     {
+      "id": "magical_innovator",
+      "displayName": "Magical Innovator Diana",
+      "costumeUpgrade": 5
+    },    
+    {
       "id": "onsen_swordfighter",
       "displayName": "Onsen Swordfighter Blade",
       "costumeUpgrade": 3
@@ -54,6 +69,21 @@
       "id": "onsen_swordfighter",
       "displayName": "Onsen Swordfighter Blade",
       "costumeUpgrade": 3
+    },
+    {
+      "id": "maid_name_r",
+      "displayName": "Maid Name R Liatris",
+      "costumeUpgrade": 4
+    },
+    {
+      "id": "maid_name_r",
+      "displayName": "Maid Name R Liatris",
+      "costumeUpgrade": 5
+    },  
+    {
+      "id": "apostle_blade",
+      "displayName": "Apostle Blade",
+      "costumeUpgrade": 5
     },
     {
       "id": "onsen_swordfighter",
@@ -215,7 +245,7 @@
           "Increased hits amount for counter (8 &rarr; 10)"
         ]
       ],
-      "pullReason": "<b>Depends (Optional)</b>. This is main Blade DPS costume and it has high ceiling, but is niche in PvE due to counter mechanic. This banner additionally loses priority due to buffers still being available during first week.<br><br><i>Make sure to recruit her from <b>pub</b> to get 10 tickets. </i>",
+      "pullReason": "<b>Depends (Optional)</b>. This is main Blade DPS costume and it has high ceiling, but is niche in PvE due to counter mechanic.<br><br><i>Make sure to recruit her from <b>pub</b> to get 10 tickets. </i>",
       "pros": [
         "Main Blade DPS Costume"
       ],
@@ -236,48 +266,63 @@
       "charName": "Diana",
       "dmgAtt": "wim",
       "costumeName": "Magical Innovator",
-      "role": "",
+      "role": "Buffer / Support / Summoner",
       "imgName": "magical_innovator",
       "startDate": "2026-02-11T04:30:00.000Z",
       "endDate": "2026-02-25T23:50:00.000Z",
       "breakpoints": [
-        []
+        [ "0", "As baseline for futher upgrades"]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>You should (Recommended)</b>. While this costume has own issues and just dilutes the Property Damage Increase, it still is a buffer and you basically lose nothing when using it.<br>+0 already gives 100% Property Damage buff (on max stacks) which is good enough if you're new player, higher dupes are important for mostly rankers and late-game players.",
+      "pros": [
+        "Decent buff with full stacks",
+        "Preemptive costume",
+        "Increases Diana's tankiness on the field",
+        "Moderately cheap summon that can be used as a meat shield for cheesing some fights (although niche)"
+      ],
+      "cons": [
+        "Slow to gain max buff (7 turns)",
+        "Summon must always activate the ability to keep the stacks",
+        "Summon has mediocre AoE"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Meta",
+        "fh": "Excellent / Meta",
+        "ln": "Not usable",
+        "tos": "Niche / Not usable",
+        "mw": "Should not be usable",
+        "gc": "Should not be usable",
+        "gen": "Bad / Extremely niche"
       }
     },
     {
       "charName": "Liatris",
       "dmgAtt": "fp",
       "costumeName": "Maid Name R",
-      "role": "",
+      "role": "DPS",
       "imgName": "maid_name_r",
       "startDate": "2026-02-19T00:00:00.000Z",
       "endDate": "2026-03-04T23:59:59.000Z",
       "breakpoints": [
-        []
+        [ "2", "Bigger increase of both base & conditional damage (400% &rarr; 475%; 600% &rarr; 675%) "],
+        [ "4", "Bigger increase of both base & conditional damage (475% &rarr; 550%; 725% &rarr; 800%) "]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Somewhat depends (Optional)</b>. This costume is a great DPS, especially in Fiend Hunter / Guild Raid, but after the DoT cap stacks increase she's moved towards the usage on the last turn only, making her more ranking costume.",
+      "pros": [
+        "3x3 AoE",
+        "Good damage output"
+      ],
+      "cons": [
+        "Relies on having DoT to shine"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Excellent / Meta",
+        "fh": "Excellent / Meta",
+        "ln": "Mid / Bad",
+        "tos": "Decent / Good",
+        "mw": "Not used",
+        "gc": "Not used",
+        "gen": "Decent" 
       }
     }
   ],
