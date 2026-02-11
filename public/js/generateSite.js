@@ -10,7 +10,10 @@ function createTldr( dataArray ) {
 
   for( let i = 0; i < dataArray.length; ++i ) {
     const step = dataArray[ i ];
-    container.append( step.displayName );
+    const stepContainer = document.createElement( 'div' );
+    stepContainer.classList.add( 'flex-grow-0', 'pe-2' );
+    stepContainer.setAttribute( 'data-tldr-step', step.id );
+    stepContainer.append( step.displayName );
     const picture = document.createElement( 'picture' );
     picture.classList.add( 'px-1' );
 
@@ -30,11 +33,13 @@ function createTldr( dataArray ) {
     dupeImg.height = 25;
 
     picture.append( source, dupeImg );
-    container.appendChild( picture );
+    stepContainer.appendChild( picture );
 
     if ( i < dataArray.length - 1 ) {
-      container.append( arrow, ' ' );
+      stepContainer.append( arrow, ' ' );
     }
+
+    container.append( stepContainer );
   }
   container.removeAttribute( 'data-tldr' );
 }
@@ -120,6 +125,7 @@ async function createBannerCards( bannerData, damageAttributes ) {
     const timeLeftLine = bannerCard.querySelector( '[ data-banner-time-left ]' );
     const [ days, hours, minutes ] = calcTimeLeftOnBanner( endDate );
     if ( days < 0 || hours < 0 || minutes < 0 ) {
+      removeTldrContainerElement( bannerChar.imgName );
       continue;
     }
     if ( checkBannerStarted( startDate ) ) {
@@ -223,6 +229,16 @@ function createTimeLeftString( [ days, hours, minutes ] ) {
   const minutesLeft = String( minutes ).padStart( 2, '0' );
 
   return `${ daysLeft } D : ${ hoursLeft } h : ${ minutesLeft } min`;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function removeTldrContainerElement( charId ) {
+  const result = document.querySelectorAll( `[ data-tldr-step=${ charId } ]` );
+  for ( const container of result ) {
+    container.remove();
+  }
 }
 
 
