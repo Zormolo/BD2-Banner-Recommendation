@@ -7,6 +7,16 @@
   padding-bottom: 0.5rem;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+section {
+  scroll-margin-top: 3rem;
+}
+
 .nav-link {
   color: var(--text-color)
 }
@@ -14,8 +24,22 @@
   color: var(--bs-secondary-color)
 }
 
+.navbar select {
+  cursor: pointer;
+}
+
+.navbar select:focus {
+  box-shadow: none;
+}
+
 @media (max-width: 768px) {
   .borderless {
     border-width: 0 !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar select {
+    max-width: 16rem;
   }
 }

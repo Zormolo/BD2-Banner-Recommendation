@@ -54,10 +54,21 @@ async function createBannerCards( bannerData, damageAttributes ) {
   /** @type { HTMLTemplateElement } */
   const template = document.getElementById( 'charBannerCard' );
 
+  /** @type { HTMLSelectElement } */
+  const shortcutContainer = document.querySelector( '[ data-shortcut-container ]' );
+  shortcutContainer.addEventListener( 'change', ( event ) => {
+    document.getElementById( event.target.value ).scrollIntoView( { behavior: "smooth", block: "start", inline: "nearest" } );
+  } );
+  shortcutContainer.removeAttribute( 'data-shortcut-container' );
+
   const modesArray = [ 'gr', 'fh', 'ln', 'tos', 'mw', 'gc', 'gen' ];
 
   for( const bannerChar of bannerData ) {
     const bannerCard = template.content.cloneNode( true );
+
+    const section = bannerCard.querySelector( '[ data-char-banner-card ]' );
+    section.setAttribute( 'id', bannerChar.imgName );
+    section.removeAttribute( 'data-char-banner-card' );
 
     //Tabs
     const basicTab = bannerCard.querySelector( '[ data-basic-tab ]' );
@@ -170,6 +181,11 @@ async function createBannerCards( bannerData, damageAttributes ) {
     }
 
     container.appendChild( bannerCard );
+
+    const shortcutOption = document.createElement( 'option' );
+    shortcutOption.textContent = `${ bannerChar.costumeName } ${ bannerChar.charName }`;
+    shortcutOption.value = bannerChar.imgName;
+    shortcutContainer.append( shortcutOption );
   }
 
   template.remove();
