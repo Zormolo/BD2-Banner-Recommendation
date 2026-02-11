@@ -40,6 +40,24 @@ section {
 
 @media (max-width: 576px) {
   .navbar select {
+    max-width: 16rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .navbar select {
+    max-width: 13rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .navbar select {
     max-width: 11rem;
+  }
+}
+
+@media (max-width: 405px) {
+  .navbar select {
+    max-width: 9rem;
   }
 }
