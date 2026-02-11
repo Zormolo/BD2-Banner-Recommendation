@@ -40,6 +40,6 @@ section {
 
 @media (max-width: 576px) {
   .navbar select {
-    max-width: 16rem;
+    max-width: 11rem;
   }
 }
