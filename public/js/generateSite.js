@@ -36,7 +36,10 @@ function createTldr( dataArray ) {
     stepContainer.appendChild( picture );
 
     if ( i < dataArray.length - 1 ) {
-      stepContainer.append( arrow, ' ' );
+      const arrowContainer = document.createElement( 'span' );
+      arrowContainer.classList.add( 'ps-2' );
+      arrowContainer.textContent = arrow;
+      stepContainer.append( arrowContainer );
     }
 
     container.append( stepContainer );

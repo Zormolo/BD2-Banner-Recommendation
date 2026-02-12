@@ -13,6 +13,10 @@ header {
   z-index: 100;
 }
 
+.arrowHide > div:last-child > span {
+  display: none;
+}
+
 section {
   scroll-margin-top: 3rem;
 }
