@@ -1,49 +1,14 @@
 {
   "tldr": [
     {
-      "id": "queen_of_gluttis",
-      "displayName": "Queen of Gluttis Granadair",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "onsen_manager",
-      "displayName": "Onsen Manager Liberta",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "shrine_maiden_of_purification",
-      "displayName": "Shrine Maiden of Purification Granadair",
-      "costumeUpgrade": 1
-    },
-    {
       "id": "magical_innovator",
       "displayName": "Magical Innovator Diana",
       "costumeUpgrade": 0
-    },    
-    {
-      "id": "queen_of_gluttis",
-      "displayName": "Queen of Gluttis Granadair",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "onsen_manager",
-      "displayName": "Onsen Manager Liberta",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "shrine_maiden_of_purification",
-      "displayName": "Shrine Maiden of Purification Granadair",
-      "costumeUpgrade": 5
     },
     {
       "id": "maid_name_r",
       "displayName": "Maid Name R Liatris",
       "costumeUpgrade": 0
-    }, 
-    {
-      "id": "onsen_swordfighter",
-      "displayName": "Onsen Swordfighter Blade",
-      "costumeUpgrade": 1
     },
     {
       "id": "apostle_blade",
@@ -54,21 +19,6 @@
       "id": "magical_innovator",
       "displayName": "Magical Innovator Diana",
       "costumeUpgrade": 5
-    },    
-    {
-      "id": "onsen_swordfighter",
-      "displayName": "Onsen Swordfighter Blade",
-      "costumeUpgrade": 3
-    },
-    {
-      "id": "apostle_blade",
-      "displayName": "Apostle Blade",
-      "costumeUpgrade": 2
-    },
-    {
-      "id": "onsen_swordfighter",
-      "displayName": "Onsen Swordfighter Blade",
-      "costumeUpgrade": 3
     },
     {
       "id": "maid_name_r",
@@ -79,158 +29,14 @@
       "id": "maid_name_r",
       "displayName": "Maid Name R Liatris",
       "costumeUpgrade": 5
-    },  
+    },
     {
       "id": "apostle_blade",
       "displayName": "Apostle Blade",
       "costumeUpgrade": 5
-    },
-    {
-      "id": "onsen_swordfighter",
-      "displayName": "Onsen Swordfighter Blade",
-      "costumeUpgrade": 5
     }
   ],
   "banner": [
-    {
-      "charName": "Granadair",
-      "dmgAtt": "wam",
-      "costumeName": "Shrine Maiden of Purification",
-      "role": "Buffer",
-      "imgName": "shrine_maiden_of_purification",
-      "startDate": "2026-01-15T04:30:00.000Z",
-      "endDate": "2026-02-11T23:59:59.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Absolutely (MUST)</b>. This costume is quite hard to utilize at its maximum, but sheer damage boost even without conditional increase worth a lot to not skip her. She offers same value of buff as Onsen Manager Liberta, but without chain requirenment, making her very powerful magic buffer in almost every mode. Aside of that, she can be used as a slightly weaker Beachside Angel Teresse, in case you don't have her.",
-      "pros": [
-        "Buffer / Support",
-        "Unique support mechanics",
-        "First full debuff cleanse costume"
-      ],
-      "cons": [
-        "Hard to trigger additional bonus DMG boost"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Meta",
-        "tos": "Mid",
-        "mw": "Mid / Niche, need testing ",
-        "gc": "Good?",
-        "gen": "Good / Niche"
-      }
-    },
-    {
-      "charName": "Granadair",
-      "dmgAtt": "wam",
-      "costumeName": "Queen of Gluttis",
-      "role": "Buffer / Support",
-      "imgName": "queen_of_gluttis",
-      "startDate": "2026-01-15T04:30:00.000Z",
-      "endDate": "2026-02-11T23:59:59.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Absolutely (MUST)</b>. She's an important Magic type buffer which is similar to Homunculus Lathel. She is new addition to general magic teams and thus should be pulled as much as possible.<br><br><i>Make sure to recruit her from <b>pub</b>, before getting +3 / +4</i>",
-      "pros": [
-        "Buffer / Support",
-        "Unique SP Battery",
-        "Suitable for General content (newbie-friendly)"
-      ],
-      "cons": [],
-      "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "Decent, although not used in top teams",
-        "tos": "Good / Meta for magic teams",
-        "mw": "Good?",
-        "gc": "Good?",
-        "gen": "Meta"
-      }
-    },
-    {
-      "charName": "Liberta",
-      "dmgAtt": "fp",
-      "costumeName": "Onsen Manager",
-      "role": "Buffer / Support",
-      "imgName": "onsen_manager",
-      "startDate": "2026-01-15T04:30:00.000Z",
-      "endDate": "2026-02-11T23:49:59.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Absolutely (MUST)</b>. This costume is rotational costume to Dark Saintess Liberta, providing bonus for high-chain teams. Necessary for Guild Raid, Fiend Hunter, Last Night.",
-      "pros": [
-        "Buffer",
-        "Essential for high-chain teams"
-      ],
-      "cons": [
-        "Not suitable for general content"
-      ],
-      "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "Meta",
-        "tos": "Niche",
-        "mw": "Bad",
-        "gc": "Bad",
-        "gen": "Niche / Bad"
-      }
-    },
-    {
-      "charName": "Blade",
-      "dmgAtt": "dp",
-      "costumeName": "Onsen Swordfighter",
-      "role": "DPS",
-      "imgName": "onsen_swordfighter",
-      "startDate": "2026-01-29T03:30:00.000Z",
-      "endDate": "2026-02-11T23:49:59.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ],
-        [
-          "3",
-          "Conditional skill DMG increase (70% &rarr; 90%)"
-        ],
-        [
-          "5",
-          "Conditional skill DMG increase (90% &rarr; 110%)"
-        ]
-      ],
-      "pullReason": "<b>Depends (Optional / Skip)</b>. This costume is pure DPS with slight synergy with Young Lady Costume, but requires way more than that to be good.",
-      "pros": [
-        "Fills / Finishes Blade rotation",
-        "Decent DMG output in proper teams",
-        "Synergy with Young Lady Blade"
-      ],
-      "cons": [
-        "Hard to utilize Conditional DMG to full extend",
-        "Loses priority due to supports in other banners",
-        "Weaker AoE compared to Young Lady Costume"
-      ],
-      "modes": {
-        "gr": "Decent / Good",
-        "fh": "Decent / Good",
-        "ln": "Mid / Bad",
-        "tos": "Niche / Bad",
-        "mw": "Bad / Niche ?",
-        "gc": "Mid / Niche ?",
-        "gen": "Mid / Niche"
-      }
-    },
     {
       "charName": "Blade",
       "dmgAtt": "dp",
@@ -271,7 +77,10 @@
       "startDate": "2026-02-11T04:30:00.000Z",
       "endDate": "2026-02-25T23:50:00.000Z",
       "breakpoints": [
-        [ "0", "As baseline for futher upgrades"]
+        [
+          "0",
+          "As baseline for futher upgrades"
+        ]
       ],
       "pullReason": "<b>You should (Recommended)</b>. While this costume has own issues and just dilutes the Property Damage Increase, it still is a buffer and you basically lose nothing when using it.<br>+0 already gives 100% Property Damage buff (on max stacks) which is good enough if you're new player, higher dupes are important for mostly rankers and late-game players.",
       "pros": [
@@ -304,8 +113,14 @@
       "startDate": "2026-02-19T00:00:00.000Z",
       "endDate": "2026-03-04T23:59:59.000Z",
       "breakpoints": [
-        [ "2", "Bigger increase of both base & conditional damage (400% &rarr; 475%; 600% &rarr; 675%) "],
-        [ "4", "Bigger increase of both base & conditional damage (475% &rarr; 550%; 725% &rarr; 800%) "]
+        [
+          "2",
+          "Bigger increase of both base & conditional damage (400% &rarr; 475%; 600% &rarr; 675%) "
+        ],
+        [
+          "4",
+          "Bigger increase of both base & conditional damage (475% &rarr; 550%; 725% &rarr; 800%) "
+        ]
       ],
       "pullReason": "<b>Somewhat depends (Optional)</b>. This costume is a great DPS, especially in Fiend Hunter / Guild Raid, but after the DoT cap stacks increase she's moved towards the usage on the last turn only, making her more ranking costume.",
       "pros": [
@@ -322,7 +137,7 @@
         "tos": "Decent / Good",
         "mw": "Not used",
         "gc": "Not used",
-        "gen": "Decent" 
+        "gen": "Decent"
       }
     }
   ],
