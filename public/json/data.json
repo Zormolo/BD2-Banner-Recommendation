@@ -6,14 +6,29 @@
       "costumeUpgrade": 0
     },
     {
+      "id": "retired_legend",
+      "displayName": "Retired Legend Olivier",
+      "costumeUpgrade": 1
+    },
+    {
       "id": "maid_name_r",
       "displayName": "Maid Name R Liatris",
       "costumeUpgrade": 0
     },
     {
+      "id": "retired_legend",
+      "displayName": "Retired Legend Olivier",
+      "costumeUpgrade": 2
+    },
+    {
       "id": "magical_innovator",
       "displayName": "Magical Innovator Diana",
       "costumeUpgrade": 5
+    },
+    {
+      "id": "retired_legend",
+      "displayName": "Retired Legend Olivier",
+      "costumeUpgrade": 4
     },
     {
       "id": "maid_name_r",
@@ -24,6 +39,21 @@
       "id": "maid_name_r",
       "displayName": "Maid Name R Liatris",
       "costumeUpgrade": 5
+    },
+    {
+      "id": "acting_archbishop",
+      "displayName": "Acting Archbishop Michaela",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "acting_archbishop",
+      "displayName": "Acting Archbishop Michaela",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "acting_archbishop",
+      "displayName": "Acting Archbishop Michaela",
+      "costumeUpgrade": 4
     }
   ],
   "banner": [
@@ -103,48 +133,85 @@
       "charName": "Olivier",
       "dmgAtt": "lm",
       "costumeName": "Retired Legend",
-      "role": "",
+      "role": "DPS, Support",
       "imgName": "retired_legend",
       "startDate": "2026-02-25T04:30:00.000Z",
       "endDate": "2026-03-18T23:59:59.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "2",
+          "Domain MATK Buff Increase (60% &rarr; 80%)"
+        ],
+        [
+          "4",
+          "Domain MATK Buff Increase (80% &rarr; 100%)"
+        ]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>You probably should (Recommended / Optional)</b>. Despite being fourth Olivier costume, this one is making her more well-rounded, allowing her to take support role even further. Domain is a great thing for self-buff or second team buff, although it would compete with usage of Eleaneer since two Domains cannot be deployed at the same time.",
+      "pros": [
+        "At very least, great self-buff costume",
+        "Decent Chain count",
+        "Allows Olivier to be a decent support (assuming having Faithful Wings costume)"
+      ],
+      "cons": [
+        "High SP to use in general contest as support",
+        "Conficting Domains mean competing in usage with Eleanner off-element",
+        "Somewhat weak AoE",
+        "No full up-time (for GR, for example)"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Very Good",
+        "fh": "Very Good / Meta",
+        "ln": "Has potential, but for now Mid",
+        "tos": "Mid / Niche",
+        "mw": "Niche / Bad",
+        "gc": "Good / Meta?",
+        "gen": "Mid / Niche"
       }
     },
     {
       "charName": "Michaela",
       "dmgAtt": "lm",
       "costumeName": "Acting Archbishop",
-      "role": "",
+      "role": "Self-buff",
       "imgName": "acting_archbishop",
       "startDate": "2026-03-05T00:00:00.000Z",
       "endDate": "2026-03-18T23:59:59.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "3",
+          "Crit DMG Buff Duration Increase (4 &rarr; 6 turns)"
+        ],
+        [
+          "4",
+          "Crit DMG Buff Increase (400% &rarr; 500%)"
+        ]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Rather no (Skip / Optional)</b>. While this is mostly self-buff costume, it is worthless without rest Michaela Costumes, especially Queen of Signatures one. It has great AoE but her damage ruins that benefit of hers.<br>You could invest if you build Michaela, but that's about it.<br><br> <i>Don't forget to recruit her in <b>pub (Random Appearance)</b> for free 10 tickets during her rerun.",
+      "pros": [
+        "Great Crit DMG self-buff"
+      ],
+      "cons": [
+        "Greatly reduces Michaela survivability due to gimmick",
+        "No DPS capabilities",
+        "Useless at her own"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Decent",
+        "fh": "Decent",
+        "ln": "Terrible",
+        "tos": "Very bad / Niche",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Bad"
       }
     }
   ],
