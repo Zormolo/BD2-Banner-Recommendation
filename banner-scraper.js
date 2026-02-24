@@ -264,6 +264,10 @@ function parseDateString( dateString, publishDate ) {
   startDate = checkYear( startDate, start, publishDate );
   endDate = checkYear( endDate, end, publishDate );
 
+  if ( startDate.getUTCHours() === 4 ) {
+    startDate = new Date( startDate.getTime() + 86400000 );
+  }
+
   return [ startDate.toISOString(), endDate.toISOString() ];
 }
 
