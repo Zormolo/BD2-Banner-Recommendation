@@ -11,11 +11,6 @@
       "costumeUpgrade": 0
     },
     {
-      "id": "apostle_blade",
-      "displayName": "Apostle Blade",
-      "costumeUpgrade": 2
-    },
-    {
       "id": "magical_innovator",
       "displayName": "Magical Innovator Diana",
       "costumeUpgrade": 5
@@ -29,45 +24,9 @@
       "id": "maid_name_r",
       "displayName": "Maid Name R Liatris",
       "costumeUpgrade": 5
-    },
-    {
-      "id": "apostle_blade",
-      "displayName": "Apostle Blade",
-      "costumeUpgrade": 5
     }
   ],
   "banner": [
-    {
-      "charName": "Blade",
-      "dmgAtt": "dp",
-      "costumeName": "Apostle",
-      "role": "DPS / Counter",
-      "imgName": "apostle_blade",
-      "startDate": "2026-02-05T00:00:00.000Z",
-      "endDate": "2026-02-18T23:59:59.000Z",
-      "breakpoints": [
-        [
-          "2",
-          "Increased hits amount for counter (8 &rarr; 10)"
-        ]
-      ],
-      "pullReason": "<b>Depends (Optional)</b>. This is main Blade DPS costume and it has high ceiling, but is niche in PvE due to counter mechanic.<br><br><i>Make sure to recruit her from <b>pub</b> to get 10 tickets. </i>",
-      "pros": [
-        "Main Blade DPS Costume"
-      ],
-      "cons": [
-        "Niche usage of Counter mechanic",
-        "Requires external investment due to her being a glass cannon unit"
-      ],
-      "modes": {
-        "gr": "Excellent / Good",
-        "fh": "Excellent / Good",
-        "ln": "Mid",
-        "tos": "Niche / Mid",
-        "gc": "Meta",
-        "gen": "Meta for Tower of Wrath, Niche / Mid for rest"
-      }
-    },
     {
       "charName": "Diana",
       "dmgAtt": "wim",
@@ -138,6 +97,54 @@
         "mw": "Not used",
         "gc": "Not used",
         "gen": "Decent"
+      }
+    },
+    {
+      "charName": "Olivier",
+      "dmgAtt": "lm",
+      "costumeName": "Retired Legend",
+      "role": "",
+      "imgName": "retired_legend",
+      "startDate": "2026-02-25T04:30:00.000Z",
+      "endDate": "2026-03-18T23:59:59.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Michaela",
+      "dmgAtt": "lm",
+      "costumeName": "Acting Archbishop",
+      "role": "",
+      "imgName": "acting_archbishop",
+      "startDate": "2026-03-05T00:00:00.000Z",
+      "endDate": "2026-03-18T23:59:59.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ],
