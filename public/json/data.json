@@ -16,6 +16,11 @@
       "costumeUpgrade": 3
     },
     {
+      "id": "shadowed_dream",
+      "displayName": "Shadowed Dream Sonya",
+      "costumeUpgrade": 1
+    },
+    {
       "id": "night_of_death",
       "displayName": "Night of Death Mamonir",
       "costumeUpgrade": 1
@@ -24,6 +29,11 @@
       "id": "bikini_agent",
       "displayName": "Bikini Agent Sylvia",
       "costumeUpgrade": 1
+    },
+    {
+      "id": "kind_ruthlessness",
+      "displayName": "Kind Ruthlessness Hikage",
+      "costumeUpgrade": 0
     },
     {
       "id": "b-rank_idol_helena",
@@ -31,9 +41,19 @@
       "costumeUpgrade": 5
     },
     {
+      "id": "shadowed_dream",
+      "displayName": "Shadowed Dream Sonya",
+      "costumeUpgrade": 2
+    },
+    {
       "id": "robin_hood",
       "displayName": "Robin Hood Zenith",
       "costumeUpgrade": 5
+    },
+    {
+      "id": "shadowed_dream",
+      "displayName": "Shadowed Dream Sonya",
+      "costumeUpgrade": 4
     },
     {
       "id": "night_of_death",
@@ -43,6 +63,16 @@
     {
       "id": "bikini_agent",
       "displayName": "Bikini Agent Sylvia",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "kind_ruthlessness",
+      "displayName": "Kind Ruthlessness Hikage",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "dancing_snowflake",
+      "displayName": "Dancing Snowflake Yumi",
       "costumeUpgrade": 5
     }
   ],
@@ -178,120 +208,190 @@
       "charName": "Hikage",
       "dmgAtt": "wip",
       "costumeName": "Kind Ruthlessness",
-      "role": "",
+      "role": "Chainer, DPS",
       "imgName": "kind_ruthlessness",
       "startDate": "2026-04-09T04:30:00.000Z",
       "endDate": "2026-05-06T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "4",
+          "-2 CD"
+        ]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Somewhat (Optional)</b>. Nowadays her main usage is in Last Night and very rarely — Fiend Hunter, but, realistically, she's been outperformed by Wilhelmina as chainer completely. Getting 1 or 2 copies is a good idea unless you're going to be really competitive.",
+      "pros": [
+        "High Chain count"
+      ],
+      "cons": [
+        "Rare usage outside of Last Night"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Decent",
+        "fh": "Decent",
+        "ln": "Meta",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Bad"
       }
     },
     {
       "charName": "Ikaruga",
       "dmgAtt": "fp",
       "costumeName": "Noble Flame",
-      "role": "",
+      "role": "DPS",
       "imgName": "noble_flame",
       "startDate": "2026-04-09T04:30:00.000Z",
       "endDate": "2026-05-06T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "2",
+          "Self-buff increase (60% &rarr; 80% ATK)"
+        ],
+        [
+          "4",
+          "Self-buff increase (80% &rarr; 100% ATK)"
+        ]
       ],
-      "pullReason": "",
+      "pullReason": "<b>No (Skip / Collection purposes)</b>. She's just bad. <b>That bad</b>. The only her theoretically possible usage is in Golden Colosseum, and even this is with a HUGE question mark.",
       "pros": [],
-      "cons": [],
+      "cons": [
+        "3 CD for 1-costume character without any future costumes",
+        "VERY fragile buff",
+        "Low damage multiplier"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Terrible",
+        "fh": "Terrible",
+        "ln": "Bad / Terrible",
+        "tos": "Bad",
+        "mw": "Terrible",
+        "gc": "Ok-ish???",
+        "gen": "Terrible"
       }
     },
     {
       "charName": "Yozakura",
       "dmgAtt": "wim",
       "costumeName": "Fist of Conviction",
-      "role": "",
+      "role": "DPS",
       "imgName": "fist_of_conviction",
       "startDate": "2026-04-09T04:30:00.000Z",
       "endDate": "2026-05-06T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "3",
+          "Augmentation increase (400% &rarr; 650%)"
+        ],
+        [
+          "5",
+          "Augmentation increase (650% &rarr; 900%)"
+        ]
       ],
-      "pullReason": "",
+      "pullReason": "<b>No (Skip / Collection purposes)</b>. Basic Attack Augmentation may seem good on paper until you realize it means no AoE coverage and mediocre damage output when casting the skill itself.",
       "pros": [],
-      "cons": [],
+      "cons": [
+        "No real usage pretty much anywhere"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Bad",
+        "fh": "Bad",
+        "ln": "Really bad / Terrible",
+        "tos": "Bad",
+        "mw": "Bad / Terrible",
+        "gc": "Bad / Terrible",
+        "gen": "Bad / Terrible"
       }
     },
     {
       "charName": "Yumi",
       "dmgAtt": "wam",
       "costumeName": "Dancing Snowflake",
-      "role": "",
+      "role": "DPS",
       "imgName": "dancing_snowflake",
       "startDate": "2026-04-09T04:30:00.000Z",
       "endDate": "2026-05-06T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "3",
+          "Frostbite Damage increase (10% &rarr; 15%)"
+        ],
+        [
+          "5",
+          "Frostbite Damage increase (15% &rarr; 20%)"
+        ]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Rather no (Optional / Skip / Collection purposes)</b>. Despite being \"not that bad\" of a costume, she's outperformed by almost every Water DPS and rarely sees any usage even in 3rd team in Fiend Hunter.",
+      "pros": [
+        "Theoretically high scailing"
+      ],
+      "cons": [
+        "Weak AOE",
+        "Rarely has any usage"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Decent / Good",
+        "fh": "Decent / Good",
+        "ln": "Bad",
+        "tos": "Niche / Bad",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Bad"
       }
     },
     {
       "charName": "Sonya",
       "dmgAtt": "dm",
       "costumeName": "Shadowed Dream",
-      "role": "",
+      "role": "Amplifier",
       "imgName": "shadowed_dream",
       "startDate": "2026-04-16T00:00:00.000Z",
       "endDate": "2026-04-29T23:59:59.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "2",
+          "Vulnerability increase"
+        ],
+        [
+          "4",
+          "Vulnerability increase"
+        ]
       ],
-      "pullReason": "",
-      "pros": [],
+      "pullReason": "<b>Yes (Recommended)</b>. She's great amplifier, being versatile with all elements, and even better for Darkness property. Her AoE is not the greatest, but her tiles align with her second costume, Little Pumpkin Girl, so it's not as terrible.",
+      "pros": [
+        "2 types of vulnerability",
+        "Decent damage as for non-main DPS costume",
+        "Decent-ish AOE"
+      ],
       "cons": [],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Meta",
+        "fh": "Meta",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "—",
+        "gc": "—",
+        "gen": "Decent"
       }
     }
   ],
