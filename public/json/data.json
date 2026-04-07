@@ -11,10 +11,20 @@
       "costumeUpgrade": 0
     },
     {
+      "id": "b-rank_idol_helena",
+      "displayName": "B-Rank Idol Helena",
+      "costumeUpgrade": 3
+    },
+    {
       "id": "robin_hood",
       "displayName": "Robin Hood Zenith",
       "costumeUpgrade": 3
     },
+    {
+      "id": "night_of_death",
+      "displayName": "Night of Death Mamonir",
+      "costumeUpgrade": 1
+    },    
     {
       "id": "shattered_dream",
       "displayName": "Shattered Dream Palette",
@@ -26,6 +36,16 @@
       "costumeUpgrade": 1
     },
     {
+      "id": "bikini_agent",
+      "displayName": "Bikini Agent Sylvia",
+      "costumeUpgrade": 1
+    },    
+    {
+      "id": "b-rank_idol_helena",
+      "displayName": "B-Rank Idol Helena",
+      "costumeUpgrade": 5
+    },    
+    {
       "id": "robin_hood",
       "displayName": "Robin Hood Zenith",
       "costumeUpgrade": 5
@@ -36,8 +56,18 @@
       "costumeUpgrade": 4
     },
     {
+      "id": "night_of_death",
+      "displayName": "Night of Death Mamonir",
+      "costumeUpgrade": 5
+    },    
+    {
       "id": "reclaimed_destiny_sacred",
       "displayName": "Reclaimed Destiny Sacred Justia",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "bikini_agent",
+      "displayName": "Bikini Agent Sylvia",
       "costumeUpgrade": 5
     },
     {
@@ -151,72 +181,87 @@
       "charName": "Helena",
       "dmgAtt": "lm",
       "costumeName": "B-Rank Idol",
-      "role": "",
+      "role": "Support",
       "imgName": "b-rank_idol_helena",
       "startDate": "2026-03-26T04:30:00.000Z",
       "endDate": "2026-04-08T23:50:00.000Z",
       "breakpoints": [
-        []
+        ["3", "-1 SP"]
       ],
-      "pullReason": "",
-      "pros": [],
+      "pullReason": "<b>Yes (Must).</b> Although she's not as OP as Liberta, she is still undeniably the core for almost every Magic team.<br><br>Don't forget that she is available in Recommended ★5 Costume Selective Tickets, where taking +1 Helena is recommended from the start.",
+      "pros": [
+        "Meta Support"
+      ],
       "cons": [],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Meta",
+        "fh": "Meta",
+        "ln": "Good / Meta",
+        "tos": "Good / Meta",
+        "mw": "Good?",
+        "gc": "Decent",
+        "gen": "Meta"
       }
     },
     {
       "charName": "Mamonir",
       "dmgAtt": "wam",
       "costumeName": "Night of Death",
-      "role": "",
+      "role": "Chainer, DPS",
       "imgName": "night_of_death",
       "startDate": "2026-03-26T04:30:00.000Z",
       "endDate": "2026-04-08T23:50:00.000Z",
       "breakpoints": [
-        []
+        ["1","-1 SP"]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Yes (Recommended)</b>. Despite being HP-based damage dealer, she got everything you could ask for: low cost, great AoE, high chain count and great damage. Second costume should be released soon as well, filling the missing rotation.<br><br>Keep in mind Mamonir will be accesible in <u><b>Pub (Random pool)</b></u>, so make sure to recruit her for 10 tickets as well as reducing tickets usage on the banner.",
+      "pros": [
+        "Great AoE",
+        "Great Continous Damage",
+        "Great SP Cost",
+        "Great self-buff compensating build specifics"
+      ],
+      "cons": [
+        "Need specific (HP) gear to work",
+        "Has a rotation gap"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Very Good / Meta",
+        "fh": "Very Good",
+        "ln": "Very Good / Meta",
+        "tos": "Very Good / Meta",
+        "mw": "Very Good?",
+        "gc": "Very Good?",
+        "gen": "Very Good"
       }
     },
     {
       "charName": "Sylvia",
       "dmgAtt": "wap",
       "costumeName": "Bikini Agent",
-      "role": "",
+      "role": "DPS",
       "imgName": "bikini_agent",
       "startDate": "2026-04-02T00:00:00.000Z",
       "endDate": "2026-04-15T23:59:59.000Z",
       "breakpoints": [
-        []
+        ["1","-1 SP"]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Kind of (Optional/Recommended).</b> This costume is Sylvia's nuke costume and is very important for her rotation due to buff extension. However Sylvia heavily relies on Sword Queen costume, which makes heavy Sylvia investment somewhat questionable.<br>Moreover, newly released Mamonir can take a spotlight soon in terms of main DPS of the team.",
+      "pros": [
+        "Important costume for Sylvia herself"
+    ],
+      "cons": [
+        "Requires high investment for other costumes",
+        "Possible priority shift due to Mamonir"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Meta",
+        "fh": "Meta",
+        "ln": "Mid",
+        "tos": "Good",
+        "mw": "—",
+        "gc": "—",
+        "gen": "Decent"
       }
     }
   ],
