@@ -260,12 +260,13 @@
           "Crit Rate increase (40% &rarr; 70%)"
         ]
       ],
-      "pullReason": "<b>Yes (Recommended).</b> This is not a buffer costume, but, nonetheless, it is quite good 1SP chainer. Additionally, she will provide decent cheap damage.<br>Her Crit Rate self-buff makes her an excellent choice in PvP.",
+      "pullReason": "<b>Yes (Recommended).</b> This is not a buffer costume, but, nonetheless, it is quite good 1SP chainer that fills Liberta downtime in rotation. Additionally, she will provide decent cheap damage.<br>Her Crit Rate self-buff makes her an excellent choice in PvP.",
       "pros": [
         "Cheap cost",
         "Decent chainer",
         "Decent AoE",
-        "HP scaling"
+        "HP scaling",
+        "Fills Liberta downtime"
       ],
       "cons": [
         "Not a buffer (compared to rest her costumes)"
@@ -302,7 +303,7 @@
           "DoT Vulnerability increase (200% &rarr; 250%)"
         ]
       ],
-      "pullReason": "<b>Yes (Recommended)</b>. This is very important costume for DoT teams since it provide enormous buff value. Although that means you need to have good DoT units as Liatris to play with this costume.",
+      "pullReason": "<b>Yes (Recommended)</b>. This is very important costume for DoT teams since it provide enormous buff value. Although that means you need to have good DoT unit such as Liatris to play with this costume.",
       "pros": [
         "DoT Support",
         "Strongest Rubia Costume"
