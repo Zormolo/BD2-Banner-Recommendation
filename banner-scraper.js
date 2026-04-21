@@ -140,7 +140,7 @@ function filterSections( sectionArray, regexFilter ) {
     sectionParts = section.split( '<br>' );
     let banner = null;
     for ( const sectionPart of sectionParts ) {
-      console.log(sectionPart)
+      // console.log(sectionPart)
       if ( sectionPart.match( regexFilter ) ) {
         banner = sectionPart.match( regexFilter );
       }

@@ -1,33 +1,8 @@
 {
   "tldr": [
     {
-      "id": "robin_hood",
-      "displayName": "Robin Hood Zenith",
-      "costumeUpgrade": 0
-    },
-    {
-      "id": "b-rank_idol_helena",
-      "displayName": "B-Rank Idol Helena",
-      "costumeUpgrade": 3
-    },
-    {
-      "id": "robin_hood",
-      "displayName": "Robin Hood Zenith",
-      "costumeUpgrade": 3
-    },
-    {
       "id": "shadowed_dream",
       "displayName": "Shadowed Dream Sonya",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "night_of_death",
-      "displayName": "Night of Death Mamonir",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "bikini_agent",
-      "displayName": "Bikini Agent Sylvia",
       "costumeUpgrade": 1
     },
     {
@@ -36,34 +11,14 @@
       "costumeUpgrade": 0
     },
     {
-      "id": "b-rank_idol_helena",
-      "displayName": "B-Rank Idol Helena",
-      "costumeUpgrade": 5
-    },
-    {
       "id": "shadowed_dream",
       "displayName": "Shadowed Dream Sonya",
       "costumeUpgrade": 2
     },
     {
-      "id": "robin_hood",
-      "displayName": "Robin Hood Zenith",
-      "costumeUpgrade": 5
-    },
-    {
       "id": "shadowed_dream",
       "displayName": "Shadowed Dream Sonya",
       "costumeUpgrade": 4
-    },
-    {
-      "id": "night_of_death",
-      "displayName": "Night of Death Mamonir",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "bikini_agent",
-      "displayName": "Bikini Agent Sylvia",
-      "costumeUpgrade": 5
     },
     {
       "id": "kind_ruthlessness",
@@ -77,133 +32,6 @@
     }
   ],
   "banner": [
-    {
-      "charName": "Zenith",
-      "dmgAtt": "wip",
-      "costumeName": "Robin Hood",
-      "role": "Chainer, Amplifier",
-      "imgName": "robin_hood",
-      "startDate": "2026-03-12T04:30:00.000Z",
-      "endDate": "2026-04-08T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Yes (Must)</b>. She is an important support for Fiend Hunter / Guild Raid. Her +3 dupe gives ability to use the costume for free (assuming Potential Liberation done), which is important in a lot of cases.",
-      "pros": [
-        "Single Target Chainer",
-        "Good Amplifier (Universal Vulnerability)",
-        "Imporant for a lot of modes"
-      ],
-      "cons": [],
-      "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "Good, inferior to other chainers",
-        "tos": "Niche but can be good",
-        "mw": "Decent",
-        "gc": "Mid?",
-        "gen": "Niche / Good"
-      }
-    },
-    {
-      "charName": "Helena",
-      "dmgAtt": "lm",
-      "costumeName": "B-Rank Idol",
-      "role": "Support",
-      "imgName": "b-rank_idol_helena",
-      "startDate": "2026-03-26T04:30:00.000Z",
-      "endDate": "2026-04-08T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Yes (Must).</b> Although she's not as OP as Liberta, she is still undeniably the core for almost every Magic team.<br><br>Don't forget that she is available in Recommended ★5 Costume Selective Tickets, where taking +1 Helena is recommended from the start.",
-      "pros": [
-        "Meta Support"
-      ],
-      "cons": [],
-      "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "Good / Meta",
-        "tos": "Good / Meta",
-        "mw": "Good?",
-        "gc": "Decent",
-        "gen": "Meta"
-      }
-    },
-    {
-      "charName": "Mamonir",
-      "dmgAtt": "wam",
-      "costumeName": "Night of Death",
-      "role": "Chainer, DPS",
-      "imgName": "night_of_death",
-      "startDate": "2026-03-26T04:30:00.000Z",
-      "endDate": "2026-04-08T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Yes (Recommended)</b>. Despite being HP-based damage dealer, she got everything you could ask for: low cost, great AoE, high chain count and great damage. Second costume should be released soon as well, filling the missing rotation.<br><br>Keep in mind Mamonir will be accesible in <u><b>Pub (Random pool)</b></u>, so make sure to recruit her for 10 tickets as well as reducing tickets usage on the banner.",
-      "pros": [
-        "Great AoE",
-        "Great Continous Damage",
-        "Great SP Cost",
-        "Great self-buff compensating build specifics"
-      ],
-      "cons": [
-        "Need specific (HP) gear to work",
-        "Has a rotation gap"
-      ],
-      "modes": {
-        "gr": "Very Good / Meta",
-        "fh": "Very Good",
-        "ln": "Very Good / Meta",
-        "tos": "Very Good / Meta",
-        "mw": "Very Good?",
-        "gc": "Very Good?",
-        "gen": "Very Good"
-      }
-    },
-    {
-      "charName": "Sylvia",
-      "dmgAtt": "wap",
-      "costumeName": "Bikini Agent",
-      "role": "DPS",
-      "imgName": "bikini_agent",
-      "startDate": "2026-04-02T00:00:00.000Z",
-      "endDate": "2026-04-15T23:59:59.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Kind of (Optional/Recommended).</b> This costume is Sylvia's nuke costume and is very important for her rotation due to buff extension. However Sylvia heavily relies on Sword Queen costume, which makes heavy Sylvia investment somewhat questionable.<br>Moreover, newly released Mamonir can take a spotlight soon in terms of main DPS of the team.",
-      "pros": [
-        "Important costume for Sylvia herself"
-      ],
-      "cons": [
-        "Requires high investment for other costumes",
-        "Possible priority shift due to Mamonir"
-      ],
-      "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "Mid",
-        "tos": "Good",
-        "mw": "—",
-        "gc": "—",
-        "gen": "Decent"
-      }
-    },
     {
       "charName": "Hikage",
       "dmgAtt": "wip",
@@ -392,6 +220,54 @@
         "mw": "—",
         "gc": "—",
         "gen": "Decent"
+      }
+    },
+        {
+      "charName": "Liberta",
+      "dmgAtt": "fp",
+      "costumeName": "Miracle Rose",
+      "role": "",
+      "imgName": "miracle_rose",
+      "startDate": "2026-04-23T04:30:00.000Z",
+      "endDate": "2026-05-06T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Rubia",
+      "dmgAtt": "fp",
+      "costumeName": "Maid Bikini",
+      "role": "",
+      "imgName": "maid_bikini",
+      "startDate": "2026-04-31T00:00:00.000Z",
+      "endDate": "2026-05-13T23:59:59.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ],
