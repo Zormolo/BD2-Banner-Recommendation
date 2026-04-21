@@ -6,6 +6,16 @@
       "costumeUpgrade": 1
     },
     {
+      "id": "maid_bikini",
+      "displayName": "Maid Bikini Rubia",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "miracle_rose",
+      "displayName": "Miracle Rose Liberta",
+      "costumeUpgrade": 1
+    },
+    {
       "id": "kind_ruthlessness",
       "displayName": "Kind Ruthlessness Hikage",
       "costumeUpgrade": 0
@@ -19,6 +29,16 @@
       "id": "shadowed_dream",
       "displayName": "Shadowed Dream Sonya",
       "costumeUpgrade": 4
+    },
+    {
+      "id": "maid_bikini",
+      "displayName": "Maid Bikini Rubia",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "maid_bikini",
+      "displayName": "Maid Bikini Rubia",
+      "costumeUpgrade": 5
     },
     {
       "id": "kind_ruthlessness",
@@ -222,52 +242,83 @@
         "gen": "Decent"
       }
     },
-        {
+    {
       "charName": "Liberta",
       "dmgAtt": "fp",
       "costumeName": "Miracle Rose",
-      "role": "",
+      "role": "Chainer, Sub DPS",
       "imgName": "miracle_rose",
       "startDate": "2026-04-23T04:30:00.000Z",
       "endDate": "2026-05-06T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "3",
+          "Crit Rate increase (40% &rarr; 70%)"
+        ]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Yes (Recommended).</b> This is not a buffer costume, but, nonetheless, it is quite good 1SP chainer that fills Liberta downtime in rotation. Additionally, she will provide decent cheap damage.<br>Her Crit Rate self-buff makes her an excellent choice in PvP.",
+      "pros": [
+        "Cheap cost",
+        "Decent chainer",
+        "Decent AoE",
+        "HP scaling",
+        "Fills Liberta downtime"
+      ],
+      "cons": [
+        "Not a buffer (compared to rest her costumes)"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Decent",
+        "fh": "Decent",
+        "ln": "Mid / Decent",
+        "tos": "Decent",
+        "mw": "Good / Meta",
+        "gc": "Good / Meta",
+        "gen": "Decent"
       }
     },
     {
       "charName": "Rubia",
       "dmgAtt": "fp",
       "costumeName": "Maid Bikini",
-      "role": "",
+      "role": "Support, DPS",
       "imgName": "maid_bikini",
       "startDate": "2026-04-31T00:00:00.000Z",
       "endDate": "2026-05-13T23:59:59.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "3",
+          "DoT Vulnerability increase (150% &rarr; 200%)"
+        ],
+        [
+          "5",
+          "DoT Vulnerability increase (200% &rarr; 250%)"
+        ]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Yes (Recommended)</b>. This is very important costume for DoT teams since it provide enormous buff value. Although that means you need to have good DoT unit such as Liatris to play with this costume.",
+      "pros": [
+        "DoT Support",
+        "Strongest Rubia Costume"
+      ],
+      "cons": [
+        "Need DoT units investment to utilize"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Bad",
+        "tos": "Niche / Bad",
+        "mw": "Bad?",
+        "gc": "Bad?",
+        "gen": "Niche"
       }
     }
   ],
