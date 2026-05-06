@@ -1,11 +1,6 @@
 {
   "tldr": [
     {
-      "id": "shadowed_dream",
-      "displayName": "Shadowed Dream Sonya",
-      "costumeUpgrade": 1
-    },
-    {
       "id": "maid_bikini",
       "displayName": "Maid Bikini Rubia",
       "costumeUpgrade": 1
@@ -19,16 +14,6 @@
       "id": "kind_ruthlessness",
       "displayName": "Kind Ruthlessness Hikage",
       "costumeUpgrade": 0
-    },
-    {
-      "id": "shadowed_dream",
-      "displayName": "Shadowed Dream Sonya",
-      "costumeUpgrade": 2
-    },
-    {
-      "id": "shadowed_dream",
-      "displayName": "Shadowed Dream Sonya",
-      "costumeUpgrade": 4
     },
     {
       "id": "maid_bikini",
@@ -204,45 +189,6 @@
       }
     },
     {
-      "charName": "Sonya",
-      "dmgAtt": "dm",
-      "costumeName": "Shadowed Dream",
-      "role": "Amplifier",
-      "imgName": "shadowed_dream",
-      "startDate": "2026-04-16T00:00:00.000Z",
-      "endDate": "2026-04-29T23:59:59.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ],
-        [
-          "2",
-          "Vulnerability increase"
-        ],
-        [
-          "4",
-          "Vulnerability increase"
-        ]
-      ],
-      "pullReason": "<b>Yes (Recommended)</b>. She's great amplifier, being versatile with all elements, and even better for Darkness property. Her AoE is not the greatest, but her tiles align with her second costume, Little Pumpkin Girl, so it's not as terrible.",
-      "pros": [
-        "2 types of vulnerability",
-        "Decent damage as for non-main DPS costume",
-        "Decent-ish AOE"
-      ],
-      "cons": [],
-      "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "Bad",
-        "tos": "Niche",
-        "mw": "—",
-        "gc": "—",
-        "gen": "Decent"
-      }
-    },
-    {
       "charName": "Liberta",
       "dmgAtt": "fp",
       "costumeName": "Miracle Rose",
@@ -319,6 +265,54 @@
         "mw": "Bad?",
         "gc": "Bad?",
         "gen": "Niche"
+      }
+    },
+    {
+      "charName": "Palette",
+      "dmgAtt": "dm",
+      "costumeName": "Miracle Violet",
+      "role": "",
+      "imgName": "miracle_violet",
+      "startDate": "2026-05-07T04:30:00.000Z",
+      "endDate": "2026-05-20T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Venaka",
+      "dmgAtt": "wim",
+      "costumeName": "DJ",
+      "role": "",
+      "imgName": "dj",
+      "startDate": "2026-05-14T00:00:00.000Z",
+      "endDate": "2026-05-27T23:59:59.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ],
