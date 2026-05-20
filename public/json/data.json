@@ -1,6 +1,16 @@
 {
   "tldr": [
     {
+      "id": "miracle_marine",
+      "displayName": "Miracle Marine Mamonir",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "beach_vacation",
+      "displayName": "Beach Vacantion Morpeah",
+      "costumeUpgrade": 0
+    },
+    {
       "id": "miracle_violet",
       "displayName": "Magical Violet Palette",
       "costumeUpgrade": 1
@@ -9,6 +19,16 @@
       "id": "dj",
       "displayName": "DJ Venaka",
       "costumeUpgrade": 1
+    },
+    {
+      "id": "miracle_marine",
+      "displayName": "Miracle Marine Mamonir",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "beach_vacation",
+      "displayName": "Beach Vacantion Morpeah",
+      "costumeUpgrade": 5
     },
     {
       "id": "miracle_violet",
@@ -108,48 +128,65 @@
       "charName": "Mamonir",
       "dmgAtt": "wam",
       "costumeName": "Miracle Marine",
-      "role": "",
+      "role": "Amplifier",
       "imgName": "miracle_marine",
       "startDate": "2026-05-21T04:30:00.000Z",
       "endDate": "2026-06-03T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>See notes further</b>. This Costume seems to be quite niche, however, she has tremendous raw values.<br><br>If you invested in Mamonir beforehand, she is most likely <b>Recommended</b>.<br>If you did not invest in Mamonir, she is more like <b>Optional</b>.<br><br>Mamonir was already used as Support even outside Water seasons, and this Costume will probably force it down even more. Therefore +1 can be a compromise to maintain her viability without heavily investing before Anniversary.",
+      "pros": [
+        "Tremendous Vulnerability amount",
+        "Filling the gap for rotation",
+        "Amplifier"
+      ],
+      "cons": [
+        "Unconvenient use tile-wise"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Meta",
+        "fh": "Meta?",
+        "ln": "Not playable",
+        "tos": "Bad",
+        "mw": "Bad?",
+        "gc": "Bad",
+        "gen": "Bad?"
       }
     },
     {
       "charName": "Morpeah",
       "dmgAtt": "wam",
       "costumeName": "Beach Vacation",
-      "role": "",
+      "role": "DPS",
       "imgName": "beach_vacation",
       "startDate": "2026-05-28T00:00:00.000Z",
       "endDate": "2026-06-10T23:59:59.000Z",
       "breakpoints": [
-        []
+        [
+          "0",
+          "As baseline for futher upgrades"
+        ]
       ],
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullReason": "<b>Ideally, yes, but... (Recommended / Optional)</b>. Getting at least +0 is a great, since this the best Water Mage DPS at the moment.<br>However, her output heavily scales with copies, and overcommitting to the banner can bite you during the Anniversary.",
+      "pros": [
+        "Best Water Magic DPS",
+        "Versatile Costume"
+      ],
+      "cons": [
+        "Heavily copies-dependent for damage scale"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Meta",
+        "fh": "Meta",
+        "ln": "Not playable",
+        "tos": "Good (Staller + DPS)",
+        "mw": "Mid / Bad",
+        "gc": "Not used",
+        "gen": "Mid / Niche"
       }
     }
   ],
