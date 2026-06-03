@@ -11,16 +11,6 @@
       "costumeUpgrade": 0
     },
     {
-      "id": "miracle_violet",
-      "displayName": "Magical Violet Palette",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "dj",
-      "displayName": "DJ Venaka",
-      "costumeUpgrade": 1
-    },
-    {
       "id": "miracle_marine",
       "displayName": "Miracle Marine Mamonir",
       "costumeUpgrade": 5
@@ -29,101 +19,9 @@
       "id": "beach_vacation",
       "displayName": "Beach Vacantion Morpeah",
       "costumeUpgrade": 5
-    },
-    {
-      "id": "miracle_violet",
-      "displayName": "Magical Violet Palette",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "dj",
-      "displayName": "DJ Venaka",
-      "costumeUpgrade": 5
     }
   ],
   "banner": [
-    {
-      "charName": "Palette",
-      "dmgAtt": "dm",
-      "costumeName": "Miracle Violet",
-      "role": "Chainer, DPS",
-      "imgName": "miracle_violet",
-      "startDate": "2026-05-07T04:30:00.000Z",
-      "endDate": "2026-05-20T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Rather yes than no (Recommended / Optional)</b>. It is the costume that pairs very well with existing Darkness Magic team, however her output damage heavily depends on the very same team she's helping. Necessary for Palette rotation overall and offers fair amount of hits / chains.",
-      "pros": [
-        [
-          "Covers missing Palette rotation"
-        ],
-        [
-          "Good Damage if condition is triggered"
-        ],
-        [
-          "Decent Chain / Hit count"
-        ],
-        [
-          "Strenghtening own position as Sonya support"
-        ]
-      ],
-      "cons": [
-        [
-          "Tough condition to have impact outside of speficic teams"
-        ]
-      ],
-      "modes": {
-        "gr": "Good / Niche Meta",
-        "fh": "Good / Niche Meta",
-        "ln": "Decent",
-        "tos": "Mid",
-        "mw": "Niche / Bad",
-        "gc": "Mid?",
-        "gen": "Mid / Niche"
-      }
-    },
-    {
-      "charName": "Venaka",
-      "dmgAtt": "wim",
-      "costumeName": "DJ",
-      "role": "DPS, Shredder",
-      "imgName": "dj",
-      "startDate": "2026-05-14T00:00:00.000Z",
-      "endDate": "2026-05-27T23:59:59.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullReason": "<b>Not really (Optional / Skip)</b>. Venaka alone is decent DPS, but she's completely blasted out of the competition by Nebris and Tyr, who are the powerhouses for Wind damage overall.<br><br>That being said, she's fair PvP and PvE costume, offering MRES reduction and decent damage. New Burst mechanic will allow her to have 1CD, which may or may not be impactful further on.",
-      "pros": [
-        [
-          "Decent damage"
-        ],
-        [
-          "MRES Shredder"
-        ]
-      ],
-      "cons": [
-        [
-          "Outdamaged by Physical counterparts such as Nebris / Tyr"
-        ]
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Mid",
-        "tos": "Decent / Good",
-        "mw": "Very Good",
-        "gc": "Mid / Niche",
-        "gen": "Good"
-      }
-    },
     {
       "charName": "Mamonir",
       "dmgAtt": "wam",
@@ -187,6 +85,150 @@
         "mw": "Mid / Bad",
         "gc": "Not used",
         "gen": "Mid / Niche"
+      }
+    },
+    {
+      "charName": "Luvencia",
+      "dmgAtt": "dp",
+      "costumeName": "Ocean Vanguard",
+      "role": "",
+      "imgName": "ocean_vanguard",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Nekyndalia",
+      "dmgAtt": "wim",
+      "costumeName": "Deadeye",
+      "role": "",
+      "imgName": "deadeye",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Scheherazade",
+      "dmgAtt": "wam",
+      "costumeName": "Pool Party",
+      "role": "",
+      "imgName": "pool_party_s",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Justia",
+      "dmgAtt": "lp",
+      "costumeName": "Pool Party",
+      "role": "",
+      "imgName": "pool_party_j",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Darian",
+      "dmgAtt": "wap",
+      "costumeName": "Prophetie Dream",
+      "role": "",
+      "imgName": "prophetie_dream",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Michaela",
+      "dmgAtt": "lm",
+      "costumeName": "Beachside Justice",
+      "role": "",
+      "imgName": "beachside_justice",
+      "startDate": "2026-06-04T04:30:00.000Z",
+      "endDate": "2026-07-01T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ],
