@@ -343,10 +343,12 @@ function updateBannerTimeLeft() {
 async function init() {
   const res = await fetch( './public/json/data.json' );
   const jsonData = await res.json();
+  const res2 = await fetch( './public/json/utils.json' );
+  const utilsJson = await res2.json();
 
   createTldr( jsonData[ 'tldr' ] );
 
-  createBannerCards( jsonData[ 'banner' ], jsonData[ 'damageAttributes' ] );
+  createBannerCards( jsonData[ 'banner' ], utilsJson[ 'damageAttributes' ] );
 
   initTimeLeftInterval();
 }

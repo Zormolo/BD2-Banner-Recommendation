@@ -17,6 +17,7 @@
   <meta name="googlebot" content="index, follow">
 
   <link rel="preload" href="./public/json/data.json" crossorigin="anonymous" as="fetch">
+  <link rel="preload" href="./public/json/utils.json" crossorigin="anonymous" as="fetch">
   <link rel="preload" href="./public/js/generateSite.js" crossorigin="anonymous" as="script">
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" as="style">
   <link rel="preload" href="./public/css/custom.css" crossorigin="anonymous" as="style">
@@ -31,7 +32,10 @@
     <nav class="navbar bg-body-secondary">
       <div class="container-fluid">
 
-        <div class="pe-3"><b>Banner Recommendation</b></div>
+        <div class="d-flex flex-row align-items-center">
+          <div class="pe-3"><b>Banner Recommendation</b></div>
+          <div class="d-none"> <a class="btn btn-outline-secondary" href="/archive.html">Archive</a></div>
+        </div>
 
         <ul class="navbar-nav flex-row gap-3">
           <li class="nav-item">
@@ -96,7 +100,7 @@
                 <div class="row pt-2">
                   <div class="col">
                     <div class="container-fluid">
-                      <ul class="nav nav-underline" role="tablist">
+                      <ul class="nav nav-pills gap-1" role="tablist">
                         <li class="nav-item">
                           <button class="nav-link active" data-basic-tab data-bs-toggle="tab" data-bs-target="#basic" type="button" role="tab">Basic Info</button>
                         </li>

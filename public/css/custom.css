@@ -21,11 +21,18 @@ section {
   scroll-margin-top: 3rem;
 }
 
-.nav-link {
-  color: var(--text-color)
+.nav-pills .nav-link {
+  color: var(--text-color);
+  border: 1px solid var(--bs-gray);
 }
+
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:hover {
+  background: var(--bs-dark-bg-subtle);
+  cursor: default;
+}
+
 .nav-link:hover {
-  color: var(--bs-secondary-color)
+  background-color: var(--bs-dark);
 }
 
 .navbar select {

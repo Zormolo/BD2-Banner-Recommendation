@@ -379,47 +379,5 @@
         "gen": "Not usable"
       }
     }
-  ],
-  "damageAttributes": {
-    "fp": {
-      "element": "fire",
-      "dmgType": "Physical"
-    },
-    "fm": {
-      "element": "fire",
-      "dmgType": "Magic"
-    },
-    "wap": {
-      "element": "water",
-      "dmgType": "Physical"
-    },
-    "wam": {
-      "element": "water",
-      "dmgType": "Magic"
-    },
-    "wip": {
-      "element": "wind",
-      "dmgType": "Physical"
-    },
-    "wim": {
-      "element": "wind",
-      "dmgType": "Magic"
-    },
-    "lp": {
-      "element": "light",
-      "dmgType": "Physical"
-    },
-    "lm": {
-      "element": "light",
-      "dmgType": "Magic"
-    },
-    "dp": {
-      "element": "dark",
-      "dmgType": "Physical"
-    },
-    "dm": {
-      "element": "dark",
-      "dmgType": "Magic"
-    }
-  }
+  ]
 }
