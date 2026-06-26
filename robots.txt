@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://zormolo.github.io/BD2-Banner-Recommendation/sitemap.xml
