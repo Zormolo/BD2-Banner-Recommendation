@@ -454,9 +454,9 @@
         ]
       ],
       "pullPriority": "r",
-      "pullReason": "Her kit isn't bad, but her extremely low base stats suggest that she will not perform as good compared to rest Fire DPS. Overall, she looks like niche investement requiring Burst 2 for quicker scaling.",
+      "pullReason": "Her kit isn't bad, but her extremely low base stats suggest that she will not perform as good compared to the rest of other Fire DPSes. Overall, she looks like a niche investement requiring Burst 2 for a quicker scaling.",
       "pros": [
-        "Big self buff",
+        "Big Self-Buff",
         "Good 3x3 AoE"
       ],
       "cons": [
@@ -495,7 +495,7 @@
         ]
       ],
       "pullPriority": "sr",
-      "pullReason": "Despite not giving you much damage output, Laid-Back Lifeguard Nebris is a good self-buff costume, filling in rotation as well as providing long ATK buff, as long as you activate it properly.",
+      "pullReason": "Despite not giving you much damage output, Laid-back Lifeguard Nebris is a good self-buff costume, filling in the rotation as well as providing a long ATK-Buff. If you use this costume properly.",
       "pros": [
         "Self-Buff Costume for one of the best Physical DPS"
       ],
@@ -526,7 +526,7 @@
       "breakpoints": [
         [
           "2",
-          "+1 SP Restored"
+          "+1 SP additional gained per tanked hit"
         ],
         [
           "3",
@@ -534,7 +534,7 @@
         ]
       ],
       "pullPriority": "sr",
-      "pullReason": "Idol Seir is a good SP battery, although is used rarely nowadays. Nonetheless, whenever you have Seir in a team, you will almost always use the Idol costume to generate a lot of SP, which is becoming much and much more valuable since Burst introduction.",
+      "pullReason": "Idol Seir is a good SP battery, although it is used rarely nowadays. Nonetheless, whenever you have Seir in a team, you will almost always use the Idol costume to generate a lot of SP, which is becoming more valuable after the Burst-System introduction.",
       "pros": [
         "SP Battery",
         "Rotational Seir Costume"
