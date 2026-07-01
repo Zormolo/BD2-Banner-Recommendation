@@ -16,6 +16,56 @@
       "costumeUpgrade": 5
     },
     {
+      "id": "b-rank_idol_seir",
+      "displayName": "B-Rank Idol Seir",
+      "costumeUpgrade": 2
+    },
+    {
+      "id": "laid-back_lifeguard",
+      "displayName": "Laid-Back Lifeguard Nebris",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "b-rank_idol_seir",
+      "displayName": "B-Rank Idol Seir",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "laid-back_lifeguard",
+      "displayName": "Laid-Back Lifeguard Nebris",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "naive_lady",
+      "displayName": "Naive Lady Elise",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "naive_lady",
+      "displayName": "Naive Lady Elise",
+      "costumeUpgrade": 2
+    },
+    {
+      "id": "naive_lady",
+      "displayName": "Naive Lady Elise",
+      "costumeUpgrade": 4
+    },
+    {
+      "id": "laid-back_lifeguard",
+      "displayName": "Laid-Back Lifeguard Nebris",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "naive_lady",
+      "displayName": "Naive Lady Elise",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "b-rank_idol_seir",
+      "displayName": "B-Rank Idol Seir",
+      "costumeUpgrade": 5
+    },
+    {
       "id": "ocean_vanguard",
       "displayName": "Ocean Vanguard Luvencia",
       "costumeUpgrade": 1
@@ -140,11 +190,11 @@
         "Limited Costume"
       ],
       "modes": {
-        "gr": "Rarely playable",
+        "gr": "Niche",
         "fh": "Meta",
-        "ln": "Not playable",
-        "tos": "Team-dependent",
-        "mw": "Not played",
+        "ln": "Bad",
+        "tos": "Good",
+        "mw": "Good",
         "gc": "Meta",
         "gen": "Meta"
       }
@@ -209,10 +259,10 @@
         "Fixed Dmg is Justia Main DMG Source"
       ],
       "modes": {
-        "gr": "Unusable",
-        "fh": "Unusable",
-        "ln": "Unusable",
-        "tos": "Mid",
+        "gr": "Bad",
+        "fh": "Bad",
+        "ln": "Bad",
+        "tos": "Niche",
         "mw": "Good",
         "gc": "Good",
         "gen": "Bad"
@@ -256,7 +306,7 @@
       "modes": {
         "gr": "Meta",
         "fh": "Meta",
-        "ln": "Decent",
+        "ln": "Good",
         "tos": "Good",
         "mw": "Bad",
         "gc": "Bad",
@@ -327,8 +377,8 @@
         "Low DMG for PVE use"
       ],
       "modes": {
-        "gr": "Unusable",
-        "fh": "Unusable",
+        "gr": "Bad",
+        "fh": "Bad",
         "ln": "Bad",
         "tos": "Bad",
         "mw": "Meta",
@@ -371,86 +421,135 @@
       "modes": {
         "gr": "Good",
         "fh": "Good",
-        "ln": "Not usable",
-        "tos": "Not usable / Very Niche",
-        "mw": "Not usable / Very Niche",
-        "gc": "Not usable / Very Niche",
-        "gen": "Not usable"
+        "ln": "Bad",
+        "tos": "Bad",
+        "mw": "Niche",
+        "gc": "Bad",
+        "gen": "Bad"
       }
     },
     {
       "charName": "Elise",
       "dmgAtt": "fp",
       "costumeName": "Naive Lady",
-      "roles": [],
+      "roles": [
+        "Self-Buffer",
+        "DPS"
+      ],
       "imgName": "naive_lady",
       "startDate": "2026-07-02T04:30:00.000Z",
       "endDate": "2026-07-15T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "2",
+          "Augmentation Increase [ 4% &rarr; 6% ]"
+        ],
+        [
+          "4",
+          "Augmentation Increase [ 6% &rarr; 8% ]"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "r",
+      "pullReason": "Her kit isn't bad, but her extremely low base stats suggest that she will not perform as good compared to rest Fire DPS. Overall, she looks like niche investement requiring Burst 2 for quicker scaling.",
+      "pros": [
+        "Big self buff",
+        "Good 3x3 AoE"
+      ],
+      "cons": [
+        "Not ideal AoE coverage with rest costumes",
+        "Extremely low base ATK"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Niche",
+        "fh": "Niche",
+        "ln": "Niche",
+        "tos": "Niche",
+        "mw": "Niche",
+        "gc": "Niche",
+        "gen": "Niche"
       }
     },
     {
       "charName": "Nebris",
       "dmgAtt": "wip",
       "costumeName": "Laid-back Lifeguard",
-      "roles": [],
+      "roles": [
+        "Self-Buffer",
+        "Sub-DPS"
+      ],
       "imgName": "laid-back_lifeguard",
       "startDate": "2026-07-02T04:30:00.000Z",
       "endDate": "2026-07-29T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "3",
+          "ATK Buff Duration Increase [ 6 &rarr; 10 Turns ]"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "sr",
+      "pullReason": "Despite not giving you much damage output, Laid-Back Lifeguard Nebris is a good self-buff costume, filling in rotation as well as providing long ATK buff, as long as you activate it properly.",
+      "pros": [
+        "Self-Buff Costume for one of the best Physical DPS"
+      ],
+      "cons": [
+        "Low DMG Output",
+        "Tricky ATK Buff activation"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Meta",
+        "fh": "Meta",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Niche"
       }
     },
     {
       "charName": "Seir",
       "dmgAtt": "dm",
       "costumeName": "B-Rank Idol",
-      "roles": [],
+      "roles": [
+        "Support"
+      ],
       "imgName": "b-rank_idol_seir",
       "startDate": "2026-07-02T04:30:00.000Z",
       "endDate": "2026-07-09T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "2",
+          "+1 SP Restored"
+        ],
+        [
+          "3",
+          "-1 SP"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "sr",
+      "pullReason": "Idol Seir is a good SP battery, although is used rarely nowadays. Nonetheless, whenever you have Seir in a team, you will almost always use the Idol costume to generate a lot of SP, which is becoming much and much more valuable since Burst introduction.",
+      "pros": [
+        "SP Battery",
+        "Rotational Seir Costume"
+      ],
+      "cons": [
+        "Pretty niche as of now"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Bad"
       }
     }
   ]

@@ -110,11 +110,11 @@
     "modes": {
       "gr": "Meta",
       "fh": "Meta",
-      "ln": "Good, inferior to other chainers",
-      "tos": "Niche but can be good",
+      "ln": "Good",
+      "tos": "Niche",
       "mw": "Decent",
-      "gc": "Mid?",
-      "gen": "Niche / Good"
+      "gc": "Mid",
+      "gen": "Niche"
     }
   },
   "vanguard": {
@@ -155,10 +155,10 @@
     "modes": {
       "gr": "Meta",
       "fh": "Meta",
-      "ln": "Decent [ need more testing ]",
-      "tos": "Good / Meta for magic teams",
-      "mw": "?",
-      "gc": "?",
+      "ln": "Good",
+      "tos": "Meta",
+      "mw": "-",
+      "gc": "-",
       "gen": "Meta"
     }
   },
@@ -188,11 +188,11 @@
     "modes": {
       "gr": "Good",
       "fh": "Good",
-      "ln": "Decent, loses to rest DPS",
-      "tos": "Niche / Decent",
+      "ln": "Mid",
+      "tos": "Niche",
       "mw": "Bad",
-      "gc": "Mid / Bad",
-      "gen": "Niche / Decent"
+      "gc": "Mid",
+      "gen": "Niche"
     }
   },
   "shrine_maiden_of_purification": {
@@ -220,9 +220,9 @@
       "fh": "Good",
       "ln": "Meta",
       "tos": "Mid",
-      "mw": "Mid / Niche, need testing ",
-      "gc": "Good?",
-      "gen": "Good / Niche"
+      "mw": "Mid",
+      "gc": "Good",
+      "gen": "Good"
     }
   },
   "onsen_manager": {
@@ -254,7 +254,7 @@
       "tos": "Niche",
       "mw": "Bad",
       "gc": "Bad",
-      "gen": "Niche / Bad"
+      "gen": "Niche"
     }
   },
   "onsen_practitioner": {
@@ -289,7 +289,7 @@
       "gr": "Good",
       "fh": "Good",
       "ln": "Bad",
-      "tos": "Niche / Bad",
+      "tos": "Niche",
       "mw": "Bad",
       "gc": "Bad",
       "gen": "Bad"
@@ -320,8 +320,8 @@
       "gr": "Bad",
       "fh": "Bad",
       "ln": "Bad",
-      "tos": "Decent",
-      "gen": "Good for towers, mid / niche for rest"
+      "tos": "Mid",
+      "gen": "Niche"
     }
   },
   "onsen_swordfighter": {
@@ -357,13 +357,13 @@
       "Weaker AoE compared to Young Lady Costume"
     ],
     "modes": {
-      "gr": "Decent / Good",
-      "fh": "Decent / Good",
-      "ln": "Mid / Bad",
-      "tos": "Niche / Bad",
-      "mw": "Bad / Niche ?",
-      "gc": "Mid / Niche ?",
-      "gen": "Mid / Niche"
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Niche",
+      "tos": "Niche",
+      "mw": "Bad",
+      "gc": "Niche",
+      "gen": "Niche"
     }
   },
   "sword_breaker": {
@@ -389,13 +389,13 @@
       "Bad AoE"
     ],
     "modes": {
-      "gr": "Terrible",
-      "fh": "Terrible",
-      "ln": "Terrible / Bad",
-      "tos": "Terrible / Bad",
-      "mw": "Decent / Niche",
+      "gr": "Bad",
+      "fh": "Bad",
+      "ln": "Bad",
+      "tos": "Bad",
+      "mw": "Niche",
       "gc": "Bad",
-      "gen": "Terrible"
+      "gen": "Bad"
     }
   },
   "apostle_blade": {
@@ -421,12 +421,12 @@
       "Requires external investment due to her being a glass cannon unit"
     ],
     "modes": {
-      "gr": "Excellent / Good",
-      "fh": "Excellent / Good",
-      "ln": "Mid",
-      "tos": "Niche / Mid",
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Niche",
+      "tos": "Niche",
       "gc": "Meta",
-      "gen": "Meta for Tower of Wrath, Niche / Mid for rest"
+      "gen": "Niche"
     }
   },
   "magical_innovator": {
@@ -491,13 +491,13 @@
       "Relies on having DoT to shine"
     ],
     "modes": {
-      "gr": "Excellent / Meta",
-      "fh": "Excellent / Meta",
-      "ln": "Mid / Bad",
-      "tos": "Decent / Good",
-      "mw": "Not used",
-      "gc": "Not used",
-      "gen": "Decent"
+      "gr": "Meta",
+      "fh": "Meta",
+      "ln": "Mid",
+      "tos": "Good",
+      "mw": "Bad",
+      "gc": "Bad",
+      "gen": "Mid"
     }
   },
   "retired_legend": {
@@ -535,13 +535,13 @@
       "No full up-time [ for GR, for example ]"
     ],
     "modes": {
-      "gr": "Very Good",
-      "fh": "Very Good / Meta",
-      "ln": "Has potential, but for now Mid",
-      "tos": "Mid / Niche",
-      "mw": "Niche / Bad",
-      "gc": "Good / Meta?",
-      "gen": "Mid / Niche"
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Niche",
+      "tos": "Niche",
+      "mw": "Niche",
+      "gc": "Good",
+      "gen": "Mid"
     }
   },
   "acting_archbishop": {
@@ -576,10 +576,10 @@
       "Useless at her own"
     ],
     "modes": {
-      "gr": "Decent",
-      "fh": "Decent",
-      "ln": "Terrible",
-      "tos": "Very bad / Niche",
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Bad",
+      "tos": "Bad",
       "mw": "Bad",
       "gc": "Bad",
       "gen": "Bad"
@@ -608,13 +608,13 @@
     ],
     "cons": [],
     "modes": {
-      "gr": "Good / Meta?",
-      "fh": "Good / Meta?",
-      "ln": "Mid",
-      "tos": "Decent / Mid",
-      "mw": "Decent / Good?",
-      "gc": "Decent / Good?",
-      "gen": "Decent / Good"
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Niche",
+      "tos": "Niche",
+      "mw": "Niche",
+      "gc": "Niche",
+      "gen": "Good"
     }
   },
   "reclaimed_destiny_sacred_justia": {
@@ -647,10 +647,10 @@
       "gr": "Good",
       "fh": "Good",
       "ln": "Bad",
-      "tos": "Mid",
+      "tos": "Niche",
       "mw": "Bad",
-      "gc": "Decent / Niche",
-      "gen": "Very Good"
+      "gc": "Niche",
+      "gen": "Good"
     }
   },
   "b-rank_idol_helena": {
@@ -675,10 +675,10 @@
     "modes": {
       "gr": "Meta",
       "fh": "Meta",
-      "ln": "Good / Meta",
-      "tos": "Good / Meta",
-      "mw": "Good?",
-      "gc": "Decent",
+      "ln": "Good",
+      "tos": "Meta",
+      "mw": "Good",
+      "gc": "Good",
       "gen": "Meta"
     }
   },
@@ -708,13 +708,13 @@
       "Has a rotation gap"
     ],
     "modes": {
-      "gr": "Very Good / Meta",
-      "fh": "Very Good",
-      "ln": "Very Good / Meta",
-      "tos": "Very Good / Meta",
-      "mw": "Very Good?",
-      "gc": "Very Good?",
-      "gen": "Very Good"
+      "gr": "Meta",
+      "fh": "Meta",
+      "ln": "Good",
+      "tos": "Good",
+      "mw": "Meta",
+      "gc": "Meta",
+      "gen": "Good"
     }
   },
   "bikini_agent": {
@@ -813,13 +813,13 @@
       "Low damage multiplier"
     ],
     "modes": {
-      "gr": "Terrible",
-      "fh": "Terrible",
-      "ln": "Bad / Terrible",
+      "gr": "Bad",
+      "fh": "Bad",
+      "ln": "Bad",
       "tos": "Bad",
-      "mw": "Terrible",
-      "gc": "Ok-ish???",
-      "gen": "Terrible"
+      "mw": "Bad",
+      "gc": "Niche",
+      "gen": "Bad"
     }
   },
   "fist_of_conviction": {
@@ -851,11 +851,11 @@
     "modes": {
       "gr": "Bad",
       "fh": "Bad",
-      "ln": "Really bad / Terrible",
+      "ln": "Bad",
       "tos": "Bad",
-      "mw": "Bad / Terrible",
-      "gc": "Bad / Terrible",
-      "gen": "Bad / Terrible"
+      "mw": "Bad",
+      "gc": "Bad",
+      "gen": "Bad"
     }
   },
   "dancing_snowflake": {
@@ -888,10 +888,10 @@
       "Rarely has any usage"
     ],
     "modes": {
-      "gr": "Decent / Good",
-      "fh": "Decent / Good",
+      "gr": "Good",
+      "fh": "Good",
       "ln": "Bad",
-      "tos": "Niche / Bad",
+      "tos": "Niche",
       "mw": "Bad",
       "gc": "Bad",
       "gen": "Bad"
@@ -933,7 +933,7 @@
       "tos": "Niche",
       "mw": "—",
       "gc": "—",
-      "gen": "Decent"
+      "gen": "Niche"
     }
   },
   "miracle_rose": {
@@ -966,13 +966,13 @@
       "Not a buffer [ compared to rest her costumes ]"
     ],
     "modes": {
-      "gr": "Decent",
-      "fh": "Decent",
-      "ln": "Mid / Decent",
-      "tos": "Decent",
-      "mw": "Good / Meta",
-      "gc": "Good / Meta",
-      "gen": "Decent"
+      "gr": "Niche",
+      "fh": "Niche",
+      "ln": "Mid",
+      "tos": "Niche",
+      "mw": "Good",
+      "gc": "Good",
+      "gen": "Niche"
     }
   },
   "maid_bikini": {
@@ -1009,9 +1009,9 @@
       "gr": "Good",
       "fh": "Good",
       "ln": "Bad",
-      "tos": "Niche / Bad",
-      "mw": "Bad?",
-      "gc": "Bad?",
+      "tos": "Niche",
+      "mw": "Bad",
+      "gc": "Bad",
       "gen": "Niche"
     }
   },
@@ -1050,13 +1050,13 @@
       ]
     ],
     "modes": {
-      "gr": "Good / Niche Meta",
-      "fh": "Good / Niche Meta",
-      "ln": "Decent",
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Mid",
       "tos": "Mid",
-      "mw": "Niche / Bad",
-      "gc": "Mid?",
-      "gen": "Mid / Niche"
+      "mw": "Niche",
+      "gc": "Mid",
+      "gen": "Niche"
     }
   },
   "dj": {
@@ -1091,9 +1091,9 @@
       "gr": "Good",
       "fh": "Good",
       "ln": "Mid",
-      "tos": "Decent / Good",
-      "mw": "Very Good",
-      "gc": "Mid / Niche",
+      "tos": "Good",
+      "mw": "Good",
+      "gc": "Niche",
       "gen": "Good"
     }
   },
@@ -1121,12 +1121,12 @@
     ],
     "modes": {
       "gr": "Meta",
-      "fh": "Meta?",
-      "ln": "Not playable",
+      "fh": "Meta",
+      "ln": "Bad",
       "tos": "Bad",
-      "mw": "Bad?",
+      "mw": "Bad",
       "gc": "Bad",
-      "gen": "Bad?"
+      "gen": "Bad"
     }
   },
   "beach_vacation_morphea": {
@@ -1154,11 +1154,11 @@
     "modes": {
       "gr": "Meta",
       "fh": "Meta",
-      "ln": "Not playable",
-      "tos": "Good [ Staller + DPS ]",
-      "mw": "Mid / Bad",
-      "gc": "Not used",
-      "gen": "Mid / Niche"
+      "ln": "Bad",
+      "tos": "Good",
+      "mw": "Mid",
+      "gc": "Bad",
+      "gen": "Mid"
     }
   },
   "ocean_vanguard": {
@@ -1195,7 +1195,7 @@
     "modes": {
       "gr": "Meta",
       "fh": "Meta",
-      "ln": "Decent",
+      "ln": "Mid",
       "tos": "Good",
       "mw": "Bad",
       "gc": "Bad",
@@ -1230,8 +1230,8 @@
       "fh": "Niche",
       "ln": "Good",
       "tos": "Mid",
-      "mw": "Good?",
-      "gc": "Good?",
+      "mw": "Good",
+      "gc": "Good",
       "gen": "Bad"
     }
   },
@@ -1320,9 +1320,9 @@
       "Fixed Dmg is Justia Main DMG Source"
     ],
     "modes": {
-      "gr": "Unusable",
-      "fh": "Unusable",
-      "ln": "Unusable",
+      "gr": "Bad",
+      "fh": "Bad",
+      "ln": "Bad",
       "tos": "Mid",
       "mw": "Good",
       "gc": "Good",
@@ -1352,8 +1352,8 @@
       "Low DMG for PVE use"
     ],
     "modes": {
-      "gr": "Unusable",
-      "fh": "Unusable",
+      "gr": "Bad",
+      "fh": "Bad",
       "ln": "Bad",
       "tos": "Bad",
       "mw": "Meta",
@@ -1389,11 +1389,11 @@
       "Limited Costume"
     ],
     "modes": {
-      "gr": "Rarely playable",
+      "gr": "Niche",
       "fh": "Meta",
-      "ln": "Not playable",
-      "tos": "Team-dependent",
-      "mw": "Not played",
+      "ln": "Bad",
+      "tos": "Niche",
+      "mw": "Bad",
       "gc": "Meta",
       "gen": "Meta"
     }
@@ -1429,11 +1429,11 @@
     "modes": {
       "gr": "Good",
       "fh": "Good",
-      "ln": "Not usable",
-      "tos": "Not usable / Very Niche",
-      "mw": "Not usable / Very Niche",
-      "gc": "Not usable / Very Niche",
-      "gen": "Not usable"
+      "ln": "Bad",
+      "tos": "Bad",
+      "mw": "Mid",
+      "gc": "Niche",
+      "gen": "Bad"
     }
   }
 }
