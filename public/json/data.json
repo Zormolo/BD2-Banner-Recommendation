@@ -61,6 +61,16 @@
       "costumeUpgrade": 5
     },
     {
+      "id": "pool_party_gray",
+      "displayName": "Pool Party Gray",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "pool_party_gray",
+      "displayName": "Pool Party Gray",
+      "costumeUpgrade": 5
+    },
+    {
       "id": "b-rank_idol_seir",
       "displayName": "B-Rank Idol Seir",
       "costumeUpgrade": 5
@@ -237,25 +247,35 @@
       "charName": "Gray",
       "dmgAtt": "wip",
       "costumeName": "Pool Party",
-      "roles": [],
+      "roles": [
+        "Sub-DPS",
+        "Self-Buffer"
+      ],
       "imgName": "pool_party_gray",
       "startDate": "2026-07-09T00:00:00.000Z",
       "endDate": "2026-07-15T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "3",
+          "-1 SP"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "r",
+      "pullReason": "He is definitely better after the Crit Rate Conversion update, but he is still pretty much niche self-buff and low damage output Gray costume. Gray itself is end game PvE DPS, therefore there is little reason to invest into him if you are relatively new player.",
+      "pros": [
+        "Self-Buff Costume"
+      ],
+      "cons": [
+        "Gray being end-game DPS"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Niche",
+        "fh": "Niche",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Bad"
       }
     }
   ]
