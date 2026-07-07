@@ -64,96 +64,6 @@
       "id": "b-rank_idol_seir",
       "displayName": "B-Rank Idol Seir",
       "costumeUpgrade": 5
-    },
-    {
-      "id": "ocean_vanguard",
-      "displayName": "Ocean Vanguard Luvencia",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "ocean_vanguard",
-      "displayName": "Ocean Vanguard Luvencia",
-      "costumeUpgrade": 2
-    },
-    {
-      "id": "prophetic_dream",
-      "displayName": "Prophetic Dream Darian",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "ocean_vanguard",
-      "displayName": "Ocean Vanguard Luvencia",
-      "costumeUpgrade": 4
-    },
-    {
-      "id": "prophetic_dream",
-      "displayName": "Prophetic Dream Darian",
-      "costumeUpgrade": 3
-    },
-    {
-      "id": "combat_medic",
-      "displayName": "Combat Medic Granhildr",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "ocean_vanguard",
-      "displayName": "Ocean Vanguard Luvencia",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "prophetic_dream",
-      "displayName": "Prophetic Dream Darian",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "combat_medic",
-      "displayName": "Combat Medic Granhildr",
-      "costumeUpgrade": 3
-    },
-    {
-      "id": "beachside_justice",
-      "displayName": "Beachside Justice Michaela",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "pool_party_scheherazade",
-      "displayName": "Pool Party Scheherazade",
-      "costumeUpgrade": 0
-    },
-    {
-      "id": "pool_party_justia",
-      "displayName": "Pool Party Justia",
-      "costumeUpgrade": 0
-    },
-    {
-      "id": "pool_party_scheherazade",
-      "displayName": "Pool Party Scheherazade",
-      "costumeUpgrade": 3
-    },
-    {
-      "id": "pool_party_justia",
-      "displayName": "Pool Party Justia",
-      "costumeUpgrade": 3
-    },
-    {
-      "id": "combat_medic",
-      "displayName": "Combat Medic Granhildr",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "pool_party_scheherazade",
-      "displayName": "Pool Party Scheherazade",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "pool_party_justia",
-      "displayName": "Pool Party Justia",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "beachside_justice",
-      "displayName": "Beachside Justice Michaela",
-      "costumeUpgrade": 5
     }
   ],
   "banner": [
@@ -197,235 +107,6 @@
         "mw": "Good",
         "gc": "Meta",
         "gen": "Meta"
-      }
-    },
-    {
-      "charName": "Darian",
-      "dmgAtt": "wap",
-      "costumeName": "Prophetic Dream",
-      "roles": [
-        "DPS"
-      ],
-      "imgName": "prophetic_dream",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "sr",
-      "pullReason": "Darian is a great DPS... if she can hit enough tiles. She mostly suffers from the weak Skillpattern. Darian is a staple atm in Last Night and every FH / GR her Attack hits a lot of tiles otherwise she is outclassed by other water dpses.",
-      "pros": [
-        "High DMG on Main Target"
-      ],
-      "cons": [
-        "Skip X-Pattern"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Niche",
-        "ln": "Meta",
-        "tos": "Mid",
-        "mw": "Bad",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
-    {
-      "charName": "Justia",
-      "dmgAtt": "lp",
-      "costumeName": "Pool Party",
-      "roles": [
-        "Self-Buffer"
-      ],
-      "imgName": "pool_party_justia",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "Justia really suffers from beeing an old Unit. Her main focus is fixed DMG which this costume helps via selfbuff. Problem is just Fixed DMG is really bad outside of PVP. And even in PVP Olivier pretty much replaced her there with a preemptive Evade.",
-      "pros": [
-        "Selfbuff",
-        "100% Evades"
-      ],
-      "cons": [
-        "Fixed Dmg is Justia Main DMG Source"
-      ],
-      "modes": {
-        "gr": "Bad",
-        "fh": "Bad",
-        "ln": "Bad",
-        "tos": "Niche",
-        "mw": "Good",
-        "gc": "Good",
-        "gen": "Bad"
-      }
-    },
-    {
-      "charName": "Luvencia",
-      "dmgAtt": "dp",
-      "costumeName": "Ocean Vanguard",
-      "roles": [
-        "DPS",
-        "Chainer",
-        "Self-Buffer"
-      ],
-      "imgName": "ocean_vanguard",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ],
-        [
-          "2",
-          "Higher ATK Gain per Hit"
-        ],
-        [
-          "4",
-          "Higher Chain DMG Gain"
-        ]
-      ],
-      "pullPriority": "sr",
-      "pullReason": "She will help the other costumes of her to do just more DMG and can stack a few chains on off turns on longer fights. The Buff has a full uptime which is always good!",
-      "pros": [
-        "Selfbuff-Costume",
-        "Chainer for other DPSes"
-      ],
-      "cons": [
-        "Needs other Costumes to get benfit from selfbuffs"
-      ],
-      "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "Good",
-        "tos": "Good",
-        "mw": "Bad",
-        "gc": "Bad",
-        "gen": "Mid"
-      }
-    },
-    {
-      "charName": "Michaela",
-      "dmgAtt": "lm",
-      "costumeName": "Beachside Justice",
-      "roles": [
-        "Sub-DPS",
-        "Self-Buffer"
-      ],
-      "imgName": "beachside_justice",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "n",
-      "pullReason": "Michaela can buff herself for strong follow up turns with her 'Queen of Signatures'-Costume. Big Downside is her HP-Reduction from useing this Skill. Pattern also not the greatest.",
-      "pros": [
-        "Increase of MATK"
-      ],
-      "cons": [
-        "Deal 80% of Current HP as DMG to Michaela",
-        "Niche Pattern",
-        "Meh DMG"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Niche",
-        "ln": "Bad",
-        "tos": "Bad",
-        "mw": "Niche",
-        "gc": "Bad",
-        "gen": "Bad"
-      }
-    },
-    {
-      "charName": "Scheherazade",
-      "dmgAtt": "wam",
-      "costumeName": "Pool Party",
-      "roles": [
-        "Chainer"
-      ],
-      "imgName": "pool_party_scheherazade",
-      "startDate": "2026-06-04T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "Schera is PVP staple and those that enjoy PVP want her. Otherwise for Newbies / Casuals just get a Copy if you want for the Wallpaper / Gacha Skin and then move on.",
-      "pros": [
-        "Cheap SP Costs",
-        "Remove from Buff"
-      ],
-      "cons": [
-        "Bad Pattern",
-        "Low DMG for PVE use"
-      ],
-      "modes": {
-        "gr": "Bad",
-        "fh": "Bad",
-        "ln": "Bad",
-        "tos": "Bad",
-        "mw": "Meta",
-        "gc": "Mid",
-        "gen": "Bad"
-      }
-    },
-    {
-      "charName": "Granhildr",
-      "dmgAtt": "lp",
-      "costumeName": "Combat Medic",
-      "roles": [
-        "Sub-DPS",
-        "Self-Buffer"
-      ],
-      "imgName": "combat_medic",
-      "startDate": "2026-06-18T04:30:00.000Z",
-      "endDate": "2026-07-01T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ],
-        [
-          "3",
-          "Increased Crit DMG Buff [ 100 &rarr; 150% ]"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "To put it simply, if you have your Granhildr already built, she is important to get at least +3 for the maximum self-buff value for Boo Ghost Costume. Otherwise, you could compromise at +1, since, without strong Comeback Idol and Boo Ghost dupes, her damage will not be great.<br><br>Buff requirenment is very easy to obtain, so she will work as Beach Sylvia in that regard most of the time.",
-      "pros": [
-        "Self-Buffer",
-        "Makes rotation a bit more clear",
-        "Cheap damage"
-      ],
-      "cons": [
-        "Useless without invested other Granhildr Costumes [ Comeback Idol + Boo Ghost ]",
-        "Not the best CDMG Buff value [ 200% only ]"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Bad",
-        "tos": "Bad",
-        "mw": "Niche",
-        "gc": "Bad",
-        "gen": "Bad"
       }
     },
     {
@@ -550,6 +231,31 @@
         "mw": "Bad",
         "gc": "Bad",
         "gen": "Bad"
+      }
+    },
+    {
+      "charName": "Gray",
+      "dmgAtt": "wip",
+      "costumeName": "Pool Party",
+      "roles": [],
+      "imgName": "pool_party_gray",
+      "startDate": "2026-07-09T00:00:00.000Z",
+      "endDate": "2026-07-15T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ]
