@@ -171,7 +171,7 @@ function filterSections( inspection, regexFilter ) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function cleanBannerStrings( bannerInfoArray ) {
-  const removeList = [ 'Costume', 'costume', 'After', 'after', 'Maintenance', 'maintenance', 'Before', 'before', '(UTC)' ];
+  const removeList = [ 'Costume', 'costume', 'After', 'after', 'the', 'Maintenance', 'maintenance', 'Before', 'before', '(UTC)' ];
 
   for( let i = 0; i < bannerInfoArray.length; i++ ) {
     let bannerString = bannerInfoArray[ i ].bannerString;

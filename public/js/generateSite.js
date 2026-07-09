@@ -149,7 +149,6 @@ async function createBannerCards( bannerData, utils ) {
     const periodeText = document.createTextNode( getBannerPeriodeLocalTimeString( startDate, endDate ) );
     periodeLine.appendChild( periodeText );
     periodeLine.removeAttribute( 'data-banner-periode' );
-
     const timeLeftLine = bannerCard.querySelector( '[ data-banner-time-left ]' );
     const [ days, hours, minutes, seconds ] = calcTimeLeftOnBanner( endDate );
     if ( days < 0 || hours < 0 || minutes < 0 || seconds < 0 ) {
@@ -172,7 +171,7 @@ async function createBannerCards( bannerData, utils ) {
     breakpointsContainer.removeAttribute( 'data-breakpoints' );
 
     const pullRec = bannerCard.querySelector( '[ data-pull-rec ]' );
-    createPullRecommand( pullRec, pullPriorityMap, bannerChar.pullPriority, bannerChar.pullReason );
+    createPullRecommendation( pullRec, pullPriorityMap, bannerChar.pullPriority, bannerChar.pullReason );
     pullRec.removeAttribute( 'data-pull-rec' );
 
     //Pros and Cons
@@ -238,7 +237,8 @@ function getTimeLeftSpan( [ days, hours, minutes, seconds ] ) {
   let textColor = 'text-teal';
   if ( days < 6 ) {
     textColor = 'text-warning';
-  } else if ( days < 4 ) {
+  }
+  if ( days < 4 ) {
     textColor = 'text-danger';
   }
 
@@ -360,7 +360,7 @@ function addListElements( list, dataArray ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function createPullRecommand( container, map, prio, reason ) {
+function createPullRecommendation( container, map, prio, reason ) {
   const prioContainer = document.createElement( 'b' );
   prioContainer.classList.add( `text-${ prio }` );
   prioContainer.textContent = map[ prio ];
