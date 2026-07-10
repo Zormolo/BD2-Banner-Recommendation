@@ -235,10 +235,10 @@ function checkBannerStarted( start ) {
 
 function getTimeLeftSpan( [ days, hours, minutes, seconds ] ) {
   let textColor = 'text-teal';
-  if ( days < 6 ) {
+  if ( days < 7 ) {
     textColor = 'text-warning';
   }
-  if ( days < 4 ) {
+  if ( days < 3 ) {
     textColor = 'text-danger';
   }
 
