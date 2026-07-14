@@ -243,50 +243,71 @@
       "charName": "Dalvi",
       "dmgAtt": "wim",
       "costumeName": "Tricky Lover",
-      "roles": [],
+      "roles": [
+        "DPS"
+      ],
       "imgName": "tricky_lover",
       "startDate": "2026-07-16T04:30:00.000Z",
       "endDate": "2026-07-29T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "r",
+      "pullReason": "This Costume is similar to Maid Name R Liatris, but is set to be the last costume in a sequence even more strictly. Her numbers are great, but any 9-Turn rotation, which is very common, is not ideal for a Dalvi, resulting in missing multiple Burn stacks.",
+      "pros": [
+        "Strong Nuke"
+      ],
+      "cons": [
+        "Long Cooldown",
+        "Messed Dalvi Rotation that does not allow for a full potential"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Niche",
+        "fh": "Good",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Niche"
       }
     },
     {
       "charName": "Rafina",
       "dmgAtt": "wap",
       "costumeName": "Steel Engine",
-      "roles": [],
+      "roles": [
+        "Sub-DPS",
+        "Support"
+      ],
       "imgName": "steel_engine",
       "startDate": "2026-07-16T04:30:00.000Z",
       "endDate": "2026-07-22T23:59:59.000Z",
       "breakpoints": [
-        []
+        [
+          "3",
+          "-1 SP"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "n",
+      "pullReason": "Rafina has some damage, and this costume is good rotational one, but Rafina is barely used, and even if she is, definitely not as Main DPS. Her cleanse is unique, but she does not need dupes for that to work.<br><br><i>Make sure to recruit her from <b>pub</b> for free 10 Draw Tickets.</i>",
+      "pros": [
+        "Unique cleanse"
+      ],
+      "cons": [
+        "Low usage rate",
+        "Sub-DPS instead of proper one"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Niche",
+        "fh": "Niche",
+        "ln": "Niche",
+        "tos": "Good",
+        "mw": "Niche",
+        "gc": "Niche",
+        "gen": "Good"
       }
     }
   ]
