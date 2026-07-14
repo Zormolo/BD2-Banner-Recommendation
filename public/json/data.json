@@ -16,19 +16,14 @@
       "costumeUpgrade": 5
     },
     {
-      "id": "b-rank_idol_seir",
-      "displayName": "B-Rank Idol Seir",
-      "costumeUpgrade": 2
-    },
-    {
       "id": "laid-back_lifeguard",
       "displayName": "Laid-Back Lifeguard Nebris",
       "costumeUpgrade": 1
     },
     {
-      "id": "b-rank_idol_seir",
-      "displayName": "B-Rank Idol Seir",
-      "costumeUpgrade": 3
+      "id": "tricky_lover",
+      "displayName": "Tricky Lover Dalvi",
+      "costumeUpgrade": 1
     },
     {
       "id": "laid-back_lifeguard",
@@ -51,8 +46,23 @@
       "costumeUpgrade": 4
     },
     {
+      "id": "tricky_lover",
+      "displayName": "Tricky Lover Dalvi",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "steel_engine",
+      "displayName": "Steel Engine Rafina",
+      "costumeUpgrade": 3
+    },
+    {
       "id": "laid-back_lifeguard",
       "displayName": "Laid-Back Lifeguard Nebris",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "steel_engine",
+      "displayName": "Steel Engine Rafina",
       "costumeUpgrade": 5
     },
     {
@@ -68,11 +78,6 @@
     {
       "id": "pool_party_gray",
       "displayName": "Pool Party Gray",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "b-rank_idol_seir",
-      "displayName": "B-Rank Idol Seir",
       "costumeUpgrade": 5
     }
   ],
