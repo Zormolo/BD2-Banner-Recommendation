@@ -1435,5 +1435,40 @@
       "gc": "Niche",
       "gen": "Bad"
     }
+  },
+  "b-rank_idol_seir": {
+    "roles": [
+      "Support"
+    ],
+    "startDate": "2026-07-02T04:30:00.000Z",
+    "endDate": "2026-07-08T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "2",
+        "+1 SP additional gained per tanked hit"
+      ],
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "sr",
+    "pullReason": "Idol Seir is a good SP battery, although it is used rarely nowadays. Nonetheless, whenever you have Seir in a team, you will almost always use the Idol costume to generate a lot of SP, which is becoming more valuable after the Burst-System introduction.",
+    "pros": [
+      "SP Battery",
+      "Rotational Seir Costume"
+    ],
+    "cons": [
+      "Pretty niche as of now"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Bad",
+      "tos": "Niche",
+      "mw": "Bad",
+      "gc": "Bad",
+      "gen": "Bad"
+    }
   }
 }

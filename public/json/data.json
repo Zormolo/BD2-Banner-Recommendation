@@ -205,45 +205,6 @@
       }
     },
     {
-      "charName": "Seir",
-      "dmgAtt": "dm",
-      "costumeName": "B-Rank Idol",
-      "roles": [
-        "Support"
-      ],
-      "imgName": "b-rank_idol_seir",
-      "startDate": "2026-07-02T04:30:00.000Z",
-      "endDate": "2026-07-08T23:59:59.000Z",
-      "breakpoints": [
-        [
-          "2",
-          "+1 SP additional gained per tanked hit"
-        ],
-        [
-          "3",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "sr",
-      "pullReason": "Idol Seir is a good SP battery, although it is used rarely nowadays. Nonetheless, whenever you have Seir in a team, you will almost always use the Idol costume to generate a lot of SP, which is becoming more valuable after the Burst-System introduction.",
-      "pros": [
-        "SP Battery",
-        "Rotational Seir Costume"
-      ],
-      "cons": [
-        "Pretty niche as of now"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Bad",
-        "tos": "Niche",
-        "mw": "Bad",
-        "gc": "Bad",
-        "gen": "Bad"
-      }
-    },
-    {
       "charName": "Gray",
       "dmgAtt": "wip",
       "costumeName": "Pool Party",
@@ -276,6 +237,56 @@
         "mw": "Bad",
         "gc": "Bad",
         "gen": "Bad"
+      }
+    },
+    {
+      "charName": "Dalvi",
+      "dmgAtt": "wim",
+      "costumeName": "Tricky Lover",
+      "roles": [],
+      "imgName": "tricky_lover",
+      "startDate": "2026-07-16T04:30:00.000Z",
+      "endDate": "2026-07-29T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Rafina",
+      "dmgAtt": "wap",
+      "costumeName": "Steel Engine",
+      "roles": [],
+      "imgName": "steel_engine",
+      "startDate": "2026-07-16T04:30:00.000Z",
+      "endDate": "2026-07-22T23:59:59.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ]
