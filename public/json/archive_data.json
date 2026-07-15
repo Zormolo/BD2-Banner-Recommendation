@@ -1354,11 +1354,11 @@
     "modes": {
       "gr": "Bad",
       "fh": "Bad",
-      "ln": "Bad",
+      "ln": "Good",
       "tos": "Bad",
       "mw": "Meta",
-      "gc": "Mid",
-      "gen": "Bad"
+      "gc": "Niche",
+      "gen": "Niche"
     }
   },
   "beachside_angel": {
