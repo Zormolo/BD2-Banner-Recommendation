@@ -16,19 +16,14 @@
       "costumeUpgrade": 5
     },
     {
-      "id": "b-rank_idol_seir",
-      "displayName": "B-Rank Idol Seir",
-      "costumeUpgrade": 2
-    },
-    {
       "id": "laid-back_lifeguard",
       "displayName": "Laid-Back Lifeguard Nebris",
       "costumeUpgrade": 1
     },
     {
-      "id": "b-rank_idol_seir",
-      "displayName": "B-Rank Idol Seir",
-      "costumeUpgrade": 3
+      "id": "tricky_lover",
+      "displayName": "Tricky Lover Dalvi",
+      "costumeUpgrade": 1
     },
     {
       "id": "laid-back_lifeguard",
@@ -51,8 +46,23 @@
       "costumeUpgrade": 4
     },
     {
+      "id": "tricky_lover",
+      "displayName": "Tricky Lover Dalvi",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "steel_engine",
+      "displayName": "Steel Engine Rafina",
+      "costumeUpgrade": 3
+    },
+    {
       "id": "laid-back_lifeguard",
       "displayName": "Laid-Back Lifeguard Nebris",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "steel_engine",
+      "displayName": "Steel Engine Rafina",
       "costumeUpgrade": 5
     },
     {
@@ -68,11 +78,6 @@
     {
       "id": "pool_party_gray",
       "displayName": "Pool Party Gray",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "b-rank_idol_seir",
-      "displayName": "B-Rank Idol Seir",
       "costumeUpgrade": 5
     }
   ],
@@ -243,50 +248,71 @@
       "charName": "Dalvi",
       "dmgAtt": "wim",
       "costumeName": "Tricky Lover",
-      "roles": [],
+      "roles": [
+        "DPS"
+      ],
       "imgName": "tricky_lover",
       "startDate": "2026-07-16T04:30:00.000Z",
       "endDate": "2026-07-29T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "r",
+      "pullReason": "This costume functions similarly to Maid Name R Liatris, but with an even stronger requirement to be used as the final costume in a rotation. Despite her strong damage numbers, the commonly used 9-turn rotation is inefficient for Dalvi, as it results in multiple missed Bleed stacks.",
+      "pros": [
+        "Strong Nuke"
+      ],
+      "cons": [
+        "Long Cooldown",
+        "Messed Dalvi Rotation that does not allow for a full potential"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Niche",
+        "fh": "Good",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Niche"
       }
     },
     {
       "charName": "Rafina",
       "dmgAtt": "wap",
       "costumeName": "Steel Engine",
-      "roles": [],
+      "roles": [
+        "Sub-DPS",
+        "Support"
+      ],
       "imgName": "steel_engine",
       "startDate": "2026-07-16T04:30:00.000Z",
       "endDate": "2026-07-22T23:59:59.000Z",
       "breakpoints": [
-        []
+        [
+          "3",
+          "-1 SP"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "n",
+      "pullReason": "Rafina has some damage, and this costume is good rotational one, but Rafina is barely used, and even if she is, definitely not as Main DPS. Her cleanse is unique, but she does not need dupes for that to work.<br><br><i>Make sure to recruit her from <b>pub</b> for free 10 Draw Tickets.</i>",
+      "pros": [
+        "Unique cleanse"
+      ],
+      "cons": [
+        "Low usage rate",
+        "Sub-DPS instead of proper one"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Niche",
+        "fh": "Niche",
+        "ln": "Niche",
+        "tos": "Good",
+        "mw": "Niche",
+        "gc": "Niche",
+        "gen": "Good"
       }
     }
   ]
