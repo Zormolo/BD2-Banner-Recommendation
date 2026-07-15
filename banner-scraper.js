@@ -364,18 +364,47 @@ function addBannersToDataFile( bannerArray ) {
     return new Date( a.startDate ).getTime() - new Date( b.startDate ).getTime();
   } );
 
+  const removedBanners = [];
   dataJSON.banner = dataJSON.banner.filter( dataBanner => {
     const isDated = new Date( dataBanner.endDate ).getTime() - new Date().getTime() < 0;
     if ( isDated ) {
       console.log( makeStrColored( `Removing ${ dataBanner.costumeName } ${ dataBanner.charName } - Banner from data.json! Reason: Banner Ended`, COLORS.YELLOW ) );
       dataJSON.tldr = dataJSON.tldr.filter( step => step.id !== dataBanner.imgName );
+      removedBanners.push( dataBanner )
     }
     return !isDated;
   } )
 
+  addBannersToArchive( removedBanners );
   checkForMissingImgFiles( dataJSON.banner );
   fs.writeFileSync( path.join( 'public', 'json', 'data.json' ), JSON.stringify( dataJSON, null, 2 ) );
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function addBannersToArchive( removedBanners ) {
+  if ( removedBanners.length === 0 ) {
+    return;
+  }
+
+  const archiveJSON = JSON.parse( fs.readFileSync( path.join( 'public', 'json', 'archive_data.json' ) ) );
+  for ( const bannerData of removedBanners ) {
+    const key = bannerData[ 'imgName' ];
+    archiveJSON[ key ] = {
+      "roles": bannerData[ 'roles' ],
+      "startDate": bannerData[ 'startDate' ],
+      "endDate": bannerData[ 'endDate' ],
+      "breakpoints": bannerData[ 'breakpoints' ],
+      "pullPriority": bannerData[ 'pullPriority' ],
+      "pullReason": bannerData[ 'pullReason' ],
+      "pros": bannerData[ 'pros' ],
+      "cons": bannerData[ 'cons' ],
+      "modes": bannerData[ 'modes' ]
+    };
+  }
+  fs.writeFileSync( path.join( 'public', 'json', 'archive_data.json' ), JSON.stringify( archiveJSON, null, 2 ) );
+}
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
