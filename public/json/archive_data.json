@@ -203,7 +203,10 @@
     "startDate": "2026-01-15T04:30:00.000Z",
     "endDate": "2026-02-11T23:59:59.000Z",
     "breakpoints": [
-        [ "1", "-1 SP" ]
+      [
+        "1",
+        "-1 SP"
+      ]
     ],
     "pullPriority": "ur",
     "pullReason": "This costume is quite hard to utilize at its maximum, but sheer damage boost even without conditional increase worth a lot to not skip her. She offers same value of buff as Onsen Manager Liberta, without chain requirenment, making her very powerful magic buffer in almost every mode.",
@@ -1464,6 +1467,78 @@
     "modes": {
       "gr": "Good",
       "fh": "Good",
+      "ln": "Bad",
+      "tos": "Niche",
+      "mw": "Bad",
+      "gc": "Bad",
+      "gen": "Bad"
+    }
+  },
+  "naive_lady": {
+    "roles": [
+      "Self-Buffer",
+      "DPS"
+    ],
+    "startDate": "2026-07-02T04:30:00.000Z",
+    "endDate": "2026-07-15T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ],
+      [
+        "2",
+        "Augmentation Increase [ 4% &rarr; 6% ]"
+      ],
+      [
+        "4",
+        "Augmentation Increase [ 6% &rarr; 8% ]"
+      ]
+    ],
+    "pullPriority": "r",
+    "pullReason": "Her kit isn't bad, but her extremely low base stats suggest that she will not perform as good compared to the rest of other Fire DPSes. Overall, she looks like a niche investement requiring Burst 2 for a quicker scaling.",
+    "pros": [
+      "Big Self-Buff",
+      "Good 3x3 AoE"
+    ],
+    "cons": [
+      "Not ideal AoE coverage with rest costumes",
+      "Extremely low base ATK"
+    ],
+    "modes": {
+      "gr": "Niche",
+      "fh": "Niche",
+      "ln": "Niche",
+      "tos": "Niche",
+      "mw": "Niche",
+      "gc": "Niche",
+      "gen": "Niche"
+    }
+  },
+  "pool_party_gray": {
+    "roles": [
+      "Sub-DPS",
+      "Self-Buffer"
+    ],
+    "startDate": "2026-07-09T00:00:00.000Z",
+    "endDate": "2026-07-15T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "r",
+    "pullReason": "He is definitely better after the Crit Rate Conversion, but he is still pretty much a niche self-buff costume with low damage output. In general, Gray himself is an end-game PVE DPS. Therefore, there is little reason to invest in him if you are a relatively new player.",
+    "pros": [
+      "Self-Buff Costume"
+    ],
+    "cons": [
+      "Gray being end-game DPS"
+    ],
+    "modes": {
+      "gr": "Niche",
+      "fh": "Niche",
       "ln": "Bad",
       "tos": "Niche",
       "mw": "Bad",

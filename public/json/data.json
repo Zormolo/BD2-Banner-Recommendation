@@ -31,21 +31,6 @@
       "costumeUpgrade": 3
     },
     {
-      "id": "naive_lady",
-      "displayName": "Naive Lady Elise",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "naive_lady",
-      "displayName": "Naive Lady Elise",
-      "costumeUpgrade": 2
-    },
-    {
-      "id": "naive_lady",
-      "displayName": "Naive Lady Elise",
-      "costumeUpgrade": 4
-    },
-    {
       "id": "tricky_lover",
       "displayName": "Tricky Lover Dalvi",
       "costumeUpgrade": 5
@@ -63,21 +48,6 @@
     {
       "id": "steel_engine",
       "displayName": "Steel Engine Rafina",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "naive_lady",
-      "displayName": "Naive Lady Elise",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "pool_party_gray",
-      "displayName": "Pool Party Gray",
-      "costumeUpgrade": 3
-    },
-    {
-      "id": "pool_party_gray",
-      "displayName": "Pool Party Gray",
       "costumeUpgrade": 5
     }
   ],
@@ -125,51 +95,6 @@
       }
     },
     {
-      "charName": "Elise",
-      "dmgAtt": "fp",
-      "costumeName": "Naive Lady",
-      "roles": [
-        "Self-Buffer",
-        "DPS"
-      ],
-      "imgName": "naive_lady",
-      "startDate": "2026-07-02T04:30:00.000Z",
-      "endDate": "2026-07-15T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ],
-        [
-          "2",
-          "Augmentation Increase [ 4% &rarr; 6% ]"
-        ],
-        [
-          "4",
-          "Augmentation Increase [ 6% &rarr; 8% ]"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "Her kit isn't bad, but her extremely low base stats suggest that she will not perform as good compared to the rest of other Fire DPSes. Overall, she looks like a niche investement requiring Burst 2 for a quicker scaling.",
-      "pros": [
-        "Big Self-Buff",
-        "Good 3x3 AoE"
-      ],
-      "cons": [
-        "Not ideal AoE coverage with rest costumes",
-        "Extremely low base ATK"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Niche",
-        "ln": "Niche",
-        "tos": "Niche",
-        "mw": "Niche",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
-    {
       "charName": "Nebris",
       "dmgAtt": "wip",
       "costumeName": "Laid-back Lifeguard",
@@ -207,41 +132,6 @@
         "mw": "Bad",
         "gc": "Bad",
         "gen": "Niche"
-      }
-    },
-    {
-      "charName": "Gray",
-      "dmgAtt": "wip",
-      "costumeName": "Pool Party",
-      "roles": [
-        "Sub-DPS",
-        "Self-Buffer"
-      ],
-      "imgName": "pool_party_gray",
-      "startDate": "2026-07-09T00:00:00.000Z",
-      "endDate": "2026-07-15T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "He is definitely better after the Crit Rate Conversion, but he is still pretty much a niche self-buff costume with low damage output. In general, Gray himself is an end-game PVE DPS. Therefore, there is little reason to invest in him if you are a relatively new player.",
-      "pros": [
-        "Self-Buff Costume"
-      ],
-      "cons": [
-        "Gray being end-game DPS"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Niche",
-        "ln": "Bad",
-        "tos": "Niche",
-        "mw": "Bad",
-        "gc": "Bad",
-        "gen": "Bad"
       }
     },
     {
@@ -313,6 +203,31 @@
         "mw": "Niche",
         "gc": "Niche",
         "gen": "Good"
+      }
+    },
+    {
+      "charName": "Nartas",
+      "dmgAtt": "",
+      "costumeName": "Anonymous Sage",
+      "roles": [],
+      "imgName": "anonymous_sage",
+      "startDate": "2026-07-23T00:00:00.000Z",
+      "endDate": "2026-07-29T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ]
