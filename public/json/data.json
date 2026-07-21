@@ -207,7 +207,7 @@
     },
     {
       "charName": "Nartas",
-      "dmgAtt": "",
+      "dmgAtt": "dm",
       "costumeName": "Anonymous Sage",
       "roles": [],
       "imgName": "anonymous_sage",
