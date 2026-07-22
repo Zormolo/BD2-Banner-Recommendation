@@ -214,20 +214,31 @@
       "startDate": "2026-07-23T00:00:00.000Z",
       "endDate": "2026-07-29T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "2",
+          "Conditional Damage Increase [450% &rarr; 600%]"
+        ],
+        [
+          "4",
+          "Conditional Damage Increase [650% &rarr; 800%]"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
+      "pullPriority": "n",
+      "pullReason": "Poor boy Nartas is left out of the competition of being a meaningful DPS, considering his bad AoE and mediocre damage, as well as no self-buffs.",
       "pros": [],
-      "cons": [],
+      "cons": [
+        "Bad AoE",
+        "No Self-Buff Costumes",
+        "Bad + Conditional Damage"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Bad",
+        "fh": "Niche",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Bad"
       }
     }
   ]
