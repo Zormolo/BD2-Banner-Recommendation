@@ -31,6 +31,11 @@
       "costumeUpgrade": 4
     },
     {
+      "id": "lonely_survivor",
+      "displayName": "Lonely Survivor Lathel",
+      "costumeUpgrade": 0
+    },
+    {
       "id": "sword_queen",
       "displayName": "Sword Queen Sylvia",
       "costumeUpgrade": 5
@@ -44,6 +49,11 @@
       "id": "comeback_idol_yuri",
       "displayName": "Comeback Idol Yuri",
       "costumeUpgrade": 5
+    },
+    {
+      "id": "lonely_survivor",
+      "displayName": "Lonely Survivor Lathel",
+      "costumeUpgrade": 3
     }
   ],
   "banner": [
@@ -205,25 +215,37 @@
       "charName": "Lathel",
       "dmgAtt": "fp",
       "costumeName": "Lonely Survivor",
-      "roles": [],
+      "roles": [
+        "Sub-DPS",
+        "Self-Buffer"
+      ],
       "imgName": "lonely_survivor",
       "startDate": "2026-08-06T00:00:00.000Z",
       "endDate": "2026-08-12T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "3",
+          "-1 SP"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "n",
+      "pullReason": "It is rotational costume of Lathel, which does not deal a lot of damage. Nice to have, but not mandatory unless high-end rotations.",
+      "pros": [
+        "Rotational Lathel Costume",
+        "Self-Buffer"
+      ],
+      "cons": [
+        "Low Damage",
+        "Mid AoE"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Niche",
+        "fh": "Niche",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Bad",
+        "gen": "Bad"
       }
     }
   ]
