@@ -1,6 +1,21 @@
 {
   "tldr": [
     {
+      "id": "sunny_inn_hand",
+      "displayName": "Sunny Inn Hand Helena",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "sunny_inn_hand",
+      "displayName": "Sunny Inn Hand Helena",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "sunny_inn_hand",
+      "displayName": "Sunny Inn Hand Helena",
+      "costumeUpgrade": 5
+    },
+    {
       "id": "heavenly_guardian_successor",
       "displayName": "Heavenly Guardian Successor Glacia",
       "costumeUpgrade": 1
@@ -24,6 +39,11 @@
       "id": "heavenly_guardian_successor",
       "displayName": "Heavenly Guardian Successor Glacia",
       "costumeUpgrade": 4
+    },
+    {
+      "id": "bright_moon",
+      "displayName": "Bright Moon Dalvi",
+      "costumeUpgrade": 1
     },
     {
       "id": "lonely_survivor",
@@ -207,100 +227,144 @@
       "charName": "Helena",
       "dmgAtt": "lm",
       "costumeName": "Sunny Inn Hand",
-      "roles": [],
+      "roles": [
+        "Buffer"
+      ],
       "imgName": "sunny_inn_hand",
       "startDate": "2026-08-13T04:30:00.000Z",
       "endDate": "2026-08-26T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "3",
+          "Augmentation Duration Increase [ 6 &rarr; 8 Turns ]"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
+      "pullPriority": "ur",
+      "pullReason": "This costume provides big amount of Augmentation to one ally, as well as small CD reduction. Considering Helena is already a core magic buffer, her value increases even more. Additionally, this costume fulfils her rotation, making it complete.",
+      "pros": [
+        "Buffer Costume",
+        "Filling Helena rotation",
+        "Good buff value"
+      ],
       "cons": [],
       "modes": {
-        "gr": "",
-        "fh": "",
+        "gr": "Meta",
+        "fh": "Meta",
         "ln": "",
-        "tos": "",
+        "tos": "Niche",
         "mw": "",
-        "gc": "",
-        "gen": ""
+        "gc": "Niche",
+        "gen": "Niche"
       }
     },
     {
       "charName": "Dalvi",
       "dmgAtt": "wim",
       "costumeName": "Bright Moon",
-      "roles": [],
+      "roles": [
+        "DPS"
+      ],
       "imgName": "bright_moon",
       "startDate": "2026-08-13T04:30:00.000Z",
       "endDate": "2026-09-09T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "r",
+      "pullReason": "It is a rotational costume for Dalvi, that is needed for Dalvi full rotation. Otherwise her impact is not a large one. It is good to have her at +1 given you obtained Tricky Lady costume.",
+      "pros": [
+        "Rotational Costume for Dalvi"
+      ],
+      "cons": [
+        "Mediocre Aoe"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "Niche",
+        "gc": "Bad",
+        "gen": "Niche"
       }
     },
     {
       "charName": "Lecliss",
       "dmgAtt": "wip",
       "costumeName": "Killer Doll",
-      "roles": [],
+      "roles": [
+        "Self-Buffer"
+      ],
       "imgName": "killer_doll",
       "startDate": "2026-08-13T04:30:00.000Z",
       "endDate": "2026-08-19T23:59:59.000Z",
       "breakpoints": [
-        []
+        [
+          "3",
+          "-1 SP"
+        ],
+        [
+          "5",
+          "Buff Duration Increase [ 2 &rarr; 4 Turns ]"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "n",
+      "pullReason": "It is purely PvP costume. She has own spot in Mirror Wars, and for Golden Colosseum, having her is somewhat enough.",
+      "pros": [
+        "Sustain & Taunt Self-Buffer"
+      ],
+      "cons": [
+        "PvP Costume"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Bad",
+        "fh": "Bad",
+        "ln": "Bad",
+        "tos": "Bad",
+        "mw": "Meta",
+        "gc": "Meta",
+        "gen": "Bad"
       }
     },
     {
       "charName": "Alec",
       "dmgAtt": "fp",
       "costumeName": "The Destruction",
-      "roles": [],
+      "roles": [
+        "DPS"
+      ],
       "imgName": "the_destruction",
       "startDate": "2026-08-20T00:00:00.000Z",
       "endDate": "2026-08-26T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "3",
+          "-1 SP"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
+      "pullPriority": "n",
+      "pullReason": "Even despite being a PvP costume, his usage is incredibly low even there.",
       "pros": [],
-      "cons": [],
+      "cons": [
+        "Barely usable",
+        "PvP Costume",
+        "Bad AoE"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Bad",
+        "fh": "Bad",
+        "ln": "Bad",
+        "tos": "Bad",
+        "mw": "Niche",
+        "gc": "Niche",
+        "gen": "Bad"
       }
     }
   ]
