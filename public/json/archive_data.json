@@ -1678,5 +1678,36 @@
       "gc": "Bad",
       "gen": "Bad"
     }
+  },
+  "angel_of_destruction": {
+    "roles": [
+      "Support"
+    ],
+    "startDate": "2026-07-30T04:30:00.000Z",
+    "endDate": "2026-08-05T23:59:59.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "n",
+    "pullReason": "Angel of Destruction is a rotational Costume for Teresse, offering small SP restoration and some Bleed. Knockback is niche since it does not work on bosses.<br><br><i>Make sure to recruit her from <b>pub (Story Pack 7)</b> for free 10 Draw Tickets.</i>",
+    "pros": [
+      "Rotational Costume"
+    ],
+    "cons": [
+      "Not much of a value",
+      "Mid AoE"
+    ],
+    "modes": {
+      "gr": "Niche",
+      "fh": "Good",
+      "ln": "Bad",
+      "tos": "Niche",
+      "mw": "Niche",
+      "gc": "Niche",
+      "gen": "Niche"
+    }
   }
 }

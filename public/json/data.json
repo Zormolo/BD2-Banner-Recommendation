@@ -11,11 +11,6 @@
       "costumeUpgrade": 2
     },
     {
-      "id": "angel_of_destruction",
-      "displayName": "Angel of Destruction Teresse",
-      "costumeUpgrade": 0
-    },
-    {
       "id": "sword_queen",
       "displayName": "Sword Queen Sylvia",
       "costumeUpgrade": 2
@@ -39,11 +34,6 @@
       "id": "sword_queen",
       "displayName": "Sword Queen Sylvia",
       "costumeUpgrade": 5
-    },
-    {
-      "id": "angel_of_destruction",
-      "displayName": "Angel of Destruction Teresse",
-      "costumeUpgrade": 3
     },
     {
       "id": "comeback_idol_yuri",
@@ -177,41 +167,6 @@
       }
     },
     {
-      "charName": "Teresse",
-      "dmgAtt": "wap",
-      "costumeName": "Angel of Destruction",
-      "roles": [
-        "Support"
-      ],
-      "imgName": "angel_of_destruction",
-      "startDate": "2026-07-30T04:30:00.000Z",
-      "endDate": "2026-08-05T23:59:59.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "n",
-      "pullReason": "Angel of Destruction is a rotational Costume for Teresse, offering small SP restoration and some Bleed. Knockback is niche since it does not work on bosses.<br><br><i>Make sure to recruit her from <b>pub (Story Pack 7)</b> for free 10 Draw Tickets.</i>",
-      "pros": [
-        "Rotational Costume"
-      ],
-      "cons": [
-        "Not much of a value",
-        "Mid AoE"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Good",
-        "ln": "Bad",
-        "tos": "Niche",
-        "mw": "Niche",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
-    {
       "charName": "Lathel",
       "dmgAtt": "fp",
       "costumeName": "Lonely Survivor",
@@ -246,6 +201,106 @@
         "mw": "Bad",
         "gc": "Bad",
         "gen": "Bad"
+      }
+    },
+    {
+      "charName": "Helena",
+      "dmgAtt": "lm",
+      "costumeName": "Sunny Inn Hand",
+      "roles": [],
+      "imgName": "sunny_inn_hand",
+      "startDate": "2026-08-13T04:30:00.000Z",
+      "endDate": "2026-08-26T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Dalvi",
+      "dmgAtt": "wim",
+      "costumeName": "Bright Moon",
+      "roles": [],
+      "imgName": "bright_moon",
+      "startDate": "2026-08-13T04:30:00.000Z",
+      "endDate": "2026-09-09T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Lecliss",
+      "dmgAtt": "wip",
+      "costumeName": "Killer Doll",
+      "roles": [],
+      "imgName": "killer_doll",
+      "startDate": "2026-08-13T04:30:00.000Z",
+      "endDate": "2026-08-19T23:59:59.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Alec",
+      "dmgAtt": "fp",
+      "costumeName": "The Destruction",
+      "roles": [],
+      "imgName": "the_destruction",
+      "startDate": "2026-08-20T00:00:00.000Z",
+      "endDate": "2026-08-26T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ]
