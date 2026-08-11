@@ -52,6 +52,17 @@ function createTldr( dataArray ) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+function addNotice( notice ) {
+  const noticeContainer = document.getElementById( 'noticeContainer' );
+  noticeContainer.classList.toggle( 'd-none', !notice.showMessage );
+  if( notice.showMessage ) {
+    noticeContainer.textContent = notice.message;
+  }
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 async function createBannerCards( bannerData, utils ) {
   /** @type { HTMLDivElement } */
   const container = document.getElementById( 'main-container' );
@@ -438,6 +449,8 @@ async function init() {
   ] );
 
   createTldr( jsonData[ 'tldr' ] );
+
+  addNotice( utils[ 'notice' ] );
 
   createBannerCards( jsonData[ 'banner' ], utils );
 
