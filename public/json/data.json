@@ -21,6 +21,16 @@
       "costumeUpgrade": 2
     },
     {
+      "id": "young_lady",
+      "displayName": "Young Lady Blade",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "savage_warrior",
+      "displayName": "Savage Warrior Aquila",
+      "costumeUpgrade": 1
+    },
+    {
       "id": "comeback_idol_yuri",
       "displayName": "Comeback Idol Yuri",
       "costumeUpgrade": 1
@@ -33,6 +43,21 @@
     {
       "id": "sword_queen",
       "displayName": "Sword Queen Sylvia",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "savage_warrior",
+      "displayName": "Savage Warrior Aquila",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "young_lady",
+      "displayName": "Young Lady Blade",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "savage_warrior",
+      "displayName": "Savage Warrior Aquila",
       "costumeUpgrade": 5
     },
     {
@@ -226,50 +251,83 @@
       "charName": "Aquila",
       "dmgAtt": "fp",
       "costumeName": "Savage Warrior",
-      "roles": [],
+      "roles": [
+        "DPS",
+        "Self-Buffer"
+      ],
       "imgName": "savage_warrior",
       "startDate": "2026-08-27T04:30:00.000Z",
       "endDate": "2026-09-09T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "3",
+          "ATK Buff Increase [ 15% &rarr; 21% ]"
+        ],
+        [
+          "5",
+          "ATK Buff Increase [ 21% &rarr; 27% ]"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "r",
+      "pullReason": "Since this is a new DPS with only 1 Costume, it is quite hard to predict how good a Character overall will be. Nonetheless, currently, Aquila requires high-hit bosses. For example, for this costume to have no cooldown, 4 hits each turn are required, which does not happen every time. Overall, pull +5 if you are planning to build Aquilla, otherwise stopping at lesser dupe such as +1 is fine.<br><br><i>Make sure to recruit her from <b>pub</b> (any Chapter) for free 10 Draw Tickets.</i>",
+      "pros": [
+        "Self-Buffer",
+        "Decent Damage"
+      ],
+      "cons": [
+        "Questionable AoE",
+        "Bosses Hit Dependency",
+        "First Costume of a Character"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Niche",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Niche",
+        "gen": "Niche"
       }
     },
     {
       "charName": "Blade",
       "dmgAtt": "dp",
       "costumeName": "Young Lady",
-      "roles": [],
+      "roles": [
+        "Support",
+        "Sub-DPS"
+      ],
       "imgName": "young_lady",
       "startDate": "2026-08-27T04:30:00.000Z",
       "endDate": "2026-09-22T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+          "1",
+          "-1 SP"
+        ]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "r",
+      "pullReason": "It is decent Costume capable of providing damage, especially for general content. Otherwise, she is mostly used solely as rotational costume, and in extremely rare occasions as amplifier / low-chainer for 1 tile.",
+      "pros": [
+        "Very good AoE",
+        "Decent Damage",
+        "Amplifier"
+      ],
+      "cons": [
+        "Not the main DPS source for Blade"
+      ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Niche",
+        "fh": "Good",
+        "ln": "Niche",
+        "tos": "Meta",
+        "mw": "Niche",
+        "gc": "Good",
+        "gen": "Meta"
       }
     }
   ]
