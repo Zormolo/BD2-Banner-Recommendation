@@ -16,16 +16,6 @@
       "costumeUpgrade": 5
     },
     {
-      "id": "heavenly_guardian_successor",
-      "displayName": "Heavenly Guardian Successor Glacia",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "heavenly_guardian_successor",
-      "displayName": "Heavenly Guardian Successor Glacia",
-      "costumeUpgrade": 2
-    },
-    {
       "id": "sword_queen",
       "displayName": "Sword Queen Sylvia",
       "costumeUpgrade": 2
@@ -34,11 +24,6 @@
       "id": "comeback_idol_yuri",
       "displayName": "Comeback Idol Yuri",
       "costumeUpgrade": 1
-    },
-    {
-      "id": "heavenly_guardian_successor",
-      "displayName": "Heavenly Guardian Successor Glacia",
-      "costumeUpgrade": 4
     },
     {
       "id": "bright_moon",
@@ -46,11 +31,6 @@
       "costumeUpgrade": 1
     },
     {
-      "id": "lonely_survivor",
-      "displayName": "Lonely Survivor Lathel",
-      "costumeUpgrade": 0
-    },
-    {
       "id": "sword_queen",
       "displayName": "Sword Queen Sylvia",
       "costumeUpgrade": 5
@@ -59,59 +39,9 @@
       "id": "comeback_idol_yuri",
       "displayName": "Comeback Idol Yuri",
       "costumeUpgrade": 5
-    },
-    {
-      "id": "lonely_survivor",
-      "displayName": "Lonely Survivor Lathel",
-      "costumeUpgrade": 3
     }
   ],
   "banner": [
-    {
-      "charName": "Glacia",
-      "dmgAtt": "wam",
-      "costumeName": "Heavenly Guardian Successor",
-      "roles": [
-        "Support"
-      ],
-      "imgName": "heavenly_guardian_successor",
-      "startDate": "2026-07-30T04:30:00.000Z",
-      "endDate": "2026-08-12T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ],
-        [
-          "2",
-          "+3 Chain Retention [ 6 &rarr; 9 ]"
-        ],
-        [
-          "4",
-          "+3 Chain Retention [ 9 &rarr; 12 ]"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "Her debuff is unique, sure, but first, it increases your damage output roughly by 75% at max. Additionally, her other costumes are not suited for PvE at all, which makes her PvE usage really questionable. The most you could expect, as of now, is going into the cheerleading team in Fiend Hunter.",
-      "pros": [
-        "Support Costume",
-        "Good AoE",
-        "Good Fixed Damage [for PvP]"
-      ],
-      "cons": [
-        "No synergy with rest pf her Costumes",
-        "Low debuff duration"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Niche",
-        "ln": "Bad",
-        "tos": "Niche",
-        "mw": "Good",
-        "gc": "Good",
-        "gen": "Bad"
-      }
-    },
     {
       "charName": "Yuri",
       "dmgAtt": "lp",
@@ -183,43 +113,6 @@
         "tos": "Niche",
         "mw": "Bad",
         "gc": "Niche",
-        "gen": "Bad"
-      }
-    },
-    {
-      "charName": "Lathel",
-      "dmgAtt": "fp",
-      "costumeName": "Lonely Survivor",
-      "roles": [
-        "Sub-DPS",
-        "Self-Buffer"
-      ],
-      "imgName": "lonely_survivor",
-      "startDate": "2026-08-06T00:00:00.000Z",
-      "endDate": "2026-08-12T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "n",
-      "pullReason": "It is rotational costume of Lathel, which does not deal a lot of damage. Nice to have, but not mandatory unless high-end rotations.",
-      "pros": [
-        "Rotational Lathel Costume",
-        "Self-Buffer"
-      ],
-      "cons": [
-        "Low Damage",
-        "Mid AoE"
-      ],
-      "modes": {
-        "gr": "Niche",
-        "fh": "Niche",
-        "ln": "Bad",
-        "tos": "Niche",
-        "mw": "Bad",
-        "gc": "Bad",
         "gen": "Bad"
       }
     },
@@ -296,44 +189,6 @@
       }
     },
     {
-      "charName": "Lecliss",
-      "dmgAtt": "wip",
-      "costumeName": "Killer Doll",
-      "roles": [
-        "Self-Buffer"
-      ],
-      "imgName": "killer_doll",
-      "startDate": "2026-08-13T04:30:00.000Z",
-      "endDate": "2026-08-19T23:59:59.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ],
-        [
-          "5",
-          "Buff Duration Increase [ 2 &rarr; 4 Turns ]"
-        ]
-      ],
-      "pullPriority": "n",
-      "pullReason": "This costume is purely for PvP. She needs high dupes to be effective in Mirror Wars, low dupes for Golden Colosseum. Considering the current and upcoming banners. She isn't really a prio.",
-      "pros": [
-        "Sustain & Taunt Self-Buffer"
-      ],
-      "cons": [
-        "PvP Costume"
-      ],
-      "modes": {
-        "gr": "Bad",
-        "fh": "Bad",
-        "ln": "Bad",
-        "tos": "Bad",
-        "mw": "Meta",
-        "gc": "Meta",
-        "gen": "Bad"
-      }
-    },
-    {
       "charName": "Alec",
       "dmgAtt": "fp",
       "costumeName": "The Destruction",
@@ -365,6 +220,56 @@
         "mw": "Niche",
         "gc": "Niche",
         "gen": "Bad"
+      }
+    },
+    {
+      "charName": "Aquila",
+      "dmgAtt": "fp",
+      "costumeName": "Savage Warrior",
+      "roles": [],
+      "imgName": "savage_warrior",
+      "startDate": "2026-08-27T04:30:00.000Z",
+      "endDate": "2026-09-09T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Blade",
+      "dmgAtt": "dp",
+      "costumeName": "Young Lady",
+      "roles": [],
+      "imgName": "young_lady",
+      "startDate": "2026-08-27T04:30:00.000Z",
+      "endDate": "2026-09-22T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ]
