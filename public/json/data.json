@@ -273,15 +273,14 @@
         ]
       ],
       "pullPriority": "r",
-      "pullReason": "Since this is a new DPS with only 1 Costume, it is quite hard to predict how good a Character overall will be. Nonetheless, currently, Aquila requires high-hit bosses. For example, for this costume to have no cooldown, 4 hits each turn are required, which does not happen every time. Overall, pull +5 if you are planning to build Aquilla, otherwise stopping at lesser dupe such as +1 is fine.<br><br><i>Make sure to recruit her from <b>pub</b> (any Chapter) for free 10 Draw Tickets.</i>",
+      "pullReason": "At the moment the only way to have her be active each turn is via at least 4-Hit attacks from the enemy, which does not happen every time. Since she will be a new DPS, it is quite hard to predict how good a character overall will be. Pull +5 if you are planning to build Aquila, otherwise stop at lower breakpoints.<br><br><i>Make sure to recruit her from <b>pub</b> (any Chapter) for free 10 Draw Tickets.</i>",
       "pros": [
         "Self-Buffer",
         "Decent Damage"
       ],
       "cons": [
         "Questionable AoE",
-        "Bosses Hit Dependency",
-        "First Costume of a Character"
+        "Depentend on enemy multi-attacks"
       ],
       "modes": {
         "gr": "Good",
@@ -310,15 +309,15 @@
           "-1 SP"
         ]
       ],
-      "pullPriority": "r",
-      "pullReason": "It is decent Costume capable of providing damage, especially for general content. Otherwise, she is mostly used solely as rotational costume, and in extremely rare occasions as amplifier / low-chainer for 1 tile.",
+      "pullPriority": "sr",
+      "pullReason": "Great costume for general content, thanks to the 3x3 skill range and good skill damage. Otherwise, this is mostly used as rotational costume, and in extremely rare occasions as amplifier / low-chainer for 1 tile.",
       "pros": [
         "Very good AoE",
         "Decent Damage",
         "Amplifier"
       ],
       "cons": [
-        "Not the main DPS source for Blade"
+        "Not the main source for her damage"
       ],
       "modes": {
         "gr": "Niche",
