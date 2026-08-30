@@ -42,6 +42,15 @@
       }
     ]
   },
+  "Aquila": {
+    "dmgAtt": "fp",
+    "costumes": [
+      {
+        "id": "char067901",
+        "name": "Savage_Warrior"
+      }
+    ]
+  },
   "Blade": {
     "dmgAtt": "dp",
     "costumes": [
