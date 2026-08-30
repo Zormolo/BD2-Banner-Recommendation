@@ -1,21 +1,6 @@
 {
   "tldr": [
     {
-      "id": "sunny_inn_hand",
-      "displayName": "Sunny Inn Hand Helena",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "sunny_inn_hand",
-      "displayName": "Sunny Inn Hand Helena",
-      "costumeUpgrade": 3
-    },
-    {
-      "id": "sunny_inn_hand",
-      "displayName": "Sunny Inn Hand Helena",
-      "costumeUpgrade": 5
-    },
-    {
       "id": "sword_queen",
       "displayName": "Sword Queen Sylvia",
       "costumeUpgrade": 2
@@ -28,11 +13,6 @@
     {
       "id": "savage_warrior",
       "displayName": "Savage Warrior Aquila",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "comeback_idol_yuri",
-      "displayName": "Comeback Idol Yuri",
       "costumeUpgrade": 1
     },
     {
@@ -59,126 +39,9 @@
       "id": "savage_warrior",
       "displayName": "Savage Warrior Aquila",
       "costumeUpgrade": 5
-    },
-    {
-      "id": "comeback_idol_yuri",
-      "displayName": "Comeback Idol Yuri",
-      "costumeUpgrade": 5
     }
   ],
   "banner": [
-    {
-      "charName": "Yuri",
-      "dmgAtt": "lp",
-      "costumeName": "Comeback Idol",
-      "roles": [
-        "DPS",
-        "Self-Buffer"
-      ],
-      "imgName": "comeback_idol_yuri",
-      "startDate": "2026-07-30T04:30:00.000Z",
-      "endDate": "2026-08-26T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "Yuri is good DPS that often fights with other Light DPS for a spot in team lineups. This costume has higher damage than Whitebolt, although, both are necessary for self-buffs and her rotation. I would consider her only if you lack Light DPS and have Whitebold at at least +1.",
-      "pros": [
-        "Decent Light DPS"
-      ],
-      "cons": [
-        "Mid AoE"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Niche",
-        "tos": "Niche",
-        "mw": "Niche",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
-    {
-      "charName": "Sylvia",
-      "dmgAtt": "wap",
-      "costumeName": "The Sword Queen",
-      "roles": [
-        "Self-Buffer"
-      ],
-      "imgName": "the_sword_queen",
-      "startDate": "2026-07-30T04:30:00.000Z",
-      "endDate": "2026-08-26T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "2",
-          "ATK Buff & Duration increase [ 100% &rarr; 150%, 2 Turns &rarr; 4 Turns ]"
-        ],
-        [
-          "5",
-          "ATK Buff & Duration increase [ 150% &rarr; 200%, 4 Turns &rarr; 6 Turns ]"
-        ]
-      ],
-      "pullPriority": "sr",
-      "pullReason": "If you ever plan to build a Sylvia, this is costume that you must have. This Costume offers a big ATK buff to herself which is furthermore exploited by Bikini Agent Sylvia.",
-      "pros": [
-        "The mandatory Costume for Sylvia"
-      ],
-      "cons": [
-        "Expensive Character to build overall",
-        "Bad AoE"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Bad",
-        "tos": "Niche",
-        "mw": "Bad",
-        "gc": "Niche",
-        "gen": "Bad"
-      }
-    },
-    {
-      "charName": "Helena",
-      "dmgAtt": "lm",
-      "costumeName": "Sunny Inn Hand",
-      "roles": [
-        "Buffer"
-      ],
-      "imgName": "sunny_inn_hand",
-      "startDate": "2026-08-13T04:30:00.000Z",
-      "endDate": "2026-08-26T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ],
-        [
-          "3",
-          "Augmentation Duration Increase [ 6 &rarr; 8 Turns ]"
-        ]
-      ],
-      "pullPriority": "ur",
-      "pullReason": "This costume provides a big amount of Augmentation to one ally, as well as a small CD reduction. Considering Helena is already a core magic buffer, her value increases even more. Additionally, this costume fulfils her rotation, making it complete.",
-      "pros": [
-        "Buffer Costume",
-        "Filling Helena rotation",
-        "Good buff value"
-      ],
-      "cons": [],
-      "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "",
-        "tos": "Niche",
-        "mw": "",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
     {
       "charName": "Dalvi",
       "dmgAtt": "wim",
@@ -211,40 +74,6 @@
         "mw": "Niche",
         "gc": "Bad",
         "gen": "Niche"
-      }
-    },
-    {
-      "charName": "Alec",
-      "dmgAtt": "fp",
-      "costumeName": "The Destruction",
-      "roles": [
-        "DPS"
-      ],
-      "imgName": "the_destruction",
-      "startDate": "2026-08-20T00:00:00.000Z",
-      "endDate": "2026-08-26T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "n",
-      "pullReason": "Even despite being a PvP costume, his usage is incredibly low even there.",
-      "pros": [],
-      "cons": [
-        "Barely usable",
-        "PvP Costume",
-        "Bad AoE"
-      ],
-      "modes": {
-        "gr": "Bad",
-        "fh": "Bad",
-        "ln": "Bad",
-        "tos": "Bad",
-        "mw": "Niche",
-        "gc": "Niche",
-        "gen": "Bad"
       }
     },
     {
