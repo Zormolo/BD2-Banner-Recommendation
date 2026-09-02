@@ -18,6 +18,10 @@ function createCostumeList( characters, bannerRec ) {
       let imgName = imgNameOptions.find( name => bannerRec[ name ] ?? '' );
       let rec = bannerRec[ imgName ] || null;
 
+      if ( rec ) {
+        delete bannerRec[ imgName ];
+      }
+
       const costumeData = {
         id: costumeInfo.id,
         charName: charName.replaceAll( '_', ' ' ),
@@ -309,6 +313,10 @@ async function init() {
 
   const s = performance.now();
   const costumeList = createCostumeList( characters, archiveData );
+
+  if ( Object.keys( archiveData ).length > 0 ) {
+    console.error( archiveData );
+  }
 
   createCostumeRecCards( costumeList, utils );
   console.log( ( performance.now() - s ) + " ms" )

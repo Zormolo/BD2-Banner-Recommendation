@@ -210,6 +210,10 @@
       {
         "id": "char066906",
         "name": "Disciplinary_Committee"
+      },
+      {
+        "id": "char066906",
+        "name": "Heavenly_Guardian_Successor"
       }
     ]
   },
@@ -287,6 +291,10 @@
       {
         "id": "char061002",
         "name": "B-Rank_Idol"
+      },
+      {
+        "id": "char061003",
+        "name": "Sunny_Inn_Hand"
       }
     ]
   },
@@ -499,12 +507,12 @@
       }
     ]
   },
-  "Morphea": {
+  "Morpeah": {
     "dmgAtt": "wam",
     "costumes": [
       {
         "id": "char003401",
-        "name": "Summer_Vacation"
+        "name": "Beach_Vacation"
       },
       {
         "id": "char003402",
