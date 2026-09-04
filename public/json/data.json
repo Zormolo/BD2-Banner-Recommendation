@@ -147,6 +147,64 @@
         "gc": "Good",
         "gen": "Meta"
       }
+    },
+    {
+      "charName": "Tenka Izumo",
+      "dmgAtt": "dm",
+      "costumeName": "Ame-no-Mitori",
+      "roles": [
+      ],
+      "imgName": "ame-no-mitori",
+      "startDate": "2026-09-09T04:30:00.000Z",
+      "endDate": "2026-10-07T23:50:00.000Z",
+      "breakpoints": [
+        [
+        ]
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [
+      ],
+      "cons": [
+      ],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Ren Yamashiro",
+      "dmgAtt": "lm",
+      "costumeName": "Lord of the Cosmos",
+      "roles": [
+      ],
+      "imgName": "lord_of_the_cosmos",
+      "startDate": "2026-09-22T04:30:00.000Z",
+      "endDate": "2026-10-07T23:50:00.000Z",
+      "breakpoints": [
+        [
+        ]
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [
+      ],
+      "cons": [
+      ],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
     }
   ]
 }

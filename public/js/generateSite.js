@@ -119,6 +119,7 @@ async function createBannerCards( bannerData, utils ) {
     //Basic Info
     const costumeImgAvif = bannerCard.querySelector( '[ data-costume-image-avif ]' );
     costumeImgAvif.srcset = `./public/images/avif/costumes/${ bannerChar.imgName }.avif`;
+    costumeImgAvif.onerror =  `( event ) => { ${ costumeImgAvif.remove() } }`;
     costumeImgAvif.removeAttribute( 'data-costume-image-avif' );
     /** @type { HTMLImageElement } */
     const costumeImg = bannerCard.querySelector( '[ data-costume-image ]' );
@@ -437,6 +438,11 @@ function updateBannerTimeLeft() {
     const timeArray = calcTimeLeftOnBanner( new Date( element.dataset.endDate ) );
     element.textContent =  createTimeLeftString( timeArray );
   } );
+}
+
+
+function test() {
+  console.log( 'test' )
 }
 
 
