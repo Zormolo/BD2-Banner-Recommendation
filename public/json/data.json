@@ -167,19 +167,28 @@
       "charName": "Tenka Izumo",
       "dmgAtt": "dm",
       "costumeName": "Ame-no-Mitori",
-      "roles": ["DPS"],
+      "roles": [
+        "DPS"
+      ],
       "imgName": "ame-no-mitori",
       "startDate": "2026-09-10T04:30:00.000Z",
       "endDate": "2026-10-07T23:50:00.000Z",
       "breakpoints": [
-        ["1","-1 SP"]
+        [
+          "1",
+          "-1 SP"
+        ]
       ],
       "pullPriority": "r",
-      "pullReason": "It is completely normal to pull collab limited character if you really want her, but the fact that she has / will have only 1 costume with 3 CD is going to just kill her as viable options for DPS compared to other options.",
-      "pros": ["Limited Collab Character"],
-      "cons": ["One Costume for a character",
-    "Lack of full rotation",
-  "Mediocre damage to compensate for the lack of rotation"],
+      "pullReason": "Tenka will have big problems in PvE because she will probably never get a second costume. 3CD on a single costume character always raises red flags. But there are some use cases where she can still work. 1050% Skill Damage at +5 with a 3x3 range is more than enough to clear story content with her. FH / GR with low chain requirements could use her, especially with the bigger range of the burst. But those are rare situations. For PvP only GC would be important for her, but she gets a free bigger damager area. In the end, she will most likely be just a pretty collector's piece.",
+      "pros": [
+        "Limited Collab Character",
+        "3x3 Skill Pattern"
+      ],
+      "cons": [
+        "One Costume for a character",
+        "Lack of full rotation"
+      ],
       "modes": {
         "gr": "Niche",
         "fh": "Niche",
@@ -194,20 +203,28 @@
       "charName": "Eleaneer",
       "dmgAtt": "dp",
       "costumeName": "Piercing Magic Bow",
-      "roles": ["Sub-DPS",
-      "Support"
-    ],
+      "roles": [
+        "Sub-DPS",
+        "Support"
+      ],
       "imgName": "piercing_magic_bow",
       "startDate": "2026-09-10T04:30:00.000Z",
       "endDate": "2026-09-22T23:50:00.000Z",
       "breakpoints": [
-        ["3", "-1 SP"]
+        [
+          "3",
+          "-1 SP"
+        ]
       ],
       "pullPriority": "n",
-      "pullReason": "Eleaneer is mostly a PvP unit, as well as filler in Fiend Hunter 3rd team thanks to Shadow Bunny Costume. Therefore, there is no many reasons to get her, unless you are heavily invested into PvP (which is questionable for a new player).<br><br><i>Make sure to recruit her from <b>pub</b> (Random) for free 10 Draw Tickets.</i>",
-      "pros": [],
-      "cons": ["High -SP dupe",
-    "Used primarily in PvP"],
+      "pullReason": "Eleaneer is mostly a PvP unit and one of the main counter of Grandhildr. This costume is mostly used for buff removal of enemies. Additionally, it doesnt deal great damage for current PvE standards, which makes it at best a rotation filler with a hint of sub-dps / chainer because of the new burst. If you care about PvP get her to +5 otherwise at best +3 to follow FH / GR guides without sp issues. <br><br><i>Make sure to recruit her from <b>pub</b> (Random) for free 10 Draw Tickets.</i>",
+      "pros": [
+        "Buff-Removal"
+      ],
+      "cons": [
+        "needs +3 for SP reduction",
+        "Used primarily in PvP"
+      ],
       "modes": {
         "gr": "Bad",
         "fh": "Bad",
@@ -222,17 +239,23 @@
       "charName": "Ren Yamashiro",
       "dmgAtt": "lm",
       "costumeName": "Lord of the Cosmos",
-      "roles": ["DPS"],
+      "roles": [
+        "DPS"
+      ],
       "imgName": "lord_of_the_cosmos",
       "startDate": "2026-09-23T04:30:00.000Z",
       "endDate": "2026-10-07T23:50:00.000Z",
       "breakpoints": [
-        []
+        [
+        ]
       ],
       "pullPriority": "r",
       "pullReason": "We currently do not know much details about Ren, but based on a preview, it is gonna be maily PvP unit, which makes her automatically optional.",
-      "pros": [],
-      "cons": ["Potentially PvP-only unit"],
+      "pros": [
+      ],
+      "cons": [
+        "Potentially PvP-only unit"
+      ],
       "modes": {
         "gr": "",
         "fh": "",
