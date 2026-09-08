@@ -29,6 +29,21 @@
       "id": "savage_warrior",
       "displayName": "Savage Warrior Aquila",
       "costumeUpgrade": 5
+    },
+    {
+      "id": "ame-no-mitori",
+      "displayName": "Ame-no-Mitori Tenka Izumo",
+      "costumeUpgrade": 0
+    },
+    {
+      "id": "ame-no-mitori",
+      "displayName": "Ame-no-Mitori Tenka Izumo",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "piercing_magic_bow",
+      "displayName": "Piercing Magic Bow Eleanner",
+      "costumeUpgrade": 3
     }
   ],
   "banner": [
@@ -152,67 +167,72 @@
       "charName": "Tenka Izumo",
       "dmgAtt": "dm",
       "costumeName": "Ame-no-Mitori",
-      "roles": [],
+      "roles": ["DPS"],
       "imgName": "ame-no-mitori",
       "startDate": "2026-09-10T04:30:00.000Z",
       "endDate": "2026-10-07T23:50:00.000Z",
       "breakpoints": [
-        []
+        ["1","-1 SP"]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "r",
+      "pullReason": "It is completely normal to pull collab limited character if you really want her, but the fact that she has / will have only 1 costume with 3 CD is going to just kill her as viable options for DPS compared to other options.",
+      "pros": ["Limited Collab Character"],
+      "cons": ["One Costume for a character",
+    "Lack of full rotation",
+  "Mediocre damage to compensate for the lack of rotation"],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Niche",
+        "fh": "Niche",
+        "ln": "Niche",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Good",
+        "gen": "Good"
       }
     },
     {
       "charName": "Eleaneer",
       "dmgAtt": "dp",
       "costumeName": "Piercing Magic Bow",
-      "roles": [],
+      "roles": ["Sub-DPS",
+      "Support"
+    ],
       "imgName": "piercing_magic_bow",
       "startDate": "2026-09-10T04:30:00.000Z",
       "endDate": "2026-09-22T23:50:00.000Z",
       "breakpoints": [
-        []
+        ["3", "-1 SP"]
       ],
-      "pullPriority": "",
-      "pullReason": "",
+      "pullPriority": "n",
+      "pullReason": "Eleaneer is mostly a PvP unit, as well as filler in Fiend Hunter 3rd team thanks to Shadow Bunny Costume. Therefore, there is no many reasons to get her, unless you are heavily invested into PvP (which is questionable for a new player).<br><br><i>Make sure to recruit her from <b>pub</b> (Random) for free 10 Draw Tickets.</i>",
       "pros": [],
-      "cons": [],
+      "cons": ["High -SP dupe",
+    "Used primarily in PvP"],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Bad",
+        "fh": "Bad",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "Meta",
+        "gc": "Good",
+        "gen": "Niche"
       }
     },
     {
       "charName": "Ren Yamashiro",
       "dmgAtt": "lm",
       "costumeName": "Lord of the Cosmos",
-      "roles": [],
+      "roles": ["DPS"],
       "imgName": "lord_of_the_cosmos",
       "startDate": "2026-09-23T04:30:00.000Z",
       "endDate": "2026-10-07T23:50:00.000Z",
       "breakpoints": [
         []
       ],
-      "pullPriority": "",
-      "pullReason": "",
+      "pullPriority": "r",
+      "pullReason": "We currently do not know much details about Ren, but based on a preview, it is gonna be maily PvP unit, which makes her automatically optional.",
       "pros": [],
-      "cons": [],
+      "cons": ["Potentially PvP-only unit"],
       "modes": {
         "gr": "",
         "fh": "",
