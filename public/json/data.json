@@ -152,21 +152,42 @@
       "charName": "Tenka Izumo",
       "dmgAtt": "dm",
       "costumeName": "Ame-no-Mitori",
-      "roles": [
-      ],
+      "roles": [],
       "imgName": "ame-no-mitori",
       "startDate": "2026-09-10T04:30:00.000Z",
       "endDate": "2026-10-07T23:50:00.000Z",
       "breakpoints": [
-        [
-        ]
+        []
       ],
       "pullPriority": "",
       "pullReason": "",
-      "pros": [
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Eleaneer",
+      "dmgAtt": "dp",
+      "costumeName": "Piercing Magic Bow",
+      "roles": [],
+      "imgName": "piercing_magic_bow",
+      "startDate": "2026-09-10T04:30:00.000Z",
+      "endDate": "2026-09-22T23:50:00.000Z",
+      "breakpoints": [
+        []
       ],
-      "cons": [
-      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
       "modes": {
         "gr": "",
         "fh": "",
@@ -181,21 +202,17 @@
       "charName": "Ren Yamashiro",
       "dmgAtt": "lm",
       "costumeName": "Lord of the Cosmos",
-      "roles": [
-      ],
+      "roles": [],
       "imgName": "lord_of_the_cosmos",
       "startDate": "2026-09-23T04:30:00.000Z",
       "endDate": "2026-10-07T23:50:00.000Z",
       "breakpoints": [
-        [
-        ]
+        []
       ],
       "pullPriority": "",
       "pullReason": "",
-      "pros": [
-      ],
-      "cons": [
-      ],
+      "pros": [],
+      "cons": [],
       "modes": {
         "gr": "",
         "fh": "",
