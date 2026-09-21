@@ -6,28 +6,8 @@
       "costumeUpgrade": 1
     },
     {
-      "id": "savage_warrior",
-      "displayName": "Savage Warrior Aquila",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "bright_moon",
-      "displayName": "Bright Moon Dalvi",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "savage_warrior",
-      "displayName": "Savage Warrior Aquila",
-      "costumeUpgrade": 3
-    },
-    {
       "id": "young_lady",
       "displayName": "Young Lady Blade",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "savage_warrior",
-      "displayName": "Savage Warrior Aquila",
       "costumeUpgrade": 5
     },
     {
@@ -47,85 +27,6 @@
     }
   ],
   "banner": [
-    {
-      "charName": "Dalvi",
-      "dmgAtt": "wim",
-      "costumeName": "Bright Moon",
-      "roles": [
-        "DPS"
-      ],
-      "imgName": "bright_moon",
-      "startDate": "2026-08-13T04:30:00.000Z",
-      "endDate": "2026-09-09T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "It is a rotational costume for Dalvi, which is needed for her full rotation. Otherwise the impact of this costume is not that big. If you have Tricky Lady Dalvi consider getting this costume to +1.",
-      "pros": [
-        "Rotational Costume for Dalvi"
-      ],
-      "cons": [
-        "Mediocre Aoe"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Bad",
-        "tos": "Niche",
-        "mw": "Niche",
-        "gc": "Bad",
-        "gen": "Niche"
-      }
-    },
-    {
-      "charName": "Aquila",
-      "dmgAtt": "fp",
-      "costumeName": "Savage Warrior",
-      "roles": [
-        "DPS",
-        "Self-Buffer"
-      ],
-      "imgName": "savage_warrior",
-      "startDate": "2026-08-27T04:30:00.000Z",
-      "endDate": "2026-09-09T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ],
-        [
-          "3",
-          "ATK Buff Increase [ 15% &rarr; 21% ]"
-        ],
-        [
-          "5",
-          "ATK Buff Increase [ 21% &rarr; 27% ]"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "At the moment the only way to have her be active each turn is via at least 4-Hit attacks from the enemy, which does not happen every time. Since she will be a new DPS, it is quite hard to predict how good a character overall will be. Pull +5 if you are planning to build Aquila, otherwise stop at lower breakpoints.<br><br><i>Make sure to recruit her from <b>pub</b> (any Chapter) for free 10 Draw Tickets.</i>",
-      "pros": [
-        "Self-Buffer",
-        "Decent Damage"
-      ],
-      "cons": [
-        "Questionable AoE",
-        "Depentend on enemy multi-attacks"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Niche",
-        "tos": "Niche",
-        "mw": "Bad",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
     {
       "charName": "Blade",
       "dmgAtt": "dp",
@@ -246,16 +147,64 @@
       "startDate": "2026-09-23T04:30:00.000Z",
       "endDate": "2026-10-07T23:50:00.000Z",
       "breakpoints": [
-        [
-        ]
+        []
       ],
       "pullPriority": "r",
       "pullReason": "We currently do not know much details about Ren, but based on a preview, it is gonna be maily PvP unit, which makes her automatically optional.",
-      "pros": [
-      ],
+      "pros": [],
       "cons": [
         "Potentially PvP-only unit"
       ],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Olivier",
+      "dmgAtt": "lm",
+      "costumeName": "Faithful Wings",
+      "roles": [],
+      "imgName": "faithful_wings",
+      "startDate": "2026-09-23T04:30:00.000Z",
+      "endDate": "2026-10-07T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Teresse",
+      "dmgAtt": "wap",
+      "costumeName": "Medical Club",
+      "roles": [],
+      "imgName": "medical_club",
+      "startDate": "2026-09-23T04:30:00.000Z",
+      "endDate": "2026-10-07T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
       "modes": {
         "gr": "",
         "fh": "",
