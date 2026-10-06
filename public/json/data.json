@@ -245,6 +245,81 @@
         "gc": "Niche",
         "gen": "Good"
       }
+    },
+    {
+      "charName": "Nekyndalia",
+      "dmgAtt": "wim",
+      "costumeName": "Unraveling Mummy",
+      "roles": [],
+      "imgName": "unraveling_mummy",
+      "startDate": "2026-10-08T04:30:00.000Z",
+      "endDate": "2026-10-21T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Celia",
+      "dmgAtt": "dm",
+      "costumeName": "Descendant of Great Witch",
+      "roles": [],
+      "imgName": "descendant_of_great_witch",
+      "startDate": "2026-10-08T04:30:00.000Z",
+      "endDate": "2026-10-21T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Tyr",
+      "dmgAtt": "wip",
+      "costumeName": "Innocent Bunny",
+      "roles": [],
+      "imgName": "innocent_bunny",
+      "startDate": "2026-10-08T04:30:00.000Z",
+      "endDate": "2026-11-04T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
     }
   ]
 }

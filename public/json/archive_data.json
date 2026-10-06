@@ -2018,5 +2018,70 @@
       "gc": "Niche",
       "gen": "Niche"
     }
+  },
+  "young_lady": {
+    "roles": [
+      "Support",
+      "Sub-DPS"
+    ],
+    "startDate": "2026-08-27T04:30:00.000Z",
+    "endDate": "2026-09-22T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "sr",
+    "pullReason": "Great costume for general content, thanks to the 3x3 skill range and good skill damage. Otherwise, this is mostly used as rotational costume, and in extremely rare occasions as amplifier / low-chainer for 1 tile.",
+    "pros": [
+      "Very good AoE",
+      "Decent Damage",
+      "Amplifier"
+    ],
+    "cons": [
+      "Not the main source for her damage"
+    ],
+    "modes": {
+      "gr": "Niche",
+      "fh": "Good",
+      "ln": "Niche",
+      "tos": "Meta",
+      "mw": "Niche",
+      "gc": "Good",
+      "gen": "Meta"
+    }
+  },
+  "piercing_magic_bow": {
+    "roles": [
+      "Sub-DPS",
+      "Support"
+    ],
+    "startDate": "2026-09-10T04:30:00.000Z",
+    "endDate": "2026-09-22T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "n",
+    "pullReason": "Eleaneer is mostly a PvP unit and one of the main counter of Grandhildr. This costume is mostly used for buff removal of enemies. Additionally, it doesnt deal great damage for current PvE standards, which makes it at best a rotation filler with a hint of sub-dps / chainer because of the new burst. If you care about PvP get her to +5 otherwise +3 to follow FH / GR guides without sp issues. <br><br><i>Make sure to recruit her from <b>pub</b> (Random) for free 10 Draw Tickets.</i>",
+    "pros": [
+      "Buff-Removal"
+    ],
+    "cons": [
+      "needs +3 for SP reduction",
+      "Used primarily in PvP"
+    ],
+    "modes": {
+      "gr": "Bad",
+      "fh": "Bad",
+      "ln": "Bad",
+      "tos": "Niche",
+      "mw": "Meta",
+      "gc": "Good",
+      "gen": "Niche"
+    }
   }
 }
