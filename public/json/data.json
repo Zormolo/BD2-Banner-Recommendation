@@ -6,6 +6,11 @@
       "costumeUpgrade": 1
     },
     {
+      "id": "unraveling_mummy",
+      "displayName": "Unraveling Mummy Nekyndalia",
+      "costumeUpgrade": 1
+    },
+    {
       "id": "young_lady",
       "displayName": "Young Lady Blade",
       "costumeUpgrade": 1
@@ -18,6 +23,31 @@
     {
       "id": "medical_club",
       "displayName": "Medical Club Teresse",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "descendant_of_great_witch",
+      "displayName": "Descendant of the Great Witch Celia",
+      "costumeUpgrade": 3
+    },
+    {
+      "id": "innocent_bunny",
+      "displayName": "Innocent Bunny Tyr",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "unraveling_mummy",
+      "displayName": "Unraveling Mummy Nekyndalia",
+      "costumeUpgrade": 5
+    },
+    {
+      "id": "descendant_of_great_witch",
+      "displayName": "Descendant of the Great Witch Celia",
+      "costumeUpgrade": 4
+    },
+    {
+      "id": "innocent_bunny",
+      "displayName": "Innocent Bunny Tyr",
       "costumeUpgrade": 5
     },
     {
@@ -250,75 +280,82 @@
       "charName": "Nekyndalia",
       "dmgAtt": "wim",
       "costumeName": "Unraveling Mummy",
-      "roles": [],
+      "roles": ["Chainer", "DPS", "Self-Buffer"],
       "imgName": "unraveling_mummy",
       "startDate": "2026-10-08T04:30:00.000Z",
       "endDate": "2026-10-21T23:50:00.000Z",
       "breakpoints": [
-        []
+        ["1", "-1 SP"]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "sr",
+      "pullReason": "Mummy Nekyndalia has the capabilities of being both a very good chainer and a quite good DPS. If you aim to use her mostly as Support, +1 is a good spot to stop. Nonetheless, her utility impact is quite limited thanks to the being quite expensive and her being quite squishy to use off-season.",
+      "pros": ["Chain Damage Self-Buff",
+              "Big AoE"          
+              ],
+      "cons": ["High SP consumption",
+              "Squishiness"
+              ],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Meta",
+        "tos": "Good",
+        "mw": "Niche",
+        "gc": "Good",
+        "gen": "Good"
       }
     },
     {
       "charName": "Celia",
       "dmgAtt": "dm",
       "costumeName": "Descendant of Great Witch",
-      "roles": [],
+      "roles": ["Chainer", "Support"],
       "imgName": "descendant_of_great_witch",
       "startDate": "2026-10-08T04:30:00.000Z",
       "endDate": "2026-10-21T23:50:00.000Z",
       "breakpoints": [
-        []
+        ["3", "-1 SP"],
+        ["4", "Max Enemy MATK Reduction [ 65% ]"]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "sr",
+      "pullReason": "Celia is an established chainer, that, unfortunately, needs all Costumes, particularly Masquerade Bunny Costume. Nonetheless, it is important to prepare investments to be able to use her.",
+      "pros": ["Big AoE"],
+      "cons": ["Dependancy on other Costumes"],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Niche",
+        "tos": "Niche",
+        "mw": "Niche",
+        "gc": "Niche",
+        "gen": "Niche"
       }
     },
     {
       "charName": "Tyr",
       "dmgAtt": "wip",
       "costumeName": "Innocent Bunny",
-      "roles": [],
+      "roles": ["DPS"],
       "imgName": "innocent_bunny",
       "startDate": "2026-10-08T04:30:00.000Z",
       "endDate": "2026-11-04T23:50:00.000Z",
       "breakpoints": [
-        []
+        ["1", "-1 SP"],
+        ["2", "Damage Increase per Used SP [ 100% &rarr; 130% ]"],
+        ["4", "Damage Increase per Used SP [ 130% &rarr; 150% ]"]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "r",
+      "pullReason": "She is rotational Costume for Tyr, but objectively is inferior to the other Tyr Costume, Starlight Guardian. You could get her if you invest into Tyr, but, otherwise, there is not much usage for this Tyr.",
+      "pros": ["Decent Damage"],
+      "cons": ["Weak AoE"],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Bad",
+        "tos": "Niche",
+        "mw": "Niche",
+        "gc": "Niche",
+        "gen": "Niche"
       }
     }
   ]
