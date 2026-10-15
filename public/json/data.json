@@ -33,7 +33,7 @@
     {
       "id": "innocent_bunny",
       "displayName": "Innocent Bunny Tyr",
-      "costumeUpgrade": 1
+      "costumeUpgrade": 0
     },
     {
       "id": "unraveling_mummy",
@@ -340,7 +340,6 @@
       "startDate": "2026-10-08T04:30:00.000Z",
       "endDate": "2026-11-04T23:50:00.000Z",
       "breakpoints": [
-        ["1", "-1 SP"],
         ["2", "Damage Increase per Used SP [ 100% &rarr; 130% ]"],
         ["4", "Damage Increase per Used SP [ 130% &rarr; 150% ]"]
       ],
