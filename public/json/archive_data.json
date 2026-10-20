@@ -2083,5 +2083,132 @@
       "gc": "Good",
       "gen": "Niche"
     }
+  },
+  "ame-no-mitori": {
+    "roles": [
+      "DPS"
+    ],
+    "startDate": "2026-09-10T04:30:00.000Z",
+    "endDate": "2026-10-07T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "r",
+    "pullReason": "Tenka will have big problems in PvE because she will probably never get a second costume. 3CD on a single costume character always raises red flags. But there are some use cases where she can still work. 1050% Skill Damage at +5 with a 3x3 range is more than enough to clear story content with her. FH / GR with low chain requirements could use her, especially with the bigger range of the burst. But those are rare situations. For PvP only GC would be important for her, but she gets a free bigger damager area. In the end, she will most likely be just a pretty collector's piece.",
+    "pros": [
+      "Limited Collab Character",
+      "3x3 Skill Pattern"
+    ],
+    "cons": [
+      "One Costume for a character",
+      "Lack of full rotation"
+    ],
+    "modes": {
+      "gr": "Niche",
+      "fh": "Niche",
+      "ln": "Niche",
+      "tos": "Niche",
+      "mw": "Bad",
+      "gc": "Good",
+      "gen": "Good"
+    }
+  },
+  "lord_of_the_cosmos": {
+    "roles": [
+      "DPS"
+    ],
+    "startDate": "2026-09-23T04:30:00.000Z",
+    "endDate": "2026-10-07T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "r",
+    "pullReason": "Ren offers fair kit that allows her usage in both PvE and PvP. However, due to lack of multiple costumes and due to specifics of Ren's kit, there is a good chance that she will not be capable to compete with other DPS for a permanent spot in the meta.",
+    "pros": [
+      "Decent Damage",
+      "Full uptime"
+    ],
+    "cons": [
+      "Mid AoE",
+      "Limited to one Costume"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Good",
+      "tos": "Good",
+      "mw": "Good",
+      "gc": "Good",
+      "gen": "Niche"
+    }
+  },
+  "faithful_wings": {
+    "roles": [
+      "Support",
+      "Sub-DPS"
+    ],
+    "startDate": "2026-09-23T04:30:00.000Z",
+    "endDate": "2026-10-07T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "sr",
+    "pullReason": "She is a Support costume for different Costume of Olivier, Fallen Wings. Additionally, her SP regeneration on pair with Retired Legend Costume allows her to be used as for Support regardless of the season as well.<br><br><i>Make sure to recruit her from <b>pub (Story Pack 18)</b> for free 10 Draw Tickets.</i>",
+    "pros": [
+      "Support Costume",
+      "SP Battery"
+    ],
+    "cons": [
+      "Needs other Costumes",
+      "Weak DPS Costume"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Bad",
+      "tos": "Niche",
+      "mw": "Niche",
+      "gc": "Niche",
+      "gen": "Niche"
+    }
+  },
+  "medical_club": {
+    "roles": [
+      "Support"
+    ],
+    "startDate": "2026-09-23T04:30:00.000Z",
+    "endDate": "2026-10-07T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "ur",
+    "pullReason": "Teresse is still very strong Support, and Medical Club Costume is a part of the reason why. You would like to get her, especially if you already have Beachside Angel Costume.",
+    "pros": [
+      "Support"
+    ],
+    "cons": [
+      "Needs other Costumes"
+    ],
+    "modes": {
+      "gr": "Niche",
+      "fh": "Meta",
+      "ln": "Meta",
+      "tos": "Meta",
+      "mw": "Niche",
+      "gc": "Niche",
+      "gen": "Good"
+    }
   }
 }

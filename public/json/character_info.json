@@ -649,6 +649,14 @@
       }
     ]
   },
+  "Ren": {
+    "dmgAtt": "lm",
+    "costumes": [
+      {
+        "name": "Lord_of_the_Cosmos"
+      }
+    ]
+  },
   "Rou": {
     "dmgAtt": "dp",
     "costumes": [
@@ -791,6 +799,14 @@
       {
         "id": "char001006",
         "name": "Bikini_Agent"
+      }
+    ]
+  },
+  "Tenka": {
+    "dmgAtt": "dm",
+    "costumes": [
+      {
+        "name": "Ame-no-Mitori"
       }
     ]
   },
