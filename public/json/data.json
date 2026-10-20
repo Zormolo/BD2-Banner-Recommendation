@@ -6,6 +6,16 @@
       "costumeUpgrade": 1
     },
     {
+      "id": "apostle_morpeah",
+      "displayName": "Apostle Morpeah",
+      "costumeUpgrade": 1
+    },
+    {
+      "id": "sealed_desires",
+      "displayName": "Sealed Desires Aquila",
+      "costumeUpgrade": 1
+    },    
+    {
       "id": "descendant_of_great_witch",
       "displayName": "Descendant of the Great Witch Celia",
       "costumeUpgrade": 3
@@ -14,6 +24,11 @@
       "id": "innocent_bunny",
       "displayName": "Innocent Bunny Tyr",
       "costumeUpgrade": 0
+    },
+    {
+      "id": "apostle_morpeah",
+      "displayName": "Apostle Morpeah",
+      "costumeUpgrade": 5
     },
     {
       "id": "unraveling_mummy",
@@ -25,6 +40,11 @@
       "displayName": "Descendant of the Great Witch Celia",
       "costumeUpgrade": 4
     },
+    {
+      "id": "sealed_desires",
+      "displayName": "Sealed Desires Aquila",
+      "costumeUpgrade": 5
+    },    
     {
       "id": "innocent_bunny",
       "displayName": "Innocent Bunny Tyr",
@@ -151,50 +171,52 @@
       "charName": "Aquila",
       "dmgAtt": "fp",
       "costumeName": "Sealed Desires",
-      "roles": [],
+      "roles": ["DPS", "Self-Buffer"],
       "imgName": "sealed_desires",
       "startDate": "2026-10-22T04:30:00.000Z",
       "endDate": "2026-11-04T23:50:00.000Z",
       "breakpoints": [
-        []
+        ["1", "-1 SP"]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "r",
+      "pullReason": "It is a rotational Costume for Aquila. She has low value if it is the only costume, and skill drawback is quite scary without high investments into supports and Bursts. Additionally, without her own Burst, her utility is way less significant, but the Burst decreases survivability even more. The concept of living on Energy Guard sounds cool, but is a bit unpredictable.",
+      "pros": ["Big AoE",
+              "Self-Buff"],
+      "cons": ["Health Reduction drawback"],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Good",
+        "fh": "Good",
+        "ln": "Niche",
+        "tos": "Niche",
+        "mw": "Bad",
+        "gc": "Niche",
+        "gen": "Niche"
       }
     },
     {
       "charName": "Morpeah",
       "dmgAtt": "wam",
       "costumeName": "Apostle",
-      "roles": [],
+      "roles": ["Support"],
       "imgName": "apostle_morpeah",
       "startDate": "2026-10-22T04:30:00.000Z",
       "endDate": "2026-11-04T23:50:00.000Z",
       "breakpoints": [
-        []
+        ["1", "-1 SP"]
       ],
-      "pullPriority": "",
-      "pullReason": "",
-      "pros": [],
-      "cons": [],
+      "pullPriority": "sr",
+      "pullReason": "This Costume is very important for Morpeah to function, however, <b>you need other Costumes, most notably Summer Vacation, to make the most of the Costume</b>. Otherwise, her value is incredibly low but still present thanks to Concentrated Fire.<br><br><i>Make sure to recruit her from <b>pub</b> (Story Pack 17) for free 10 Draw Tickets.</i>",
+      "pros": ["Self-Support",
+        "Big AoE"],
+      "cons": ["Low DMG"],
       "modes": {
-        "gr": "",
-        "fh": "",
-        "ln": "",
-        "tos": "",
-        "mw": "",
-        "gc": "",
-        "gen": ""
+        "gr": "Meta",
+        "fh": "Meta",
+        "ln": "Niche",
+        "tos": "Niche",
+        "mw": "Niche",
+        "gc": "Niche",
+        "gen": "Niche"
       }
     }
   ]
