@@ -190,8 +190,8 @@
       "startDate": "2026-11-05T04:30:00.000Z",
       "endDate": "2026-11-18T23:50:00.000Z",
       "breakpoints": [
-        "2", "Higher Damage [ 15% &rarr; 20% per Bloodfever stack ]",
-        "4", "Higher Damage [ 20% &rarr; 25% per Bloodfever stack ]"
+        ["2", "Higher Damage [ 15% &rarr; 20% per Bloodfever stack ]"],
+        ["4", "Higher Damage [ 20% &rarr; 25% per Bloodfever stack ]"]
       ],
       "pullPriority": "r",
       "pullReason": "Her kit isn't bad for a new Character. She offers buff stacks and seemingly decent damage. However, there are few things that can, potentially, make her not so good in the future. Additionally, Aniversary is slowly creeping up which would suggest shifting priorities for those units.<br><br><i>Make sure to recruit her from <b>pub</b> (Random Appearance) for free 10 Draw Tickets.</i>",
