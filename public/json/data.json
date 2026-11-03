@@ -1,29 +1,9 @@
 {
   "tldr": [
     {
-      "id": "unraveling_mummy",
-      "displayName": "Unraveling Mummy Nekyndalia",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "descendant_of_great_witch",
-      "displayName": "Descendant of the Great Witch Celia",
-      "costumeUpgrade": 3
-    },
-    {
       "id": "innocent_bunny",
       "displayName": "Innocent Bunny Tyr",
       "costumeUpgrade": 0
-    },
-    {
-      "id": "unraveling_mummy",
-      "displayName": "Unraveling Mummy Nekyndalia",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "descendant_of_great_witch",
-      "displayName": "Descendant of the Great Witch Celia",
-      "costumeUpgrade": 4
     },
     {
       "id": "innocent_bunny",
@@ -32,83 +12,6 @@
     }
   ],
   "banner": [
-    {
-      "charName": "Nekyndalia",
-      "dmgAtt": "wim",
-      "costumeName": "Unraveling Mummy",
-      "roles": [
-        "Chainer",
-        "DPS",
-        "Self-Buffer"
-      ],
-      "imgName": "unraveling_mummy",
-      "startDate": "2026-10-08T04:30:00.000Z",
-      "endDate": "2026-10-21T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "sr",
-      "pullReason": "Mummy Nekyndalia has the capabilities of being both a very good chainer and a quite good DPS. If you aim to use her mostly as Support, +1 is a good spot to stop. Nonetheless, her utility impact is quite limited thanks to the being quite expensive and her being quite squishy to use off-season.",
-      "pros": [
-        "Chain Damage Self-Buff",
-        "Big AoE"
-      ],
-      "cons": [
-        "High SP consumption",
-        "Squishiness"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Meta",
-        "tos": "Good",
-        "mw": "Niche",
-        "gc": "Good",
-        "gen": "Good"
-      }
-    },
-    {
-      "charName": "Celia",
-      "dmgAtt": "dm",
-      "costumeName": "Descendant of Great Witch",
-      "roles": [
-        "Chainer",
-        "Support"
-      ],
-      "imgName": "descendant_of_great_witch",
-      "startDate": "2026-10-08T04:30:00.000Z",
-      "endDate": "2026-10-21T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "3",
-          "-1 SP"
-        ],
-        [
-          "4",
-          "Max Enemy MATK Reduction [ 65% ]"
-        ]
-      ],
-      "pullPriority": "sr",
-      "pullReason": "Celia is an established chainer, that, unfortunately, needs all Costumes, particularly Masquerade Bunny Costume. Nonetheless, it is important to prepare investments to be able to use her.",
-      "pros": [
-        "Big AoE"
-      ],
-      "cons": [
-        "Dependancy on other Costumes"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Niche",
-        "tos": "Niche",
-        "mw": "Niche",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
     {
       "charName": "Tyr",
       "dmgAtt": "wip",
@@ -180,6 +83,56 @@
       "imgName": "apostle_morpeah",
       "startDate": "2026-10-22T04:30:00.000Z",
       "endDate": "2026-11-04T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Valze",
+      "dmgAtt": "dm",
+      "costumeName": "Night of Betrayal",
+      "roles": [],
+      "imgName": "night_of_betrayal",
+      "startDate": "2026-11-05T04:30:00.000Z",
+      "endDate": "2026-11-18T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Liatris",
+      "dmgAtt": "fp",
+      "costumeName": "Maid Name R",
+      "roles": [],
+      "imgName": "maid_name_r",
+      "startDate": "2026-11-05T04:30:00.000Z",
+      "endDate": "2026-12-02T23:50:00.000Z",
       "breakpoints": [
         []
       ],

@@ -2210,5 +2210,74 @@
       "gc": "Niche",
       "gen": "Good"
     }
+  },
+  "unraveling_mummy": {
+    "roles": [
+      "Chainer",
+      "DPS",
+      "Self-Buffer"
+    ],
+    "startDate": "2026-10-08T04:30:00.000Z",
+    "endDate": "2026-10-21T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "sr",
+    "pullReason": "Mummy Nekyndalia has the capabilities of being both a very good chainer and a quite good DPS. If you aim to use her mostly as Support, +1 is a good spot to stop. Nonetheless, her utility impact is quite limited thanks to the being quite expensive and her being quite squishy to use off-season.",
+    "pros": [
+      "Chain Damage Self-Buff",
+      "Big AoE"
+    ],
+    "cons": [
+      "High SP consumption",
+      "Squishiness"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Meta",
+      "tos": "Good",
+      "mw": "Niche",
+      "gc": "Good",
+      "gen": "Good"
+    }
+  },
+  "descendant_of_the_great_witch": {
+    "roles": [
+      "Chainer",
+      "Support"
+    ],
+    "startDate": "2026-10-08T04:30:00.000Z",
+    "endDate": "2026-10-21T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "3",
+        "-1 SP"
+      ],
+      [
+        "4",
+        "Max Enemy MATK Reduction [ 65% ]"
+      ]
+    ],
+    "pullPriority": "sr",
+    "pullReason": "Celia is an established chainer, that, unfortunately, needs all Costumes, particularly Masquerade Bunny Costume. Nonetheless, it is important to prepare investments to be able to use her.",
+    "pros": [
+      "Big AoE"
+    ],
+    "cons": [
+      "Dependancy on other Costumes"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Niche",
+      "tos": "Niche",
+      "mw": "Niche",
+      "gc": "Niche",
+      "gen": "Niche"
+    }
   }
 }
