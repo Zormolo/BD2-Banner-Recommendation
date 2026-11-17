@@ -48,6 +48,10 @@
       {
         "id": "char067901",
         "name": "Savage_Warrior"
+      },
+      {
+        "id": "char067902",
+        "name": "Sealed_Desires"
       }
     ]
   },
@@ -556,6 +560,10 @@
       {
         "id": "char004301",
         "name": "Deadeye"
+      },
+      {
+        "id": "char004302",
+        "name": "Unraveling_Mummy"
       }
     ]
   },

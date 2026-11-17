@@ -1,23 +1,8 @@
 {
   "tldr": [
     {
-      "id": "apostle_morpeah",
-      "displayName": "Apostle Morpeah",
-      "costumeUpgrade": 1
-    },
-    {
       "id": "night_of_betrayal",
       "displayName": "Night of Betrayal Valze",
-      "costumeUpgrade": 0
-    },
-    {
-      "id": "sealed_desires",
-      "displayName": "Sealed Desires Aquila",
-      "costumeUpgrade": 1
-    },
-    {
-      "id": "innocent_bunny",
-      "displayName": "Innocent Bunny Tyr",
       "costumeUpgrade": 0
     },
     {
@@ -29,7 +14,7 @@
       "id": "maid_name_r",
       "displayName": "Maid Name R Liatris",
       "costumeUpgrade": 0
-    },    
+    },
     {
       "id": "night_of_betrayal",
       "displayName": "Night of Betrayal Valze",
@@ -39,11 +24,6 @@
       "id": "maid_name_r",
       "displayName": "Maid Name R Liatris",
       "costumeUpgrade": 2
-    },
-    {
-      "id": "apostle_morpeah",
-      "displayName": "Apostle Morpeah",
-      "costumeUpgrade": 5
     },
     {
       "id": "night_of_betrayal",
@@ -58,148 +38,42 @@
     {
       "id": "maid_name_r",
       "displayName": "Maid Name R Liatris",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "sealed_desires",
-      "displayName": "Sealed Desires Aquila",
-      "costumeUpgrade": 5
-    },
-    {
-      "id": "innocent_bunny",
-      "displayName": "Innocent Bunny Tyr",
       "costumeUpgrade": 5
     }
   ],
   "banner": [
     {
-      "charName": "Tyr",
-      "dmgAtt": "wip",
-      "costumeName": "Innocent Bunny",
-      "roles": [
-        "DPS"
-      ],
-      "imgName": "innocent_bunny",
-      "startDate": "2026-10-08T04:30:00.000Z",
-      "endDate": "2026-11-04T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "2",
-          "Damage Increase per Used SP [ 100% &rarr; 130% ]"
-        ],
-        [
-          "4",
-          "Damage Increase per Used SP [ 130% &rarr; 150% ]"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "She is rotational Costume for Tyr, but objectively is inferior to the other Tyr Costume, Starlight Guardian. You could get her if you invest into Tyr, but, otherwise, there is not much usage for this Tyr.",
-      "pros": [
-        "Decent Damage"
-      ],
-      "cons": [
-        "Weak AoE"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Bad",
-        "tos": "Niche",
-        "mw": "Niche",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
-    {
-      "charName": "Aquila",
-      "dmgAtt": "fp",
-      "costumeName": "Sealed Desires",
+      "charName": "Valze",
+      "dmgAtt": "dm",
+      "costumeName": "Night of Betrayal",
       "roles": [
         "DPS",
         "Self-Buffer"
       ],
-      "imgName": "sealed_desires",
-      "startDate": "2026-10-22T04:30:00.000Z",
-      "endDate": "2026-11-04T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "r",
-      "pullReason": "It is a rotational Costume for Aquila. She has low value if it is the only costume, and skill drawback is quite scary without high investments into supports and Bursts. Additionally, without her own Burst, her utility is way less significant, but the Burst decreases survivability even more. The concept of living on Energy Guard sounds cool, but is a bit unpredictable.",
-      "pros": [
-        "Big AoE",
-        "Self-Buff"
-      ],
-      "cons": [
-        "Health Reduction drawback"
-      ],
-      "modes": {
-        "gr": "Good",
-        "fh": "Good",
-        "ln": "Niche",
-        "tos": "Niche",
-        "mw": "Bad",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
-    {
-      "charName": "Morpeah",
-      "dmgAtt": "wam",
-      "costumeName": "Apostle",
-      "roles": [
-        "Support"
-      ],
-      "imgName": "apostle_morpeah",
-      "startDate": "2026-10-22T04:30:00.000Z",
-      "endDate": "2026-11-04T23:50:00.000Z",
-      "breakpoints": [
-        [
-          "1",
-          "-1 SP"
-        ]
-      ],
-      "pullPriority": "sr",
-      "pullReason": "This Costume is very important for Morpeah to function, however, <b>you need other Costumes, most notably Summer Vacation, to make the most of the Costume</b>. Otherwise, her value is incredibly low but still present thanks to Concentrated Fire.<br><br><i>Make sure to recruit her from <b>pub</b> (Story Pack 17) for free 10 Draw Tickets.</i>",
-      "pros": [
-        "Self-Support",
-        "Big AoE"
-      ],
-      "cons": [
-        "Low DMG"
-      ],
-      "modes": {
-        "gr": "Meta",
-        "fh": "Meta",
-        "ln": "Niche",
-        "tos": "Niche",
-        "mw": "Niche",
-        "gc": "Niche",
-        "gen": "Niche"
-      }
-    },
-    {
-      "charName": "Valze",
-      "dmgAtt": "dm",
-      "costumeName": "Night of Betrayal",
-      "roles": ["DPS","Self-Buffer"],
       "imgName": "night_of_betrayal",
       "startDate": "2026-11-05T04:30:00.000Z",
       "endDate": "2026-11-18T23:50:00.000Z",
       "breakpoints": [
-        ["2", "Higher Damage [ 15% &rarr; 20% per Bloodfever stack ]"],
-        ["4", "Higher Damage [ 20% &rarr; 25% per Bloodfever stack ]"]
+        [
+          "2",
+          "Higher Damage [ 15% &rarr; 20% per Bloodfever stack ]"
+        ],
+        [
+          "4",
+          "Higher Damage [ 20% &rarr; 25% per Bloodfever stack ]"
+        ]
       ],
       "pullPriority": "r",
       "pullReason": "Her kit isn't bad for a new Character. She offers buff stacks and seemingly decent damage. However, there are few things that can, potentially, make her not so good in the future. Additionally, Aniversary is slowly creeping up which would suggest shifting priorities for those units.<br><br><i>Make sure to recruit her from <b>pub</b> (Random Appearance) for free 10 Draw Tickets.</i>",
-      "pros": ["Self-Buff"],
-      "cons": ["Solo Costume (as of now)",
+      "pros": [
+        "Self-Buff"
+      ],
+      "cons": [
+        "Solo Costume (as of now)",
         "High Cost",
         "Quirky AoE",
-        "Darkness DPS Oversaturation"],
+        "Darkness DPS Oversaturation"
+      ],
       "modes": {
         "gr": "Good",
         "fh": "Good",
@@ -214,29 +88,32 @@
       "charName": "Liatris",
       "dmgAtt": "fp",
       "costumeName": "Maid Name R",
-      "roles": ["DPS"],
+      "roles": [
+        "DPS"
+      ],
       "imgName": "maid_name_r",
       "startDate": "2026-11-05T04:30:00.000Z",
       "endDate": "2026-12-02T23:50:00.000Z",
       "breakpoints": [
-      [
-        "2",
-        "Bigger increase of both base & conditional damage [ 400% &rarr; 475%; 600% &rarr; 675% ] "
-      ],
-      [
-        "4",
-        "Bigger increase of both base & conditional damage [ 475% &rarr; 550%; 725% &rarr; 800% ] "
-      ]
+        [
+          "2",
+          "Bigger increase of both base & conditional damage [ 400% &rarr; 475%; 600% &rarr; 675% ] "
+        ],
+        [
+          "4",
+          "Bigger increase of both base & conditional damage [ 475% &rarr; 550%; 725% &rarr; 800% ] "
+        ]
       ],
       "pullPriority": "r",
       "pullReason": "Currently Liatris is in quite sad spot due to no bursts and overall lesser scaling. This costume is mostly used on the last turn if you use Liatris, which decreases costume value. Additionally, Fire is one of the weakest elements as of now DPS-wise.",
       "pros": [
-      "3x3 AoE",
-      "Decent Damage"
+        "3x3 AoE",
+        "Decent Damage"
       ],
-      "cons": ["Relies on having DoT to shine",
-      "No Burst"
-    ],
+      "cons": [
+        "Relies on having DoT to shine",
+        "No Burst"
+      ],
       "modes": {
         "gr": "Good",
         "fh": "Good",
@@ -245,6 +122,106 @@
         "mw": "Bad",
         "gc": "Niche",
         "gen": "Niche"
+      }
+    },
+    {
+      "charName": "Venaka",
+      "dmgAtt": "wim",
+      "costumeName": "Cheers to Victory",
+      "roles": [],
+      "imgName": "cheers_to_victory",
+      "startDate": "2026-11-19T04:30:00.000Z",
+      "endDate": "2026-12-02T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Loen",
+      "dmgAtt": "fm",
+      "costumeName": "Last Hope",
+      "roles": [],
+      "imgName": "last_hope",
+      "startDate": "2026-11-19T04:30:00.000Z",
+      "endDate": "2026-12-02T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Darian",
+      "dmgAtt": "wap",
+      "costumeName": "Bittersweet Bunny",
+      "roles": [],
+      "imgName": "bittersweet_bunny",
+      "startDate": "2026-11-19T04:30:00.000Z",
+      "endDate": "2026-12-16T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
+      }
+    },
+    {
+      "charName": "Eleaneer",
+      "dmgAtt": "dp",
+      "costumeName": "Shadow Bunny",
+      "roles": [],
+      "imgName": "shadow_bunny",
+      "startDate": "2026-11-19T04:30:00.000Z",
+      "endDate": "2026-12-16T23:50:00.000Z",
+      "breakpoints": [
+        []
+      ],
+      "pullPriority": "",
+      "pullReason": "",
+      "pros": [],
+      "cons": [],
+      "modes": {
+        "gr": "",
+        "fh": "",
+        "ln": "",
+        "tos": "",
+        "mw": "",
+        "gc": "",
+        "gen": ""
       }
     }
   ]

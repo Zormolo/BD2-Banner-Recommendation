@@ -3,20 +3,35 @@
     "roles": [
       "DPS"
     ],
-    "startDate": "2025-12-31",
-    "endDate": "2026-01-14T23:50:00",
+    "startDate": "2026-10-08T04:30:00.000Z",
+    "endDate": "2026-11-04T23:50:00.000Z",
     "breakpoints": [
       [
         "2",
-        "Big Damage Increase [ 1160% &rarr; 1400%, 8 SP consumed ]"
+        "Damage Increase per Used SP [ 100% &rarr; 130% ]"
       ],
       [
         "4",
-        "Big Damage Increase [ 1450% &rarr; 1690%, 8 SP consumed ]"
+        "Damage Increase per Used SP [ 130% &rarr; 150% ]"
       ]
     ],
     "pullPriority": "r",
-    "pullReason": "She is good if you have Starlight Guardian Tyr, otherwise her usage is very limited. Consider pulling low dupe count in order to save for onsen banners."
+    "pullReason": "She is rotational Costume for Tyr, but objectively is inferior to the other Tyr Costume, Starlight Guardian. You could get her if you invest into Tyr, but, otherwise, there is not much usage for this Tyr.",
+    "pros": [
+      "Decent Damage"
+    ],
+    "cons": [
+      "Weak AoE"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Bad",
+      "tos": "Niche",
+      "mw": "Niche",
+      "gc": "Niche",
+      "gen": "Niche"
+    }
   },
   "bittersweet_bunny": {
     "roles": [
@@ -2273,6 +2288,69 @@
     "modes": {
       "gr": "Good",
       "fh": "Good",
+      "ln": "Niche",
+      "tos": "Niche",
+      "mw": "Niche",
+      "gc": "Niche",
+      "gen": "Niche"
+    }
+  },
+  "sealed_desires": {
+    "roles": [
+      "DPS",
+      "Self-Buffer"
+    ],
+    "startDate": "2026-10-22T04:30:00.000Z",
+    "endDate": "2026-11-04T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "r",
+    "pullReason": "It is a rotational Costume for Aquila. She has low value if it is the only costume, and skill drawback is quite scary without high investments into supports and Bursts. Additionally, without her own Burst, her utility is way less significant, but the Burst decreases survivability even more. The concept of living on Energy Guard sounds cool, but is a bit unpredictable.",
+    "pros": [
+      "Big AoE",
+      "Self-Buff"
+    ],
+    "cons": [
+      "Health Reduction drawback"
+    ],
+    "modes": {
+      "gr": "Good",
+      "fh": "Good",
+      "ln": "Niche",
+      "tos": "Niche",
+      "mw": "Bad",
+      "gc": "Niche",
+      "gen": "Niche"
+    }
+  },
+  "apostle_morpeah": {
+    "roles": [
+      "Support"
+    ],
+    "startDate": "2026-10-22T04:30:00.000Z",
+    "endDate": "2026-11-04T23:50:00.000Z",
+    "breakpoints": [
+      [
+        "1",
+        "-1 SP"
+      ]
+    ],
+    "pullPriority": "sr",
+    "pullReason": "This Costume is very important for Morpeah to function, however, <b>you need other Costumes, most notably Summer Vacation, to make the most of the Costume</b>. Otherwise, her value is incredibly low but still present thanks to Concentrated Fire.<br><br><i>Make sure to recruit her from <b>pub</b> (Story Pack 17) for free 10 Draw Tickets.</i>",
+    "pros": [
+      "Self-Support",
+      "Big AoE"
+    ],
+    "cons": [
+      "Low DMG"
+    ],
+    "modes": {
+      "gr": "Meta",
+      "fh": "Meta",
       "ln": "Niche",
       "tos": "Niche",
       "mw": "Niche",
