@@ -60,7 +60,6 @@
       "displayName": "Maid Name R Liatris",
       "costumeUpgrade": 2
     },
-
     {
       "id": "night_of_betrayal",
       "displayName": "Night of Betrayal Valze",
@@ -174,19 +173,36 @@
       "charName": "Venaka",
       "dmgAtt": "wim",
       "costumeName": "Cheers to Victory",
-      "roles": ["Self-Buffer", "Support"],
+      "roles": [
+        "Self-Buffer",
+        "Support"
+      ],
       "imgName": "cheers_to_victory",
       "startDate": "2026-11-19T04:30:00.000Z",
       "endDate": "2026-12-02T23:50:00.000Z",
       "breakpoints": [
-        ["1", "-1 SP"],
-        ["2", "Effects Duration Increase [ 6 &rarr; 8 Turns]"],
-        ["4", "Self SP Cost Reduction Increase [ 1 &rarr; 2 ]"]
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "2",
+          "Effects Duration Increase [ 6 &rarr; 8 Turns]"
+        ],
+        [
+          "4",
+          "Self SP Cost Reduction Increase [ 1 &rarr; 2 ]"
+        ]
       ],
       "pullPriority": "r",
       "pullReason": "This costume definitely makes Venaka better if she's used, but otherwise it is not going to bring Venaka into more teams specifically because of this costume. She is worth investing if you invest in Wind property, otherwise she's not that required.",
-      "pros": ["Increases Venaka performance", "SP Battery"],
-      "cons": ["Niche usage"],
+      "pros": [
+        "Increases Venaka performance",
+        "SP Battery"
+      ],
+      "cons": [
+        "Niche usage"
+      ],
       "modes": {
         "gr": "Good",
         "fh": "Good",
@@ -201,7 +217,9 @@
       "charName": "Loen",
       "dmgAtt": "fm",
       "costumeName": "Last Hope",
-      "roles": ["DPS"],
+      "roles": [
+        "DPS"
+      ],
       "imgName": "last_hope",
       "startDate": "2026-11-19T04:30:00.000Z",
       "endDate": "2026-12-02T23:50:00.000Z",
@@ -212,8 +230,10 @@
         ]
       ],
       "pullPriority": "r",
-      "pullReason": "Sadly, Loen still is the only valid Fire Magic choice. This costume is a simple DPS that does not provide anything else. So, unless you really need Loen to work to her fullest, there is no reason to chase her copies.",
-      "pros": ["Decent Damage"],
+      "pullReason": "Loen still is the only valid Fire Magic choice. This costume is a simple DPS that does not provide anything else. So, unless you really need Loen to work to her fullest, there is no reason to chase her copies.",
+      "pros": [
+        "Decent Damage"
+      ],
       "cons": [],
       "modes": {
         "gr": "Good",
@@ -229,19 +249,34 @@
       "charName": "Darian",
       "dmgAtt": "wap",
       "costumeName": "Bittersweet Bunny",
-      "roles": ["DPS"],
+      "roles": [
+        "DPS"
+      ],
       "imgName": "bittersweet_bunny",
       "startDate": "2026-11-19T04:30:00.000Z",
       "endDate": "2026-12-16T23:50:00.000Z",
       "breakpoints": [
-        ["1", "-1 SP"],
-        ["2", "-2 CD"],
-        ["4", "DoT Damage Increase [ 110% &rarr; 150% ]"]
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "2",
+          "-2 CD"
+        ],
+        [
+          "4",
+          "DoT Damage Increase [ 110% &rarr; 150% ]"
+        ]
       ],
       "pullPriority": "r",
-      "pullReason": "Darian barely sees the usage, especially given that her AoE is not the best and she requires bosses with large tiles coverage, which is a big ask. Introduced Burst eases things, but at a cost of very expensive cast, which is, once more, questionable trade-off.<br>Even though she is limited, you will not miss much, if not anything, if you do not spend on her.",
-      "pros": ["Limited"],
-      "cons": ["High enemy coverage requirenment"],
+      "pullReason": "Darian barely sees usage, especially given that her AoE is not the best and she requires bosses with large tiles coverage, which is a big ask. Introduced Burst eases things, but at a cost of very expensive cast, which is, once more, questionable trade-off.<br>Even though she is limited, you will not miss much, if not anything, if you do not spend on her.",
+      "pros": [
+        "Limited"
+      ],
+      "cons": [
+        "High enemy coverage requirenment"
+      ],
       "modes": {
         "gr": "Niche",
         "fh": "Niche",
@@ -256,18 +291,32 @@
       "charName": "Eleaneer",
       "dmgAtt": "dp",
       "costumeName": "Shadow Bunny",
-      "roles": ["Support"],
+      "roles": [
+        "Support"
+      ],
       "imgName": "shadow_bunny",
       "startDate": "2026-11-19T04:30:00.000Z",
       "endDate": "2026-12-16T23:50:00.000Z",
       "breakpoints": [
-        ["1", "-1 SP"],
-        ["2", "Buff & Vulnerability Increase"],
-        ["4", "Buff & Vulnerability Increase"]
+        [
+          "1",
+          "-1 SP"
+        ],
+        [
+          "2",
+          "Buff & Vulnerability Increase"
+        ],
+        [
+          "4",
+          "Buff & Vulnerability Increase"
+        ]
       ],
       "pullPriority": "ur",
       "pullReason": "Bunny Eleaneer is a buffer that is used almost in every Fiend Hunter thanks to her almost-unique Domain mechanic. While it's not much of a buff, it still stacks, which provides more damage at the end.",
-      "pros": ["Buffer & Amplifier"],
+      "pros": [
+        "Buffer",
+        "Amplifier"
+      ],
       "cons": [],
       "modes": {
         "gr": "Niche",
