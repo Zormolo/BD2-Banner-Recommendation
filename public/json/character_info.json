@@ -848,6 +848,15 @@
       }
     ]
   },
+  "Valze": {
+    "dmgAtt": "dm",
+    "costumes": [
+      {
+        "id": "char068001",
+        "name": "Night_of_Betrayal"
+      }
+    ]
+  },
   "Venaka": {
     "dmgAtt": "wim",
     "costumes": [
