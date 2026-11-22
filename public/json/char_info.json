@@ -1,0 +1,489 @@
+{
+  "Alec": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "The_Destruction",
+      "Sword_Breaker"
+    ]
+  },
+  "Anastasia": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "Gentle_Maid",
+      "Fire_Graffiti"
+    ]
+  },
+  "Angelica": {
+    "dmgAtt": "lm",
+    "costumes": [
+      "The_Fallen",
+      "Pool_Party",
+      "Neon_Savior"
+    ]
+  },
+  "Aquila": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "Savage_Warrior",
+      "Sealed_Desires"
+    ]
+  },
+  "Blade": {
+    "dmgAtt": "dp",
+    "costumes": [
+      "Apostle",
+      "Onsen_Swordfighter",
+      "Young_Lady"
+    ]
+  },
+  "Celia": {
+    "dmgAtt": "dm",
+    "costumes": [
+      "The_Curse",
+      "Descendant_of_the_Great_Witch",
+      "Masquerade_Bunny"
+    ]
+  },
+  "Dalvi": {
+    "dmgAtt": "wim",
+    "costumes": [
+      "Bright_Moon",
+      "Summer_Vacation",
+      "Tricky_Lover"
+    ]
+  },
+  "Darian": {
+    "dmgAtt": "wap",
+    "costumes": [
+      "Prophetic_Dream",
+      "Bittersweet_Bunny"
+    ]
+  },
+  "Diana": {
+    "dmgAtt": "wim",
+    "costumes": [
+      "Adventurer_of_the_Unknown",
+      "Magical_Innovator",
+      "Anti-Dystopia"
+    ]
+  },
+  "Eclipse": {
+    "dmgAtt": "dm",
+    "costumes": [
+      "Dimension_Witch",
+      "Nightmare_Bunny",
+      "Beach_Vacation",
+      "Dream_Bride"
+    ]
+  },
+  "Eleaneer": {
+    "dmgAtt": "dp",
+    "costumes": [
+      "Piercing_Magic_Bow",
+      "B-Rank_Idol",
+      "Shadow_Bunny"
+    ]
+  },
+  "Elise": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "Lovely_Lady",
+      "Code_Name_O",
+      "Naive_Lady"
+    ]
+  },
+  "Eris": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "Esteemed_Adventurer",
+      "Your_Very_Own_Cat"
+    ]
+  },
+  "Glacia": {
+    "dmgAtt": "wam",
+    "costumes": [
+      "Alice",
+      "Disciplinary_Committee",
+      "Heavenly_Guardian_Successor"
+    ]
+  },
+  "Goblin_Slayer": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "Orcbolg"
+    ]
+  },
+  "Granadair": {
+    "dmgAtt": "wam",
+    "costumes": [
+      "Shrine_Maiden_of_Purification",
+      "Queen_of_Gluttis"
+    ]
+  },
+  "Granhildr": {
+    "dmgAtt": "lp",
+    "costumes": [
+      "The_Void",
+      "Comeback_Idol",
+      "Boo_Ghost",
+      "Combat_Medic"
+    ]
+  },
+  "Gray": {
+    "dmgAtt": "wip",
+    "costumes": [
+      "The_Sharpshooter_of_the_Mist",
+      "B-Rank_Manager",
+      "Vanguard",
+      "Pool_Party"
+    ]
+  },
+  "Helena": {
+    "dmgAtt": "lm",
+    "costumes": [
+      "Top_Idol",
+      "B-Rank_Idol",
+      "Sunny_Inn_Hand"
+    ]
+  },
+  "High_Elf_Archer": {
+    "dmgAtt": "wip",
+    "costumes": [
+      "Daughter_of_Starwind"
+    ]
+  },
+  "Hikage": {
+    "dmgAtt": "wip",
+    "costumes": [
+      "Kind_Ruthlessness"
+    ]
+  },
+  "Ikaruga": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "Noble_Flame"
+    ]
+  },
+  "Justia": {
+    "dmgAtt": "lp",
+    "costumes": [
+      "Knight_of_Blood",
+      "White_Reaper",
+      "Blood_Glutton",
+      "Kendo_Club",
+      "Pool_Party"
+    ]
+  },
+  "Kyouka_Uzen": {
+    "dmgAtt": "lp",
+    "costumes": [
+      "Eternal_Chains"
+    ]
+  },
+  "Lathel": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "Herb_Tracker",
+      "Lonely_Survivor",
+      "Homunculus",
+      "Dark_Knight",
+      "Promise_of_Vengeance",
+      "Pool_Party"
+    ]
+  },
+  "Lecliss": {
+    "dmgAtt": "wip",
+    "costumes": [
+      "Killer_Doll",
+      "Android_Queen"
+    ]
+  },
+  "Levia": {
+    "dmgAtt": "fm",
+    "costumes": [
+      "Track_and_Field_Captain",
+      "Night_of_Jealousy",
+      "Overheat"
+    ]
+  },
+  "Liatris": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "Rodev's_Star",
+      "Neon_Stalker",
+      "Maid_Name_R"
+    ]
+  },
+  "Liberta": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "Dark_Saintess",
+      "Onsen_Manager",
+      "Miracle_Rose"
+    ]
+  },
+  "Loen": {
+    "dmgAtt": "fm",
+    "costumes": [
+      "Last_Hope",
+      "Track_and_Field_Team",
+      "Celebrity_Bunny"
+    ]
+  },
+  "Luvencia": {
+    "dmgAtt": "dp",
+    "costumes": [
+      "Deal_Snatcher",
+      "Wild_Dog",
+      "Ocean_Vanguard"
+    ]
+  },
+  "Mamonir": {
+    "dmgAtt": "wam",
+    "costumes": [
+      "Night_of_Death",
+      "Miracle_Marine"
+    ]
+  },
+  "Michaela": {
+    "dmgAtt": "lm",
+    "costumes": [
+      "Beachside_Justice",
+      "Queen_of_Signatures",
+      "Acting_Archbishop"
+    ]
+  },
+  "Morpeah": {
+    "dmgAtt": "wam",
+    "costumes": [
+      "Beach_Vacation",
+      "Daydream_Bunny",
+      "Apostle"
+    ]
+  },
+  "Nartas": {
+    "dmgAtt": "dm",
+    "costumes": [
+      "Anonymous_Sage"
+    ]
+  },
+  "Nebris": {
+    "dmgAtt": "wip",
+    "costumes": [
+      "Labyrinth_Gatekeeper",
+      "Laid-back_Lifeguard",
+      "New_Hire"
+    ]
+  },
+  "Nekyndalia": {
+    "dmgAtt": "wim",
+    "costumes": [
+      "Deadeye",
+      "Unraveling_Mummy"
+    ]
+  },
+  "Olivier": {
+    "dmgAtt": "lm",
+    "costumes": [
+      "Faithful_Wings",
+      "Apostle",
+      "Fallen_Wings",
+      "Retired_Legend"
+    ]
+  },
+  "Olstein": {
+    "dmgAtt": "wim",
+    "costumes": [
+      "The_Fiend_Scholar",
+      "Sage_of_Blue_Clouds"
+    ]
+  },
+  "Palette": {
+    "dmgAtt": "dm",
+    "costumes": [
+      "Shattered_Dream",
+      "Miracle_Violet"
+    ]
+  },
+  "Priestess": {
+    "dmgAtt": "lm",
+    "costumes": [
+      "Earth_Mother_Believer"
+    ]
+  },
+  "Rafina": {
+    "dmgAtt": "wap",
+    "costumes": [
+      "Steel_Engine",
+      "Code_Name_A",
+      "Game_Club"
+    ]
+  },
+  "Refithea": {
+    "dmgAtt": "lm",
+    "costumes": [
+      "The_Gluttonous",
+      "Pure_White_Blessing",
+      "Poolside_Fairy"
+    ]
+  },
+  "Ren_Yamashiro": {
+    "dmgAtt": "lm",
+    "costumes": [
+      "Lord_of_the_Cosmos"
+    ]
+  },
+  "Rou": {
+    "dmgAtt": "dp",
+    "costumes": [
+      "White_Cat",
+      "Red_Riding_Hood",
+      "Nature's_Claw",
+      "Stray_Cat"
+    ]
+  },
+  "Roxy": {
+    "dmgAtt": "wam",
+    "costumes": [
+      "Respected_Master",
+      "Emerging_Desire"
+    ]
+  },
+  "Rubia": {
+    "dmgAtt": "fp",
+    "costumes": [
+      "Thorn_of_the_Desert",
+      "The_Empress_of_the_Ocean",
+      "Maid_Name_C",
+      "Maid_Bikini"
+    ]
+  },
+  "Sacred_Justia": {
+    "dmgAtt": "lp",
+    "costumes": [
+      "Reclaimed_Destiny"
+    ]
+  },
+  "Scheherazade": {
+    "dmgAtt": "wam",
+    "costumes": [
+      "The_Lapis_Witch",
+      "The_Magic_School_Professor",
+      "Code_Name_S",
+      "Pool_Party"
+    ]
+  },
+  "Seir": {
+    "dmgAtt": "dm",
+    "costumes": [
+      "Demon's_Daughter",
+      "B-Rank_Idol",
+      "New_Hire"
+    ]
+  },
+  "Sonya": {
+    "dmgAtt": "dm",
+    "costumes": [
+      "Shadowed_Dream",
+      "Little_Pumpkin_Girl"
+    ]
+  },
+  "Sword_Maiden": {
+    "dmgAtt": "lm",
+    "costumes": [
+      "Supreme_God_Archbishop"
+    ]
+  },
+  "Sylvia": {
+    "dmgAtt": "wap",
+    "costumes": [
+      "Desert_Flower",
+      "The_Sword_Queen",
+      "Admiral",
+      "Bikini_Agent"
+    ]
+  },
+  "Tenka_Izumo": {
+    "dmgAtt": "dm",
+    "costumes": [
+      "Ame-no-Mitori"
+    ]
+  },
+  "Teresse": {
+    "dmgAtt": "wap",
+    "costumes": [
+      "Angel_of_Destruction",
+      "Medical_Club",
+      "Beachside_Angel"
+    ]
+  },
+  "Tyr": {
+    "dmgAtt": "wip",
+    "costumes": [
+      "Starlight_Guardian",
+      "Innocent_Bunny"
+    ]
+  },
+  "Valze": {
+    "dmgAtt": "dm",
+    "costumes": [
+      "Night_of_Betrayal"
+    ]
+  },
+  "Venaka": {
+    "dmgAtt": "wim",
+    "costumes": [
+      "DJ",
+      "Wind_Dancer",
+      "Cheers_to_Victory"
+    ]
+  },
+  "Ventana": {
+    "dmgAtt": "lp",
+    "costumes": [
+      "Snow_White",
+      "Comeback_Idol",
+      "Onsen_Practitioner"
+    ]
+  },
+  "Wilhelmina": {
+    "dmgAtt": "wap",
+    "costumes": [
+      "Iron_Monarch",
+      "Water_Park_Queen",
+      "Frozen_Queen"
+    ]
+  },
+  "Yomi": {
+    "dmgAtt": "wip",
+    "costumes": [
+      "Gentle_Destroyer"
+    ]
+  },
+  "Yozakura": {
+    "dmgAtt": "wim",
+    "costumes": [
+      "Fist_of_Conviction"
+    ]
+  },
+  "Yumi": {
+    "dmgAtt": "wam",
+    "costumes": [
+      "Dancing_Snowflake"
+    ]
+  },
+  "Yuri": {
+    "dmgAtt": "lp",
+    "costumes": [
+      "Whitebolt",
+      "Comeback_Idol"
+    ]
+  },
+  "Zenith": {
+    "dmgAtt": "wip",
+    "costumes": [
+      "Robin_Hood",
+      "Poolside_Guardian"
+    ]
+  }
+}

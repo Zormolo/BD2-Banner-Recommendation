@@ -10,10 +10,10 @@ function createCostumeList( characters, bannerRec ) {
   for ( const charName of Object.keys( characters ) ) {
     const charInfo = characters[ charName ];
 
-    for ( const costumeInfo of charInfo.costumes ) {
+    for ( const costumeName of charInfo.costumes ) {
       const imgNameOptions = [
-        costumeInfo.name.toLowerCase(),
-        `${ costumeInfo.name.toLowerCase() }_${ charName.toLowerCase() }`
+        costumeName.toLowerCase(),
+        `${ costumeName.toLowerCase() }_${ charName.toLowerCase() }`
       ];
       let imgName = imgNameOptions.find( name => bannerRec[ name ] ?? '' );
       let rec = bannerRec[ imgName ] || null;
@@ -23,9 +23,8 @@ function createCostumeList( characters, bannerRec ) {
       }
 
       const costumeData = {
-        id: costumeInfo.id,
         charName: charName.replaceAll( '_', ' ' ),
-        costumeName: costumeInfo.name.replaceAll( '_', ' ' ),
+        costumeName: costumeName.replaceAll( '_', ' ' ),
         dmgAtt: charInfo.dmgAtt,
         rec: rec || null,
         imgName: imgName
@@ -306,7 +305,7 @@ function fillModeRatingTable( costumeCard, modeArray, modeRatings, costumeRating
 
 async function init() {
   const [ characters, archiveData, utils ] = await Promise.all( [
-    fetch( './public/json/character_info.json' ).then( res => res.json() ),
+    fetch( './public/json/char_info.json' ).then( res => res.json() ),
     fetch( './public/json/archive_data.json' ).then( res => res.json() ),
     fetch( './public/json/utils.json' ).then( res => res.json() )
   ] );
